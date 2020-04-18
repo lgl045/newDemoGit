@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>用户--后台管理</title>
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="stylesheet" href="__PUBLIC__/layui/css/layui.css" media="all" />
+  <link rel="stylesheet" href="__PUBLIC__/css/font_eolqem241z66flxr.css" media="all" />
+  <link rel="stylesheet" href="__PUBLIC__/css/user.css" media="all" />
+  <style type="text/css">
+.file {
+    position: relative;
+    display: inline-block;
+    background: #D0EEFF;
+    border: 1px solid #99D3F5;
+    border-radius: 4px;
+    padding: 4px 12px;
+    overflow: hidden;
+    color: #1E88C7;
+    text-decoration: none;
+    text-indent: 0;
+    line-height: 20px;
+}
+.file input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+.file:hover {
+    background: #AADFFD;
+    border-color: #78C3F3;
+    color: #004974;
+    text-decoration: none;
+}
+
+.page .current,.page a,.page a:hover,.page span{display:inline-block;margin-right:2px;padding:0 10px;height:25px;line-height:25px;vertical-align:middle}  
+		.page a,.page span{color:#404548;border:1px solid #D7DBDC;background-color:#F6FFFF}  
+		.page .current,.page a:hover{text-decoration:none;color:#FFF;background-color:#337ab7;vertical-align:middle}  
+		.page .next,.page .prev{font-family:"宋体"}  
+
+
+  </style>
+</head>
+<body class="childrenBody">
+  <div class="layui-form news_list">
+      <table class="layui-table">
+    
+        <thead>
+        <tr>
+          <!-- <th><input type="checkbox" name="" lay-skin="primary" lay-filter="allChoose" id="allChoose"></th> -->
+       
+          <th>名字</th>
+          <th>电话</th>
+          <th>头像</th>
+          <th>手持身份证</th>
+          <th>身份证正面</th>
+          <th>身份证反面</th>
+          <th>地址</th>
+          <th>状态</th>
+          <th>到期时间</th>
+          <th>操作</th>
+        </tr> 
+        </thead>
+        <tbody class="users_content">
+          <volist name="shenghe" id="row">
+          <tr>
+            <td>{$row['merch_name']}</td>
+            <td>{$row['phone']}</td>
+            <td><img src="http://115.159.114.168/{$row['pic']}"  data-action="zoom" width="80" alt="店铺头像" height="80"></td>
+            <td class="td">
+
+                <img src="http://115.159.114.168/{$row['pic1']}" data-action="zoom" width="80" alt="" height="80">
+               <!--  <img  src="http://qim.diankai.me/V1.0.1/{$row['pic1']}" data-action="zoom" width="80" alt=""  onclick="imgy('{$row['pic1']}','{$row['id']}')" height="80"> -->
+                
+<!-- 
+                <if condition="$row['pic1'] eq null ">
+                <input type="hidden" id="ll" name="pic1" class="pic1" value="">
+                <input type="hidden" name="id"   class="id" value="{$row['id']}">
+                <img  src="http://qim.diankai.me/V1.0.1/{$row['pic1']}" data-action="zoom" width="80" alt=""  class="img" height="80">
+            
+                <input type="file" class="as" onchange="imgy('{$row['id']}')"   name="pic1" id="tu_{$row['id']}" value="">
+                <else />
+                <img src="http://qim.diankai.me/V1.0.1/{$row['pic1']}" data-action="zoom" width="80" alt="" height="80">
+                </if> -->
+            </td>
+            <td><img src="http://115.159.114.168/{$row['pic2']}" data-action="zoom" width="80" alt="身份证正面" height="80"></td>
+            <td><img src="http://115.159.114.168/{$row['pic3']}" data-action="zoom" width="80" alt="身份证反面" height="80"></td>
+
+            <td>{$row['dizhi']}</td>
+            <td>
+            <if condition="$row['stat'] eq '0'">
+                审核中
+            <elseif condition="$row['stat'] eq '1'" />
+                <font color="green"> 已通过 </font>  
+            <elseif condition="$row['stat'] eq '2'"/> 
+               <font color="red"> 已拒绝 </font>  
+            <elseif condition="$row['stat'] eq '3'"/>
+                已到期
+            </if>
+            </td>
+            <td>{$row['endtime']|date="Y-m-d h:m:s",###}</td>
+            <if condition="$row['stat'] eq '1'">
+            <td><a href="javascript:void(0);" class="del" id="1">同意</a><input type="hidden" name="id1" value="{$row['id']}">&nbsp|&nbsp
+                <a href="javascript:void(0);" class="del" id="2">拒绝</a><input type="hidden" name="id2" value="{$row['id']}">
+            </td>
+          </tr>
+        </volist>
+        </tbody>
+    </table>
+  </div>
+	<center><div class="result page">{$pageinfo}</div></center> <br />
+  <script type="text/javascript" src="__PUBLIC__/layui/layui.js"></script>
+  <script type="text/javascript" src="__PUBLIC__/js/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="__PUBLIC__/js/zooming.js"></script>
+  <script type="text/javascript">
+
+      $(".td").on("click",".img",function(){  
+        var id   = $('#ll').val();
+        var pic1 = $('.pic1').val();
+        var  a   = $(this).next();
+        var img   = a.val();
+
+    
+         $.ajax({  
+             type: "post",  
+             url: "{:U('Dianpu/scimgs')}",  
+             data: {id:id,img:img},  
+             dataType: "json",  
+             success: function(data){  
+              alert(data)
+                       
+              }  
+         });  
+   
+
+
+
+
+
+       
+　　   }); 
+      function imgy($id){
+        var id=$id;
+        $("#ll").val(id);
+      }
+  </script>
+  <script type="text/javascript">
+    $(".del").click(function(){
+      var id = $(this).attr('id');
+      var ob = $(this);
+      var d=ob.next().val()
+      // alert(id)
+      if(confirm('确定审核此用户？')){
+        $.post("{:U('Mgt/shenhes')}",{sta:id,id:d},function(data){
+          // alert(data)
+          if(data!=2){
+           window.location.reload();
+          }else{
+            alert("审核失败!服务器繁忙...")
+          }
+        })
+      }
+    })
+  </script>
+</body>
+</html>

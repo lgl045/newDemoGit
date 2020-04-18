@@ -1,0 +1,1278 @@
+[ 2019-01-27T00:26:20+08:00 ] 111.14.155.80 /index.php/JY/Index/img/icon/baidu.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+
+[ 2019-01-27T00:26:20+08:00 ] 111.14.155.80 /index.php/JY/Index/img/presentation/1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+
+[ 2019-01-27T10:47:07+08:00 ] 111.14.155.80 /index.php/JY/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/jy.juhuaian.cn/Application/JY/Controller/IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `qm_adminus` [ RunTime:0.0005s ]
+SQL: SELECT `role_id` FROM `qm_adminus` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qm_role_right` [ RunTime:0.0003s ]
+SQL: SELECT `right_id` FROM `qm_role_right` WHERE ( role_id='' )  [ RunTime:0.0102s ]
+NOTIC: [2] implode(): Invalid arguments passed /www/wwwroot/jy.juhuaian.cn/Application/JY/Controller/IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `qm_right` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_right` WHERE ( id in ('') and parent_id=0 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qm_right` WHERE ( id in ('') and parent_id>0 )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/jy.juhuaian.cn/Application/JY/Controller/IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.102312s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.103264s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.018009s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008193s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008234s ]
+
+[ 2019-01-27T10:47:09+08:00 ] 111.14.155.80 /index.php/JY/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000238s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021936s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022066s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000393s ]
+
+[ 2019-01-27T10:47:09+08:00 ] 111.14.155.80 /index.php/JY/Login/css/layui_1.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+ERR: 非法操作:css
+
+[ 2019-01-27T10:47:18+08:00 ] 111.14.155.80 /index.php/JY/Login/checklogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+SQL: SHOW COLUMNS FROM `qm_adminus` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_adminus` WHERE ( username='asas' AND password='123123' ) LIMIT 1   [ RunTime:0.0063s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006641s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000392s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000414s ]
+
+[ 2019-01-27T10:47:20+08:00 ] 111.14.155.80 /index.php/JY/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000233s ]
+SQL: SHOW COLUMNS FROM `qm_adminus` [ RunTime:0.0004s ]
+SQL: SELECT `role_id` FROM `qm_adminus` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_role_right` [ RunTime:0.0003s ]
+SQL: SELECT `right_id` FROM `qm_role_right` WHERE ( role_id='1' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_right` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_right` WHERE ( id in ('35','34','20','19','12','9','5','4','3','2','1') and parent_id=0 )  [ RunTime:0.0123s ]
+SQL: SELECT * FROM `qm_right` WHERE ( id in ('35','34','20','19','12','9','5','4','3','2','1') and parent_id>0 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015820s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015858s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000281s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000300s ]
+
+[ 2019-01-27T10:47:20+08:00 ] 111.14.155.80 /index.php/JY/Index/img/icon/baidu.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+
+[ 2019-01-27T10:47:20+08:00 ] 111.14.155.80 /index.php/JY/Index/img/presentation/1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+
+[ 2019-01-27T10:47:21+08:00 ] 111.14.155.80 /index.php/JY/Mgt/whsy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `qm_wh` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_wh` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qm_wh` LIMIT 0,7   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018923s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018952s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000341s ]
+
+[ 2019-01-27T10:47:27+08:00 ] 111.14.155.80 /index.php/JY/Mgt/whrz.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM `qm_wh` [ RunTime:0.0005s ]
+SQL: UPDATE `qm_wh` SET `stat`='1' WHERE ( id=3 ) [ RunTime:0.0173s ]
+
+[ 2019-01-27T10:49:52+08:00 ] 111.14.155.80 /index.php/JY/Mgt/whsy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000262s ]
+SQL: SHOW COLUMNS FROM `qm_wh` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_wh` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_wh` LIMIT 0,7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004693s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004711s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000284s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000299s ]
+
+[ 2019-01-27T11:50:34+08:00 ] 112.36.197.111 /index.php/JY/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000275s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/jy.juhuaian.cn/Application/JY/Controller/IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `qm_adminus` [ RunTime:0.0005s ]
+SQL: SELECT `role_id` FROM `qm_adminus` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_role_right` [ RunTime:0.0003s ]
+SQL: SELECT `right_id` FROM `qm_role_right` WHERE ( role_id='' )  [ RunTime:0.0000s ]
+NOTIC: [2] implode(): Invalid arguments passed /www/wwwroot/jy.juhuaian.cn/Application/JY/Controller/IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `qm_right` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_right` WHERE ( id in ('') and parent_id=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_right` WHERE ( id in ('') and parent_id>0 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/jy.juhuaian.cn/Application/JY/Controller/IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000044s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003671s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003690s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000262s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000280s ]
+
+[ 2019-01-27T11:50:35+08:00 ] 112.36.197.111 /index.php/JY/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000257s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/jy.juhuaian.cn/Application/JY/Controller/IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `qm_adminus` [ RunTime:0.0006s ]
+SQL: SELECT `role_id` FROM `qm_adminus` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_role_right` [ RunTime:0.0003s ]
+SQL: SELECT `right_id` FROM `qm_role_right` WHERE ( role_id='' )  [ RunTime:0.0000s ]
+NOTIC: [2] implode(): Invalid arguments passed /www/wwwroot/jy.juhuaian.cn/Application/JY/Controller/IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `qm_right` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_right` WHERE ( id in ('') and parent_id=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_right` WHERE ( id in ('') and parent_id>0 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/jy.juhuaian.cn/Application/JY/Controller/IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003599s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000284s ]
+
+[ 2019-01-27T11:50:37+08:00 ] 112.36.197.111 /index.php/JY/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/jy.juhuaian.cn/Application/JY/Controller/IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `qm_adminus` [ RunTime:0.0004s ]
+SQL: SELECT `role_id` FROM `qm_adminus` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_role_right` [ RunTime:0.0003s ]
+SQL: SELECT `right_id` FROM `qm_role_right` WHERE ( role_id='' )  [ RunTime:0.0000s ]
+NOTIC: [2] implode(): Invalid arguments passed /www/wwwroot/jy.juhuaian.cn/Application/JY/Controller/IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `qm_right` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_right` WHERE ( id in ('') and parent_id=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_right` WHERE ( id in ('') and parent_id>0 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/jy.juhuaian.cn/Application/JY/Controller/IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000020s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000038s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002335s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002352s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000257s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000271s ]
+
+[ 2019-01-27T11:50:40+08:00 ] 112.36.197.111 /index.php/JY/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000265s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004083s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004104s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000271s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000287s ]
+
+[ 2019-01-27T11:50:40+08:00 ] 112.36.197.111 /index.php/JY/Login/css/layui_1.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+ERR: 非法操作:css
+
+[ 2019-01-27T11:50:51+08:00 ] 112.36.197.111 /index.php/JY/Login/checklogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000230s ]
+SQL: SHOW COLUMNS FROM `qm_adminus` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_adminus` WHERE ( username='Alan马' AND password='wjma' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000043s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002471s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002489s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000252s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000265s ]
+
+[ 2019-01-27T11:50:54+08:00 ] 112.36.197.111 /index.php/JY/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000255s ]
+SQL: SHOW COLUMNS FROM `qm_adminus` [ RunTime:0.0005s ]
+SQL: SELECT `role_id` FROM `qm_adminus` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qm_role_right` [ RunTime:0.0003s ]
+SQL: SELECT `right_id` FROM `qm_role_right` WHERE ( role_id='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_right` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_right` WHERE ( id in ('35','34','20','19','12','9','5','4','3','2','1') and parent_id=0 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_right` WHERE ( id in ('35','34','20','19','12','9','5','4','3','2','1') and parent_id>0 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005634s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005653s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000278s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000295s ]
+
+[ 2019-01-27T11:50:54+08:00 ] 112.36.197.111 /index.php/JY/Index/img/icon/baidu.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+
+[ 2019-01-27T11:50:54+08:00 ] 112.36.197.111 /index.php/JY/Index/img/presentation/1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+
+[ 2019-01-27T11:50:57+08:00 ] 112.36.197.111 /index.php/JY/Mgt/userlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qm_user` LIMIT 0,7   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039729s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039793s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000464s ]
+
+[ 2019-01-27T11:51:00+08:00 ] 112.36.197.111 /index.php/JY/Mgt/userlist/p/13.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000274s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_user` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` LIMIT 84,7   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003944s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003959s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000271s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000288s ]
+
+[ 2019-01-27T11:51:11+08:00 ] 112.36.197.111 /index.php/JY/Mgt/userlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_user` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` LIMIT 0,7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005616s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005639s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000383s ]
+
+[ 2019-01-27T11:51:13+08:00 ] 112.36.197.111 /index.php/JY/Mgt/userlist/p/13.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_user` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` LIMIT 84,7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006899s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006933s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000409s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000433s ]
+
+[ 2019-01-27T11:52:30+08:00 ] 112.36.197.111 /index.php/JY/Mgt/whsy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000227s ]
+SQL: SHOW COLUMNS FROM `qm_wh` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_wh` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_wh` LIMIT 0,7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004607s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004630s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000381s ]
+
+[ 2019-01-27T11:52:38+08:00 ] 112.36.197.111 /index.php/JY/Mgt/sxysh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000252s ]
+SQL: SHOW COLUMNS FROM `qm_sxy` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_sxy` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qm_sxy` LIMIT 0,7   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014475s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014499s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000281s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000299s ]
+
+[ 2019-01-27T13:51:34+08:00 ] 112.36.197.111 /index.php/JY/Mgt/userlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000222s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qm_user` LIMIT 0,7   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003633s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003648s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000086s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000276s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000291s ]
+
+[ 2019-01-27T13:51:37+08:00 ] 112.36.197.111 /index.php/JY/Mgt/userlist/p/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` LIMIT 91,7   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003803s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003824s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000328s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000352s ]
+
+[ 2019-01-27T13:52:03+08:00 ] 112.36.197.111 /index.php/JY/Mgt/userlist/p/13.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000253s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_user` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` LIMIT 84,7   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004169s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004192s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000280s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000297s ]
+
+[ 2019-01-27T13:52:11+08:00 ] 112.36.197.111 /index.php/JY/Mgt/whsy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000271s ]
+SQL: SHOW COLUMNS FROM `qm_wh` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_wh` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_wh` LIMIT 0,7   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004066s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004085s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000326s ]
+
+[ 2019-01-27T13:52:14+08:00 ] 112.36.197.111 /index.php/JY/Mgt/sxysh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000280s ]
+SQL: SHOW COLUMNS FROM `qm_sxy` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_sxy` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_sxy` LIMIT 0,7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004543s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004564s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000252s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000266s ]
+
+[ 2019-01-27T13:52:18+08:00 ] 112.36.197.111 /index.php/JY/Mgt/whsy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000257s ]
+SQL: SHOW COLUMNS FROM `qm_wh` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_wh` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_wh` LIMIT 0,7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004023s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004041s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000338s ]
+
+[ 2019-01-27T14:00:02+08:00 ] 112.36.197.111 /index.php/JY/Mgt/userlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_user` LIMIT 0,7   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005561s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005582s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000379s ]
+
+[ 2019-01-27T14:00:05+08:00 ] 112.36.197.111 /index.php/JY/Mgt/userlist/p/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000265s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` LIMIT 91,7   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005184s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005205s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000281s ]
+
+[ 2019-01-27T14:39:02+08:00 ] 112.36.197.111 /index.php/JY/Mgt/userlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qm_user` LIMIT 0,7   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004660s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000336s ]
+
+[ 2019-01-27T14:39:04+08:00 ] 112.36.197.111 /index.php/JY/Mgt/userlist/p/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000292s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_user` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` LIMIT 91,7   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003787s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003807s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000293s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000309s ]
+
+[ 2019-01-27T15:01:48+08:00 ] 183.57.53.177 /index.php/JY/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/jy.juhuaian.cn/Application/JY/Controller/IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `qm_adminus` [ RunTime:0.0006s ]
+SQL: SELECT `role_id` FROM `qm_adminus` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_role_right` [ RunTime:0.0004s ]
+SQL: SELECT `right_id` FROM `qm_role_right` WHERE ( role_id='' )  [ RunTime:0.0000s ]
+NOTIC: [2] implode(): Invalid arguments passed /www/wwwroot/jy.juhuaian.cn/Application/JY/Controller/IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `qm_right` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_right` WHERE ( id in ('') and parent_id=0 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_right` WHERE ( id in ('') and parent_id>0 )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/jy.juhuaian.cn/Application/JY/Controller/IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003734s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003757s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000362s ]
+
+[ 2019-01-27T15:22:39+08:00 ] 14.17.3.64 /index.php/JY/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000312s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015534s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000320s ]
+
+[ 2019-01-27T15:37:52+08:00 ] 112.36.197.111 /index.php/JY/Mgt/userlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qm_user` LIMIT 0,7   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004025s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004041s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000262s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000278s ]
+
+[ 2019-01-27T15:37:54+08:00 ] 112.36.197.111 /index.php/JY/Mgt/userlist/p/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000264s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_user` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` LIMIT 91,7   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005317s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000086s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000309s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000324s ]
+
+[ 2019-01-27T15:45:03+08:00 ] 112.36.197.111 /index.php/JY/Mgt/userlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000270s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qm_user` LIMIT 0,7   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004025s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000322s ]
+
+[ 2019-01-27T15:45:06+08:00 ] 112.36.197.111 /index.php/JY/Mgt/userlist/p/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000236s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` LIMIT 91,7   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004332s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004352s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000382s ]
+
+[ 2019-01-27T15:45:12+08:00 ] 112.36.197.111 /index.php/JY/Mgt/userlist/p/13.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000244s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` LIMIT 84,7   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003923s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003946s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000291s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000306s ]
+
+[ 2019-01-27T15:45:26+08:00 ] 112.36.197.111 /index.php/JY/Mgt/userlist/p/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` LIMIT 91,7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004142s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000266s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000281s ]
+
+[ 2019-01-27T16:54:15+08:00 ] 112.36.197.111 /index.php/JY/Mgt/userlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qm_user` LIMIT 0,7   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004229s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004248s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000280s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000297s ]
+
+[ 2019-01-27T16:54:17+08:00 ] 112.36.197.111 /index.php/JY/Mgt/userlist/p/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_user` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` LIMIT 91,7   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005372s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005394s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000409s ]
+
+[ 2019-01-27T17:55:16+08:00 ] 183.57.53.177 /index.php/JY/Mgt/userlist/p/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qm_user` LIMIT 91,7   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004783s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004803s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000270s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000288s ]
+

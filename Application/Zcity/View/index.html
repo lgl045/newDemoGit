@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>商品--后台管理</title>
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="__PUBLIC__/layui/css/layui.css" media="all" />
+	<link rel="stylesheet" href="__PUBLIC__/css/font_eolqem241z66flxr.css" media="all" />
+	<link rel="stylesheet" href="__PUBLIC__/css/user.css" media="all" />
+</head>
+<body class="childrenBody">
+	<blockquote class="layui-elem-quote news_search">
+		
+		<div class="layui-inline">
+			<a href="__URL__/adminaddview" class="layui-btn layui-btn-normal usersAdd_btn">添加管理员</a>
+		</div>
+		
+		
+	</blockquote>
+	<div class="layui-form news_list">
+	  	<table class="layui-table">
+		  
+		    <thead>
+				<tr>
+					<!-- <th><input type="checkbox" name="" lay-skin="primary" lay-filter="allChoose" id="allChoose"></th> -->
+					<th>ID</th>
+					<th>管理员</th>
+					<th>角色</th>
+
+					
+					<th>操作</th>
+				</tr> 
+		    </thead>
+		   <tbody class="users_content">
+		    	<volist name="res" id="row">
+					<tr>
+						<td>{$row['id']}</td>	
+						<td>{$row['username']}</td>
+						<td>{$row['rolename']}</td>
+								
+						<td><a href="__URL__/adminxiu/id/{$row['id']}">修改</a>&nbsp;|&nbsp;<a href="javascript:void(0);" class="del" >删除</a><input type="hidden" name="id" value="{$row['id']}"></td>
+					</tr>
+				</volist>
+		  </tbody> 
+		</table>
+	</div>
+	<div id="yin"><center>{$page}</center></div>
+	<script type="text/javascript" src="__PUBLIC__/layui/layui.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript">
+		
+
+$(".del").click(function(){
+			var id = $(this).next().val();
+			var ob = $(this);
+			if(confirm('确定删除？')){
+				$.post("{:U('Rermissions/admindelete')}",{id:id},function(data){
+					if(data==1){
+						ob.parents('tr').remove();
+					}else{
+						alert("删除失败")
+					}
+				})
+			}
+		})
+</script>
+</body>
+</html>

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>机票管理系统</title>
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="__PUBLIC__/layui/css/layui.css" media="all" />
+	<link rel="stylesheet" href="__PUBLIC__/css/font_eolqem241z66flxr.css" media="all" />
+	<link rel="stylesheet" href="__PUBLIC__/css/user.css" media="all" />
+	<style type="text/css">
+		.page .current,.page a,.page a:hover,.page span{display:inline-block;margin-right:2px;padding:0 10px;height:25px;line-height:25px;vertical-align:middle}  
+		.page a,.page span{color:#404548;border:1px solid #D7DBDC;background-color:#F6FFFF}  
+		.page .current,.page a:hover{text-decoration:none;color:#FFF;background-color:#337ab7;vertical-align:middle}  
+		.page .next,.page .prev{font-family:"宋体"}  
+				
+	</style>
+</head>
+
+<body class="childrenBody">
+	<form action="__URL__/savecyxc" method="post"  enctype="multipart/form-data">
+
+   <blockquote class="layui-elem-quote news_search">
+              <div class="layui-inline">
+	
+		    公积金详情
+		</div>
+
+      
+
+
+	</blockquote>   
+           
+                   <div class="layui-form-item">
+    <label class="layui-form-label"  style="width: 15%">推荐人手机号：</label>
+    <div class="layui-input-block">
+      <input type="text" name="zd" value="{$data['tphone']}" style="width: 15%" required  lay-verify="required"  autocomplete="off" class="layui-input">
+      
+
+
+    </div>
+  </div>
+                         <div class="layui-form-item">
+    <label class="layui-form-label"  style="width: 15%">推荐人姓名：</label>
+    <div class="layui-input-block">
+      <input type="text" name="zd" value="{$data['tname']}" style="width: 15%" required  lay-verify="required"  autocomplete="off" class="layui-input">
+      
+
+
+    </div>
+  </div>
+      
+      
+                         <div class="layui-form-item">
+    <label class="layui-form-label"  style="width: 15%">手机号：</label>
+    <div class="layui-input-block">
+      <input type="text" name="zd" value="{$data['phone']}" style="width: 15%" required  lay-verify="required"  autocomplete="off" class="layui-input">
+      
+
+
+    </div>
+  </div>
+      
+                         <div class="layui-form-item">
+    <label class="layui-form-label"  style="width: 15%">姓名：</label>
+    <div class="layui-input-block">
+      <input type="text" name="zd" value="{$data['name']}" style="width: 15%" required  lay-verify="required"  autocomplete="off" class="layui-input">
+      
+
+
+    </div>
+  </div>
+      
+        <div class="layui-form-item">
+    <label class="layui-form-label"  style="width: 15%">身份证正面：</label>
+    <div class="layui-input-block">
+ <td> <a href="{$data['sfzz']}"  target="_blank"> <img  src="{$data['sfzz']}"    width="150" height="150"></a></td>
+  
+    </div>
+  </div>
+              <div class="layui-form-item">
+    <label class="layui-form-label"  style="width: 15%">身份证反面：</label>
+    <div class="layui-input-block">
+ <td> <a href="{$data['sfzf']}"  target="_blank"> <img  src="{$data['sfzf']}"    width="150" height="150"></a></td>
+  
+    </div>
+  </div>
+              <div class="layui-form-item">
+    <label class="layui-form-label"  style="width: 15%">征信图一：</label>
+    <div class="layui-input-block">
+ <td> <a href="{$data['zx1']}"  target="_blank"> <img  src="{$data['zx1']}"    width="150" height="150"></a></td>
+  
+    </div>
+  </div>
+                  <div class="layui-form-item">
+    <label class="layui-form-label"  style="width: 15%">征信图二：</label>
+    <div class="layui-input-block">
+ <td> <a href="{$data['zx2']}"  target="_blank"> <img  src="{$data['zx2']}"    width="150" height="150"></a></td>
+  
+    </div>
+  </div>
+      
+                    <div class="layui-form-item">
+    <label class="layui-form-label"  style="width: 15%">征信图三：</label>
+    <div class="layui-input-block">
+ <td> <a href="{$data['zx3']}"  target="_blank"> <img  src="{$data['zx3']}"    width="150" height="150"></a></td>
+  
+    </div>
+  </div>
+      
+      
+                    <div class="layui-form-item">
+    <label class="layui-form-label"  style="width: 15%">征信图四：</label>
+    <div class="layui-input-block">
+ <td> <a href="{$data['zx4']}"  target="_blank"> <img  src="{$data['zx4']}"    width="150" height="150"></a></td>
+  
+    </div>
+  </div>
+      
+                    <div class="layui-form-item">
+    <label class="layui-form-label"  style="width: 15%">征信图五：</label>
+    <div class="layui-input-block">
+ <td> <a href="{$data['zx5']}"  target="_blank"> <img  src="{$data['zx5']}"    width="150" height="150"></a></td>
+  
+    </div>
+  </div>
+      
+                    <div class="layui-form-item">
+    <label class="layui-form-label"  style="width: 15%">征信图六：</label>
+    <div class="layui-input-block">
+ <td> <a href="{$data['zx6']}"  target="_blank"> <img  src="{$data['zx6']}"    width="150" height="150"></a></td>
+  
+    </div>
+  </div>
+      
+                    <div class="layui-form-item">
+    <label class="layui-form-label"  style="width: 15%">征信图七：</label>
+    <div class="layui-input-block">
+ <td> <a href="{$data['zx7']}"  target="_blank"> <img  src="{$data['zx7']}"    width="150" height="150"></a></td>
+  
+    </div>
+  </div>
+      
+                    <div class="layui-form-item">
+    <label class="layui-form-label"  style="width: 15%">征信图八：</label>
+    <div class="layui-input-block">
+ <td> <a href="{$data['zx8']}"  target="_blank"> <img  src="{$data['zx8']}"    width="150" height="150"></a></td>
+  
+    </div>
+  </div>
+      
+                    <div class="layui-form-item">
+    <label class="layui-form-label"  style="width: 15%">征信图九：</label>
+    <div class="layui-input-block">
+ <td> <a href="{$data['zx9']}"  target="_blank"> <img  src="{$data['zx9']}"    width="150" height="150"></a></td>
+  
+    </div>
+  </div>
+           
+
+            
+
+            
+
+            
+
+            
+
+            
+
+      
+</form>
+ 
+
+	<script type="text/javascript" src="__PUBLIC__/layui/layui.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="__PUBLIC__/js/zooming.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+  	<script type="text/javascript" charset="utf-8" src="__PUBLIC__/ueditor/ueditor.config.js"></script>
+    <script type="text/javascript" charset="utf-8" src="__PUBLIC__/ueditor/ueditor.all.min.js"> </script>
+    <!--建议手动加在语言，避免在ie下有时因为加载语言失败导致编辑器加载失败-->
+    <!--这里加载的语言文件会覆盖你在配置项目里添加的语言类型，比如你在配置项目里配置的是英文，这里加载的中文，那最后就是中文-->
+    <script type="text/javascript" charset="utf-8" src="__PUBLIC__/ueditor/lang/zh-cn/zh-cn.js"></script>
+	<script type="text/javascript">
+
+
+	</script>
+</body>
+</html>
+
+
+

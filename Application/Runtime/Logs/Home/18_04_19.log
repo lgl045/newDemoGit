@@ -1,0 +1,3122 @@
+[ 2018-04-19T00:00:51+08:00 ] 101.226.35.225 //?feed=rss2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000248s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi =2 ) ORDER BY addtime desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 0,8   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=2 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007949s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008046s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000258s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000274s ]
+
+[ 2018-04-19T00:00:52+08:00 ] 101.226.35.225 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000213s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi =2 ) ORDER BY addtime desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 0,8   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007920s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000094s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000282s ]
+
+[ 2018-04-19T00:03:49+08:00 ] 101.226.35.225 //?feed=rss2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi =2 ) ORDER BY addtime desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 0,8   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=2 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009421s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000386s ]
+
+[ 2018-04-19T00:03:49+08:00 ] 101.226.35.225 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000259s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi =2 ) ORDER BY addtime desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 0,8   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008210s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008227s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000291s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000306s ]
+
+[ 2018-04-19T00:23:23+08:00 ] 207.46.13.14 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000220s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi =2 ) ORDER BY addtime desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 0,8   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008358s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008373s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000309s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000323s ]
+
+[ 2018-04-19T00:33:04+08:00 ] 106.11.153.217 /index.php/Home/goods/typelist/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id='3' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( id='3' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/GoodsController.class.php 第 74 行.
+SQL: SELECT * FROM `qm_goods` ORDER BY rand() LIMIT 5   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_cart` WHERE ( user_id='' )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(zong) AS tp_sum FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/8dc65a25af9a603cceebe9fd3b9d0c0f.php 第 850 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007938s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007953s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000277s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000291s ]
+
+[ 2018-04-19T00:44:15+08:00 ] 112.35.47.214 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000241s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi =2 ) ORDER BY addtime desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 0,8   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=5 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008044s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008061s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000270s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000286s ]
+
+[ 2018-04-19T00:46:16+08:00 ] 112.35.47.214 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000219s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi =2 ) ORDER BY addtime desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 0,8   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0413s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008226s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000275s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000292s ]
+
+[ 2018-04-19T00:46:16+08:00 ] 112.35.47.214 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000228s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi =2 ) ORDER BY addtime desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 0,8   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=5 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007822s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007836s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000272s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000288s ]
+
+[ 2018-04-19T00:46:16+08:00 ] 112.35.47.214 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000223s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi =2 ) ORDER BY addtime desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 0,8   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=2 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=3 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=4 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=5 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008700s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008716s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000268s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000282s ]
+
+[ 2018-04-19T00:46:16+08:00 ] 112.35.47.214 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000231s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi =2 ) ORDER BY addtime desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 0,8   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007743s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007761s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000386s ]
+
+[ 2018-04-19T00:46:17+08:00 ] 112.35.47.214 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000220s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0018s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi =2 ) ORDER BY addtime desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 0,8   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=2 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008207s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008224s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000271s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000286s ]
+
+[ 2018-04-19T00:46:17+08:00 ] 112.35.47.214 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000223s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi =2 ) ORDER BY addtime desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 0,8   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008142s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008159s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000398s ]
+
+[ 2018-04-19T00:46:18+08:00 ] 112.35.47.214 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000223s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi =2 ) ORDER BY addtime desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 0,8   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008590s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008608s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000397s ]
+
+[ 2018-04-19T00:46:19+08:00 ] 112.35.47.214 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi =2 ) ORDER BY addtime desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 0,8   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=5 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008166s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008179s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000286s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000300s ]
+
+[ 2018-04-19T00:46:19+08:00 ] 112.35.47.214 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000233s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi =2 ) ORDER BY addtime desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 0,8   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007891s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000280s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000294s ]
+
+[ 2018-04-19T01:06:41+08:00 ] 207.46.13.107 /index.php/home/Goods/catalog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000275s ]
+ERR: 非法操作:catalog
+
+[ 2018-04-19T01:24:09+08:00 ] 207.46.13.107 /index.php/Home/Goods/singleproduct/gid/611
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000272s ]
+ERR: 非法操作:singleproduct
+
+[ 2018-04-19T01:57:51+08:00 ] 119.147.207.144 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000235s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi =2 ) ORDER BY addtime desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 0,8   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007935s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000275s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000290s ]
+
+[ 2018-04-19T03:08:26+08:00 ] 203.208.60.223 /index.php/Home/shop/index/gid/626
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000271s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( id='626' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_shop` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_shop` WHERE ( user_id='19' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( user_id='19' )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+NOTIC: [8] Undefined variable: shu /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/58c9b418295366ada92ef91abf88ff39.php 第 506 行.
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/58c9b418295366ada92ef91abf88ff39.php 第 716 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006620s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006635s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000269s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000284s ]
+
+[ 2018-04-19T03:25:12+08:00 ] 61.55.191.148 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000265s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi =2 ) ORDER BY addtime desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 0,8   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008769s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008786s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000285s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000300s ]
+
+[ 2018-04-19T03:33:56+08:00 ] 203.208.60.223 /index.php/Home/Goods/goodsitem/gid/622
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( id='622' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/GoodsController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `qm_shop` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_shop` WHERE ( user_id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( sid='48' ) LIMIT 6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( sid='48' ) ORDER BY id desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_cart` WHERE ( user_id='' )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(zong) AS tp_sum FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000216s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/0e52a35cd63fc6728bee7069d069110e.php 第 983 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012028s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000289s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000305s ]
+
+[ 2018-04-19T03:49:08+08:00 ] 203.208.60.225 /index.php/Home/goods/typelist/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000244s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id='3' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( id='3' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/GoodsController.class.php 第 74 行.
+SQL: SELECT * FROM `qm_goods` ORDER BY rand() LIMIT 5   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_cart` WHERE ( user_id='' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(zong) AS tp_sum FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/8dc65a25af9a603cceebe9fd3b9d0c0f.php 第 850 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011478s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011495s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000253s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000269s ]
+
+[ 2018-04-19T03:59:15+08:00 ] 203.208.60.223 /index.php/Home/Login/forgetkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000226s ]
+SQL: SHOW COLUMNS FROM `qm_website` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `qm_website` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid=5 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007401s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007427s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000269s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000284s ]
+
+[ 2018-04-19T04:01:01+08:00 ] 101.226.35.225 //?feed=rss2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000263s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi =2 ) ORDER BY addtime desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 0,8   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007822s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007837s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000262s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000278s ]
+
+[ 2018-04-19T04:01:02+08:00 ] 101.226.35.225 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000238s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi =2 ) ORDER BY addtime desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 0,8   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008152s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000416s ]
+
+[ 2018-04-19T04:03:44+08:00 ] 101.226.35.225 //?feed=rss2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000273s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi =2 ) ORDER BY addtime desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 0,8   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007863s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007877s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000312s ]
+
+[ 2018-04-19T04:03:45+08:00 ] 101.226.35.225 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi =2 ) ORDER BY addtime desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 0,8   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008070s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008085s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000319s ]
+
+[ 2018-04-19T04:14:46+08:00 ] 203.208.60.226 /index.php/Home/goods/goodsitem/gid/621
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000221s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( id='621' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/GoodsController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `qm_shop` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_shop` WHERE ( user_id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( sid='48' ) LIMIT 6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( sid='48' ) ORDER BY id desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_cart` WHERE ( user_id='' )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(zong) AS tp_sum FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000245s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000277s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/0e52a35cd63fc6728bee7069d069110e.php 第 983 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011160s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011183s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000255s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000269s ]
+
+[ 2018-04-19T04:39:53+08:00 ] 203.208.60.226 /index.php/Home/goods/typelist/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000251s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id='2' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/GoodsController.class.php 第 74 行.
+SQL: SELECT * FROM `qm_goods` ORDER BY rand() LIMIT 5   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_cart` WHERE ( user_id='' )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(zong) AS tp_sum FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/8dc65a25af9a603cceebe9fd3b9d0c0f.php 第 850 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008021s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008036s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000270s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000286s ]
+
+[ 2018-04-19T05:14:57+08:00 ] 101.226.35.225 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000244s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi =2 ) ORDER BY addtime desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 0,8   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007832s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007847s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000389s ]
+
+[ 2018-04-19T05:14:58+08:00 ] 101.226.35.225 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000230s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi =2 ) ORDER BY addtime desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 0,8   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007732s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007747s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000094s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000263s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000279s ]
+
+[ 2018-04-19T05:15:00+08:00 ] 101.226.35.225 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000269s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi =2 ) ORDER BY addtime desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 0,8   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007765s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000274s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000289s ]
+
+[ 2018-04-19T05:15:01+08:00 ] 101.226.35.225 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000228s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi =2 ) ORDER BY addtime desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 0,8   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=2 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008828s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008845s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000335s ]
+
+[ 2018-04-19T05:15:01+08:00 ] 101.226.35.225 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi =2 ) ORDER BY addtime desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 0,8   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=2 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=3 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007925s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007941s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000264s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000278s ]
+
+[ 2018-04-19T05:15:01+08:00 ] 101.226.35.225 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000246s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi =2 ) ORDER BY addtime desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 0,8   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007931s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007946s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000277s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000295s ]
+
+[ 2018-04-19T05:25:46+08:00 ] 207.46.13.28 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000237s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi =2 ) ORDER BY addtime desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 0,8   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=4 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008078s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008103s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000272s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000286s ]
+
+[ 2018-04-19T05:41:07+08:00 ] 141.212.122.32 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000241s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi =2 ) ORDER BY addtime desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 0,8   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007748s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007764s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000280s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000295s ]
+
+[ 2018-04-19T05:41:26+08:00 ] 203.208.60.223 /index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+SQL: SHOW COLUMNS FROM `qm_website` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_website` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007065s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007082s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000276s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000295s ]
+
+[ 2018-04-19T06:01:54+08:00 ] 203.208.60.225 /index.php/Home/shop/index/gid/620
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000246s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( id='620' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_shop` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_shop` WHERE ( user_id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( user_id='1' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+NOTIC: [8] Undefined variable: shu /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/58c9b418295366ada92ef91abf88ff39.php 第 506 行.
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/58c9b418295366ada92ef91abf88ff39.php 第 716 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007734s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007751s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000274s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000288s ]
+
+[ 2018-04-19T06:17:34+08:00 ] 203.208.60.227 /index.php/Home/Goods/goodsitem/gid/626
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( id='626' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/GoodsController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `qm_shop` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_shop` WHERE ( user_id='19' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( sid='' ) LIMIT 6   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( sid='' ) ORDER BY id desc LIMIT 5   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_cart` WHERE ( user_id='' )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(zong) AS tp_sum FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000246s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000279s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/0e52a35cd63fc6728bee7069d069110e.php 第 983 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011238s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011256s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000376s ]
+
+[ 2018-04-19T06:26:10+08:00 ] 106.11.155.198 /index.php/Home/goods/typelist/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000229s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id='2' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/GoodsController.class.php 第 74 行.
+SQL: SELECT * FROM `qm_goods` ORDER BY rand() LIMIT 5   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_cart` WHERE ( user_id='' )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(zong) AS tp_sum FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/8dc65a25af9a603cceebe9fd3b9d0c0f.php 第 850 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008504s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008520s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000268s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000283s ]
+
+[ 2018-04-19T06:52:44+08:00 ] 203.208.60.226 /index.php/Home/Goods/goodsitem/gid/624
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000237s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( id='624' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/GoodsController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `qm_shop` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_shop` WHERE ( user_id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( sid='48' ) LIMIT 6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( sid='48' ) ORDER BY id desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_cart` WHERE ( user_id='' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(zong) AS tp_sum FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/0e52a35cd63fc6728bee7069d069110e.php 第 983 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010027s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000248s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000267s ]
+
+[ 2018-04-19T07:01:22+08:00 ] 81.7.16.152 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000250s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi =2 ) ORDER BY addtime desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 0,8   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007686s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000261s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000275s ]
+
+[ 2018-04-19T07:01:48+08:00 ] 71.6.158.166 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000245s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi =2 ) ORDER BY addtime desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 0,8   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=2 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007961s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007979s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000264s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000279s ]
+
+[ 2018-04-19T07:15:43+08:00 ] 119.147.207.144 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000238s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi =2 ) ORDER BY addtime desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 0,8   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009060s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009077s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000275s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000291s ]
+
+[ 2018-04-19T07:28:44+08:00 ] 203.208.60.225 /index.php/Home/chat/shopid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000255s ]
+NOTIC: [8] Undefined index: username /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/ChatController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `qm_yonghu` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `qm_yonghu` WHERE ( username='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_shop` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_shop` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_ly` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_ly` WHERE ( shopid='' ) ORDER BY id desc  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Undefined variable: meta_keywords /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/21f4244fad5eb856c57986af1daa558c.php 第 6 行.
+NOTIC: [8] Undefined variable: meta_description /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/21f4244fad5eb856c57986af1daa558c.php 第 7 行.
+NOTIC: [8] Undefined index: username /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/21f4244fad5eb856c57986af1daa558c.php 第 483 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005657s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005672s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000467s ]
+
+[ 2018-04-19T08:00:59+08:00 ] 101.226.35.225 //?feed=rss2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000233s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi =2 ) ORDER BY addtime desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 0,8   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=2 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007953s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007972s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000276s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000292s ]
+
+[ 2018-04-19T08:00:59+08:00 ] 101.226.35.225 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000233s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi =2 ) ORDER BY addtime desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 0,8   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010712s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010727s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000250s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000264s ]
+
+[ 2018-04-19T08:03:41+08:00 ] 101.226.35.225 //?feed=rss2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000220s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi =2 ) ORDER BY addtime desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 0,8   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007533s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007548s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000263s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000279s ]
+
+[ 2018-04-19T08:03:41+08:00 ] 101.226.35.225 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000256s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi =2 ) ORDER BY addtime desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 0,8   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007904s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007918s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000276s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000291s ]
+
+[ 2018-04-19T08:25:39+08:00 ] 157.55.39.36 /index.php/Home/shop/index/gid/619
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( id='619' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_shop` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_shop` WHERE ( user_id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( user_id='1' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+NOTIC: [8] Undefined variable: shu /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/58c9b418295366ada92ef91abf88ff39.php 第 506 行.
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/58c9b418295366ada92ef91abf88ff39.php 第 716 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009736s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000387s ]
+
+[ 2018-04-19T11:13:51+08:00 ] 157.55.39.36 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009355s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi =2 ) ORDER BY addtime desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 0,8   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025278s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025324s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000681s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000703s ]
+
+[ 2018-04-19T11:14:22+08:00 ] 157.55.39.36 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000235s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi =2 ) ORDER BY addtime desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 0,8   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007764s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000269s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000284s ]
+
+[ 2018-04-19T11:25:52+08:00 ] 40.77.167.209 /index.php/Home/Goods/shop-.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+ERR: 非法操作:shop-
+
+[ 2018-04-19T12:01:22+08:00 ] 101.226.35.225 //?feed=rss2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000246s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi =2 ) ORDER BY addtime desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 0,8   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007564s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007577s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000253s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000278s ]
+
+[ 2018-04-19T12:01:23+08:00 ] 101.226.35.225 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000227s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi =2 ) ORDER BY addtime desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 0,8   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=2 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007856s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007873s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000281s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000296s ]
+
+[ 2018-04-19T12:05:06+08:00 ] 101.226.35.225 //?feed=rss2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000259s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi =2 ) ORDER BY addtime desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 0,8   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007751s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007766s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000271s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000286s ]
+
+[ 2018-04-19T12:05:06+08:00 ] 101.226.35.225 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi =2 ) ORDER BY addtime desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 0,8   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=2 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007989s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000333s ]
+
+[ 2018-04-19T12:06:35+08:00 ] 106.11.156.197 /index.php/Home/chat/index/pid/619/shopid/48
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+NOTIC: [8] Undefined index: username /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/ChatController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `qm_ly` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_ly` WHERE ( me='' and shopid='48' or us='48' ) ORDER BY id desc  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+NOTIC: [8] Undefined variable: meta_keywords /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/21f4244fad5eb856c57986af1daa558c.php 第 6 行.
+NOTIC: [8] Undefined variable: meta_description /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/21f4244fad5eb856c57986af1daa558c.php 第 7 行.
+NOTIC: [8] Undefined index: username /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/21f4244fad5eb856c57986af1daa558c.php 第 483 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005367s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005394s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000342s ]
+
+[ 2018-04-19T12:30:15+08:00 ] 207.46.13.28 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi =2 ) ORDER BY addtime desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 0,8   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008518s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000271s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000285s ]
+
+[ 2018-04-19T13:25:35+08:00 ] 40.77.167.209 /index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000241s ]
+SQL: SHOW COLUMNS FROM `qm_website` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_website` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid=4 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052808s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052857s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000433s ]
+
+[ 2018-04-19T13:26:30+08:00 ] 40.77.167.209 /index.php/Home/goods/typelist/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id='1' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/GoodsController.class.php 第 74 行.
+SQL: SELECT * FROM `qm_goods` ORDER BY rand() LIMIT 5   [ RunTime:0.0077s ]
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_cart` WHERE ( user_id='' )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(zong) AS tp_sum FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000208s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/8dc65a25af9a603cceebe9fd3b9d0c0f.php 第 850 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026357s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026374s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000285s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000300s ]
+
+[ 2018-04-19T13:40:47+08:00 ] 157.55.39.216 /index.php/Home/Goods/goodsitem/gid/626
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( id='626' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/GoodsController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `qm_shop` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_shop` WHERE ( user_id='19' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( sid='' ) LIMIT 6   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( sid='' ) ORDER BY id desc LIMIT 5   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_cart` WHERE ( user_id='' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(zong) AS tp_sum FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000264s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000301s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/0e52a35cd63fc6728bee7069d069110e.php 第 983 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026577s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026645s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007476s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000621s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000636s ]
+
+[ 2018-04-19T13:47:35+08:00 ] 157.55.39.36 /index.php/Home/Goods/goodsitem/gid/624
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000230s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( id='624' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/GoodsController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `qm_shop` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_shop` WHERE ( user_id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( sid='48' ) LIMIT 6   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( sid='48' ) ORDER BY id desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_cart` WHERE ( user_id='' )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(zong) AS tp_sum FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000216s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/0e52a35cd63fc6728bee7069d069110e.php 第 983 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010335s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010349s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000375s ]
+
+[ 2018-04-19T13:55:11+08:00 ] 40.77.167.174 /index.php/Home/goods/typelist/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id='4' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( id='4' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/GoodsController.class.php 第 74 行.
+SQL: SELECT * FROM `qm_goods` ORDER BY rand() LIMIT 5   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_cart` WHERE ( user_id='' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(zong) AS tp_sum FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000215s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/8dc65a25af9a603cceebe9fd3b9d0c0f.php 第 850 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015477s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015493s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000279s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000297s ]
+
+[ 2018-04-19T13:59:12+08:00 ] 40.77.167.174 /index.php/Home/goods/typelist/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000218s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id='4' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( id='4' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/GoodsController.class.php 第 74 行.
+SQL: SELECT * FROM `qm_goods` ORDER BY rand() LIMIT 5   [ RunTime:0.0391s ]
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_cart` WHERE ( user_id='' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(zong) AS tp_sum FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/8dc65a25af9a603cceebe9fd3b9d0c0f.php 第 850 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009110s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009124s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000279s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000293s ]
+
+[ 2018-04-19T14:06:45+08:00 ] 40.77.167.209 /index.php/Home/Goods/goodsitem/gid/619
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( id='619' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/GoodsController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `qm_shop` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_shop` WHERE ( user_id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( sid='48' ) LIMIT 6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( sid='48' ) ORDER BY id desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_cart` WHERE ( user_id='' )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(zong) AS tp_sum FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000216s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/0e52a35cd63fc6728bee7069d069110e.php 第 983 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010054s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010067s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000291s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000304s ]
+
+[ 2018-04-19T14:11:09+08:00 ] 157.55.39.36 /index.php/Home/Cart/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000258s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/CartController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_cart`  [ RunTime:0.0001s ]
+SQL: SELECT SUM(zong) AS tp_sum FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_goods` ORDER BY rand() LIMIT 5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000218s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+NOTIC: [8] Undefined variable: shu /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/6f105010063b4e4da2af04cb5dd2d5a4.php 第 693 行.
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/6f105010063b4e4da2af04cb5dd2d5a4.php 第 903 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012321s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012361s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000376s ]
+
+[ 2018-04-19T14:15:15+08:00 ] 157.55.39.216 /index.php/Home/Goods/goodsitem/gid/621
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( id='621' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/GoodsController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `qm_shop` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_shop` WHERE ( user_id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( sid='48' ) LIMIT 6   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( sid='48' ) ORDER BY id desc LIMIT 5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_cart` WHERE ( user_id='' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(zong) AS tp_sum FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000227s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000259s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/0e52a35cd63fc6728bee7069d069110e.php 第 983 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011302s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011318s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000363s ]
+
+[ 2018-04-19T14:17:07+08:00 ] 40.77.167.209 /index.php/Home/goods/typelist/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id='1' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/GoodsController.class.php 第 74 行.
+SQL: SELECT * FROM `qm_goods` ORDER BY rand() LIMIT 5   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_cart` WHERE ( user_id='' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(zong) AS tp_sum FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/8dc65a25af9a603cceebe9fd3b9d0c0f.php 第 850 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008837s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008855s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000383s ]
+
+[ 2018-04-19T14:30:48+08:00 ] 157.55.39.36 /index.php/Home/Goods/goodsitem/gid/624
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000229s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( id='624' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/GoodsController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `qm_shop` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_shop` WHERE ( user_id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( sid='48' ) LIMIT 6   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( sid='48' ) ORDER BY id desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_cart` WHERE ( user_id='' )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(zong) AS tp_sum FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000247s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000281s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/0e52a35cd63fc6728bee7069d069110e.php 第 983 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010568s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010584s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000251s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000284s ]
+
+[ 2018-04-19T14:47:12+08:00 ] 157.55.39.36 /index.php/Home/cart/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/CartController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_cart`  [ RunTime:0.0001s ]
+SQL: SELECT SUM(zong) AS tp_sum FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_goods` ORDER BY rand() LIMIT 5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000228s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000266s ]
+NOTIC: [8] Undefined variable: shu /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/6f105010063b4e4da2af04cb5dd2d5a4.php 第 693 行.
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/6f105010063b4e4da2af04cb5dd2d5a4.php 第 903 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011498s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011521s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000414s ]
+
+[ 2018-04-19T14:54:23+08:00 ] 40.77.167.174 /index.php/Home/goods/typelist/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000239s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id='3' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( id='3' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/GoodsController.class.php 第 74 行.
+SQL: SELECT * FROM `qm_goods` ORDER BY rand() LIMIT 5   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_cart` WHERE ( user_id='' )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(zong) AS tp_sum FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000208s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/8dc65a25af9a603cceebe9fd3b9d0c0f.php 第 850 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008333s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008351s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000366s ]
+
+[ 2018-04-19T14:55:14+08:00 ] 157.55.39.36 /index.php/Home/Cart/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000250s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/CartController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_cart`  [ RunTime:0.0001s ]
+SQL: SELECT SUM(zong) AS tp_sum FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_goods` ORDER BY rand() LIMIT 5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+NOTIC: [8] Undefined variable: shu /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/6f105010063b4e4da2af04cb5dd2d5a4.php 第 693 行.
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/6f105010063b4e4da2af04cb5dd2d5a4.php 第 903 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010109s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010127s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000253s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000267s ]
+
+[ 2018-04-19T15:02:09+08:00 ] 106.11.155.198 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000296s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi =2 ) ORDER BY addtime desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 0,8   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=2 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008630s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008647s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000094s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000302s ]
+
+[ 2018-04-19T15:28:40+08:00 ] 40.77.167.174 /index.php/Home/Goods/goodsitem/gid/625
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000241s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( id='625' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/GoodsController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `qm_shop` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_shop` WHERE ( user_id='18' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( sid='' ) LIMIT 6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( sid='' ) ORDER BY id desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_cart` WHERE ( user_id='' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(zong) AS tp_sum FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000249s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000281s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/0e52a35cd63fc6728bee7069d069110e.php 第 983 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010952s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010968s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000277s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000292s ]
+
+[ 2018-04-19T15:32:12+08:00 ] 40.77.167.174 /index.php/Home/Goods/goodsitem/gid/625
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( id='625' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/GoodsController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `qm_shop` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_shop` WHERE ( user_id='18' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( sid='' ) LIMIT 6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( sid='' ) ORDER BY id desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_cart` WHERE ( user_id='' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(zong) AS tp_sum FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000216s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/0e52a35cd63fc6728bee7069d069110e.php 第 983 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010073s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010091s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000397s ]
+
+[ 2018-04-19T15:41:56+08:00 ] 157.55.39.216 /index.php/Home/Goods/goodsitem/gid/626
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000229s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( id='626' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/GoodsController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `qm_shop` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_shop` WHERE ( user_id='19' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( sid='' ) LIMIT 6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( sid='' ) ORDER BY id desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_cart` WHERE ( user_id='' )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(zong) AS tp_sum FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000203s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/0e52a35cd63fc6728bee7069d069110e.php 第 983 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009739s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009753s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000368s ]
+
+[ 2018-04-19T15:52:25+08:00 ] 157.55.39.78 /index.php/Home/goods/typelist/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id='2' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/GoodsController.class.php 第 74 行.
+SQL: SELECT * FROM `qm_goods` ORDER BY rand() LIMIT 5   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_cart` WHERE ( user_id='' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(zong) AS tp_sum FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000178s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/8dc65a25af9a603cceebe9fd3b9d0c0f.php 第 850 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008144s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008157s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000265s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000283s ]
+
+[ 2018-04-19T16:01:33+08:00 ] 101.226.35.225 //?feed=rss2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi =2 ) ORDER BY addtime desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 0,8   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=2 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007838s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007853s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000251s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000266s ]
+
+[ 2018-04-19T16:01:33+08:00 ] 101.226.35.225 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000240s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi =2 ) ORDER BY addtime desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 0,8   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019794s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019809s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000291s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000305s ]
+
+[ 2018-04-19T16:04:21+08:00 ] 101.226.35.225 //?feed=rss2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000235s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi =2 ) ORDER BY addtime desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 0,8   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=2 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007694s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007710s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000257s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000271s ]
+
+[ 2018-04-19T16:04:21+08:00 ] 101.226.35.225 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000271s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi =2 ) ORDER BY addtime desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 0,8   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=4 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007911s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007924s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000290s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000305s ]
+
+[ 2018-04-19T17:47:41+08:00 ] 106.11.152.219 /index.php/Home/shop/index/gid/622
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000230s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( id='622' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_shop` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_shop` WHERE ( user_id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( user_id='1' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000178s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+NOTIC: [8] Undefined variable: shu /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/58c9b418295366ada92ef91abf88ff39.php 第 506 行.
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/58c9b418295366ada92ef91abf88ff39.php 第 716 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023614s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023645s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000300s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000317s ]
+
+[ 2018-04-19T19:53:05+08:00 ] 157.55.39.104 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000236s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi =2 ) ORDER BY addtime desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 0,8   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007734s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007749s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000255s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000270s ]
+
+[ 2018-04-19T20:03:28+08:00 ] 101.226.35.225 //?feed=rss2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000256s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi =2 ) ORDER BY addtime desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 0,8   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007816s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000285s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000300s ]
+
+[ 2018-04-19T20:03:28+08:00 ] 101.226.35.225 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000242s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi =2 ) ORDER BY addtime desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 0,8   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007716s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007729s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000247s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000262s ]
+
+[ 2018-04-19T20:05:29+08:00 ] 101.226.35.225 //?feed=rss2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi =2 ) ORDER BY addtime desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 0,8   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=5 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008468s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008485s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000355s ]
+
+[ 2018-04-19T20:05:29+08:00 ] 101.226.35.225 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000260s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi =2 ) ORDER BY addtime desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 0,8   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007739s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007754s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000292s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000307s ]
+
+[ 2018-04-19T21:25:46+08:00 ] 222.186.46.137 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000239s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi =2 ) ORDER BY addtime desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 0,8   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009032s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009047s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000274s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000289s ]
+
+[ 2018-04-19T21:53:48+08:00 ] 203.208.60.224 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000217s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi =2 ) ORDER BY addtime desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 0,8   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008617s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008637s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000379s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2018-04-19T21:53:49+08:00 ] 203.208.60.224 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi =2 ) ORDER BY addtime desc LIMIT 4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( isyoushi=1 ) LIMIT 0,8   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=2 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=3 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=4 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id=5 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000176s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010395s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010417s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000456s ]
+
+[ 2018-04-19T22:03:47+08:00 ] 203.208.60.225 /index.php/Home/goods/typelist/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( f_id='1' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/GoodsController.class.php 第 74 行.
+SQL: SELECT * FROM `qm_goods` ORDER BY rand() LIMIT 5   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_cart` WHERE ( user_id='' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(zong) AS tp_sum FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/8dc65a25af9a603cceebe9fd3b9d0c0f.php 第 850 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011343s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011365s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000385s ]
+
+[ 2018-04-19T22:09:15+08:00 ] 203.208.60.225 /index.php/Home/Goods/goodsitem/gid/625
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( id='625' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_fenlei` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fenlei` WHERE ( pid = 0 )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/asd.luhanforex.cn/Application/Home/Controller/GoodsController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `qm_shop` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_shop` WHERE ( user_id='18' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( sid='' ) LIMIT 6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( sid='' ) ORDER BY id desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_cart` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_cart` WHERE ( user_id='' )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(zong) AS tp_sum FROM `qm_cart` WHERE ( user_id='' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000224s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+NOTIC: [8] Undefined variable: wp_dialog /www/wwwroot/asd.luhanforex.cn/Application/Runtime/Cache/Home/0e52a35cd63fc6728bee7069d069110e.php 第 983 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010080s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010094s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000275s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000291s ]
+

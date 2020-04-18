@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>用户--后台管理</title>
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="__PUBLIC__/layui/css/layui.css" media="all" />
+	<link rel="stylesheet" href="__PUBLIC__/css/font_eolqem241z66flxr.css" media="all" />
+	<link rel="stylesheet" href="__PUBLIC__/css/user.css" media="all" />
+	<style type="text/css">
+		.page .current,.page a,.page a:hover,.page span{display:inline-block;margin-right:2px;padding:0 10px;height:25px;line-height:25px;vertical-align:middle}  
+		.page a,.page span{color:#404548;border:1px solid #D7DBDC;background-color:#F6FFFF}  
+		.page .current,.page a:hover{text-decoration:none;color:#FFF;background-color:#337ab7;vertical-align:middle}  
+		.page .next,.page .prev{font-family:"宋体"}  
+				
+	</style>
+</head>
+<body class="childrenBody">
+
+	<div class="layui-form news_list">
+	  	<table class="layui-table">
+
+		    <thead>
+				<tr>
+					
+					<th>ID</th>
+         
+					<th>支付宝号</th>
+                    <th>请求时间</th>
+                  <th>提现金额</th>
+					<th>状态</th>
+                  <th>操作</th>
+				</tr> 
+		    </thead>
+		    <tbody class="users_content">
+		    	<volist name="data" id="row">
+					<tr>
+						<td>{$row['id']}</td>
+                        <td>{$row['zfbh']}</td>
+                        <td>{$row['addtime']}</td>
+                        <td>{$row['money']}</td>
+               
+                      <td>   <if condition="$row['stat'] eq 0  "> 
+						未审批
+                        <else /> 
+                        <font color="green">已审批提现</font>
+                        </if>
+                        
+                      </td>  
+                      
+                      
+                   	<td>  
+                      <if condition="$row['stat'] eq 1  "> 
+                     <a href="javascript:void(0);" >确认</a>
+                        <else /> 
+                        
+                      <a href="javascript:void(0);" class="del" onclick="del({$row['id']},{$row['uid']},{$row['money']})">确认</a>
+                        </if></td> 
+					</tr>
+				</volist>
+		    </tbody>
+		</table>
+	</div>
+
+	<center><div id="asds" class="result page">{$pageinfo}</div></center> <br />
+	<center><div id="asdss" class="result page"></div></center> <br />
+
+	<script type="text/javascript" src="__PUBLIC__/layui/layui.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="__PUBLIC__/js/zooming.js"></script>
+
+	<script type="text/javascript">
+	function del(id,axfid,money){
+
+			if(confirm('确定审批？')){
+				$.post("{:U('Mgt/txqqsp')}",{id:id,uid:axfid,money:money},function(data){
+					if(data==1){
+                            alert("操作成功！")
+						window.location.reload()
+					}else{
+                    alert("网路错误！")
+                    }
+				})
+			}
+        }
+		$(".search_btn").click(function(){
+			$("#asds").hide();
+
+	     $(".layui-table tr:gt(0)").each(function(){
+         $(this).remove();
+          $("#lei").remove();
+          })
+			var so=$(".search_input").val();
+			$.get("{:U('Mgt/sodel')}",{so:so},function(data){
+
+				var ha=$.parseJSON(data);
+  	            $.each(ha,function(key,value){
+
+  
+					tr="<tr>";
+					tr+="<td>"+value.id+"</td>";
+					tr+="<td>"+value.username+"</td>";
+					tr+="<td>"+value.phone+"</td>";
+					tr+="<td><img src='http://115.159.114.168/"+value.pic+"' width='80' height='80'></td>";
+			
+					tr+="<td>"+value.addtime+"</td>";
+					tr+="<td>"+value.yue+"</td>";
+					tr+='<td><a href="javascript:void(0);" class="del" id="'+value.id+'">删除</a></td>';
+					tr+='</tr>';
+        $(".layui-table").append(tr);
+
+  	
+  		$("#asdss").html(value.page);
+
+  	})
+
+  	     
+  	
+			})
+		})
+	</script>
+</body>
+</html>

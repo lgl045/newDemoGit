@@ -1,0 +1,437 @@
+[ 2018-10-10T09:54:40+08:00 ] 39.82.151.189 /index.php/JRapp/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000454s ]
+SQL: SHOW COLUMNS FROM `qm_adminus` [ RunTime:0.0007s ]
+SQL: SELECT `role_id` FROM `qm_adminus` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_role_right` [ RunTime:0.0004s ]
+SQL: SELECT `right_id` FROM `qm_role_right` WHERE ( role_id='1' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_right` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_right` WHERE ( id in ('32','30','29','28','27','26','25','24','23','22','33','21','20','19','18','17','16','14','13','12','11','10','9','8','7','6','5','4','3','2','1') and parent_id=0 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_right` WHERE ( id in ('32','30','29','28','27','26','25','24','23','22','33','21','20','19','18','17','16','14','13','12','11','10','9','8','7','6','5','4','3','2','1') and parent_id>0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009168s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000565s ]
+
+[ 2018-10-10T09:54:40+08:00 ] 39.82.151.189 /index.php/JRapp/Index/img/icon/baidu.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+
+[ 2018-10-10T09:54:40+08:00 ] 39.82.151.189 /index.php/JRapp/Index/img/presentation/1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+
+[ 2018-10-10T09:54:43+08:00 ] 39.82.151.189 /index.php/JRapp/Mgt/baodangl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+SQL: SHOW COLUMNS FROM `qm_baodan` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_baodan` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_baodan` LIMIT 0,7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004188s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004219s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000293s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000370s ]
+
+[ 2018-10-10T09:54:44+08:00 ] 39.82.151.189 /index.php/JRapp/Mgt/baodangl/p/116.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+SQL: SHOW COLUMNS FROM `qm_baodan` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_baodan` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_baodan` LIMIT 805,7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005139s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005176s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000308s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000340s ]
+
+[ 2018-10-10T09:54:48+08:00 ] 39.82.151.189 /index.php/JRapp/Mgt/fssx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016753s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000390s ]
+
+[ 2018-10-10T09:54:52+08:00 ] 39.82.151.189 /index.php/JRapp/Mgt/cwlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000297s ]
+SQL: SHOW COLUMNS FROM `qm_jejl` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_jejl` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_jejl` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010456s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010485s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000284s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000316s ]
+
+[ 2018-10-10T09:54:59+08:00 ] 39.82.151.189 /index.php/JRapp/Mgt/gjjsq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+SQL: SHOW COLUMNS FROM `qm_gjjdka` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_gjjdka` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_gjjdka` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006533s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006573s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000335s ]
+
+[ 2018-10-10T09:55:03+08:00 ] 39.82.151.189 /index.php/JRapp/Mgt/dkzxsp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `qm_axf` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_axf` INNER JOIN qm_jilu on qm_axf.id = qm_jilu.axfid  LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_axf` INNER JOIN qm_jilu on qm_axf.id = qm_jilu.axfid  ORDER BY qm_jilu.axfid desc LIMIT 0,7   [ RunTime:0.0001s ]
+SQL: SELECT `ht` FROM `qm_axf` WHERE ( id=39 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `zx` FROM `qm_axf` WHERE ( id=39 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ht` FROM `qm_axf` WHERE ( id=38 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `zx` FROM `qm_axf` WHERE ( id=38 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ht` FROM `qm_axf` WHERE ( id=36 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `zx` FROM `qm_axf` WHERE ( id=36 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ht` FROM `qm_axf` WHERE ( id=35 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `zx` FROM `qm_axf` WHERE ( id=35 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ht` FROM `qm_axf` WHERE ( id=34 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `zx` FROM `qm_axf` WHERE ( id=34 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ht` FROM `qm_axf` WHERE ( id=33 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `zx` FROM `qm_axf` WHERE ( id=33 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ht` FROM `qm_axf` WHERE ( id=32 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `zx` FROM `qm_axf` WHERE ( id=32 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005294s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005325s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000282s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000312s ]
+
+[ 2018-10-10T09:55:09+08:00 ] 39.82.151.189 /index.php/JRapp/Mgt/dkzxsp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+SQL: SHOW COLUMNS FROM `qm_axf` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_axf` INNER JOIN qm_jilu on qm_axf.id = qm_jilu.axfid  LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_axf` INNER JOIN qm_jilu on qm_axf.id = qm_jilu.axfid  ORDER BY qm_jilu.axfid desc LIMIT 0,7   [ RunTime:0.0001s ]
+SQL: SELECT `ht` FROM `qm_axf` WHERE ( id=39 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `zx` FROM `qm_axf` WHERE ( id=39 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ht` FROM `qm_axf` WHERE ( id=38 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `zx` FROM `qm_axf` WHERE ( id=38 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ht` FROM `qm_axf` WHERE ( id=36 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `zx` FROM `qm_axf` WHERE ( id=36 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ht` FROM `qm_axf` WHERE ( id=35 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `zx` FROM `qm_axf` WHERE ( id=35 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ht` FROM `qm_axf` WHERE ( id=34 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `zx` FROM `qm_axf` WHERE ( id=34 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ht` FROM `qm_axf` WHERE ( id=33 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `zx` FROM `qm_axf` WHERE ( id=33 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ht` FROM `qm_axf` WHERE ( id=32 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `zx` FROM `qm_axf` WHERE ( id=32 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005952s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000420s ]
+
+[ 2018-10-10T09:55:10+08:00 ] 39.82.151.189 /index.php/JRapp/Mgt/sodel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+ERR: 非法操作:sodel
+
+[ 2018-10-10T09:55:10+08:00 ] 39.82.151.189 /index.php/JRapp/Mgt/dkzxdk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+SQL: SHOW COLUMNS FROM `qm_dkgj` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_dkgj` INNER JOIN qm_jilu on qm_dkgj.id = qm_jilu.dkid  LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_dkgj` INNER JOIN qm_jilu on qm_dkgj.id = qm_jilu.dkid  ORDER BY qm_jilu.dkid desc LIMIT 0,7   [ RunTime:0.0001s ]
+SQL: SELECT `zx` FROM `qm_dkgj` WHERE ( id=24 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `zx` FROM `qm_dkgj` WHERE ( id=23 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `zx` FROM `qm_dkgj` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `zx` FROM `qm_dkgj` WHERE ( id=21 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `zx` FROM `qm_dkgj` WHERE ( id=20 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `zx` FROM `qm_dkgj` WHERE ( id=19 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `zx` FROM `qm_dkgj` WHERE ( id=18 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005683s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005719s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000367s ]
+
+[ 2018-10-10T09:55:13+08:00 ] 39.82.151.189 /index.php/JRapp/Mgt/sodel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+ERR: 非法操作:sodel
+
+[ 2018-10-10T09:55:13+08:00 ] 39.82.151.189 /index.php/JRapp/Mgt/dkzxbd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `qm_bd` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_bd` INNER JOIN qm_jilu on qm_bd.id = qm_jilu.bdid  LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_bd` INNER JOIN qm_jilu on qm_bd.id = qm_jilu.bdid  ORDER BY qm_jilu.bdid desc LIMIT 0,7   [ RunTime:0.0001s ]
+SQL: SELECT `zx` FROM `qm_bd` WHERE ( id=21 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: fid /www/wwwroot/dai.juhuaian.cn/Application/JRapp/Controller/MgtController.class.php 第 1315 行.
+SQL: SELECT `zx` FROM `qm_bd` WHERE ( id=20 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: fid /www/wwwroot/dai.juhuaian.cn/Application/JRapp/Controller/MgtController.class.php 第 1315 行.
+SQL: SELECT `zx` FROM `qm_bd` WHERE ( id=19 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: fid /www/wwwroot/dai.juhuaian.cn/Application/JRapp/Controller/MgtController.class.php 第 1315 行.
+SQL: SELECT `zx` FROM `qm_bd` WHERE ( id=18 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: fid /www/wwwroot/dai.juhuaian.cn/Application/JRapp/Controller/MgtController.class.php 第 1315 行.
+SQL: SELECT `zx` FROM `qm_bd` WHERE ( id=17 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: fid /www/wwwroot/dai.juhuaian.cn/Application/JRapp/Controller/MgtController.class.php 第 1315 行.
+SQL: SELECT `zx` FROM `qm_bd` WHERE ( id=16 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: fid /www/wwwroot/dai.juhuaian.cn/Application/JRapp/Controller/MgtController.class.php 第 1315 行.
+SQL: SELECT `zx` FROM `qm_bd` WHERE ( id=15 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: fid /www/wwwroot/dai.juhuaian.cn/Application/JRapp/Controller/MgtController.class.php 第 1315 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006320s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006358s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000305s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000347s ]
+
+[ 2018-10-10T09:55:24+08:00 ] 39.82.151.189 /index.php/JRapp/Mgt/dkfl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+SQL: SHOW COLUMNS FROM `qm_fl` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_fl`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+NOTIC: [8] Undefined variable: pageinfo /www/wwwroot/dai.juhuaian.cn/Application/Runtime/Cache/JRapp/324c2df5d68c5b1531ece66ae9c9e0ec.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063665s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063721s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2018-10-10T09:55:28+08:00 ] 39.82.151.189 /index.php/JRapp/Mgt/lunbo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+NOTIC: [8] Undefined variable: res /www/wwwroot/dai.juhuaian.cn/Application/JRapp/Controller/MgtController.class.php 第 7 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] Undefined variable: pageinfo /www/wwwroot/dai.juhuaian.cn/Application/Runtime/Cache/JRapp/1ed313fccb56bfdfa47b6ad4ac84a038.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008186s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008225s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000503s ]
+
+[ 2018-10-10T09:55:59+08:00 ] 39.82.151.189 /index.php/JRapp/Mgt/baodangl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+SQL: SHOW COLUMNS FROM `qm_baodan` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_baodan` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_baodan` LIMIT 0,7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004344s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004381s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000354s ]
+
+[ 2018-10-10T09:56:00+08:00 ] 39.82.151.189 /index.php/JRapp/Mgt/baodangl/p/116.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+SQL: SHOW COLUMNS FROM `qm_baodan` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_baodan` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_baodan` LIMIT 805,7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004136s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004172s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000281s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000307s ]
+
+[ 2018-10-10T15:30:55+08:00 ] 123.232.179.96 /index.php/JRapp/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003546s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003581s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000273s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000299s ]
+
+[ 2018-10-10T15:30:55+08:00 ] 123.232.179.96 /index.php/JRapp/Login/css/layui_1.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000281s ]
+ERR: 非法操作:css
+
+[ 2018-10-10T15:30:56+08:00 ] 123.232.179.96 /index.php/JRapp/Login/css/layui_1.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+ERR: 非法操作:css
+

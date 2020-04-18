@@ -1,0 +1,680 @@
+[ 2018-02-08T13:14:28+08:00 ] 119.163.164.67 /index.php/QM_Admin_1216/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/jp.luhanforex.cn/Application/QM_Admin_1216/Controller/IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `qm_adminus` [ RunTime:0.0010s ]
+SQL: SELECT `role_id` FROM `qm_adminus` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_role_right` [ RunTime:0.0007s ]
+SQL: SELECT `right_id` FROM `qm_role_right` WHERE ( role_id='' )  [ RunTime:0.0000s ]
+NOTIC: [2] implode(): Invalid arguments passed /www/wwwroot/jp.luhanforex.cn/Application/QM_Admin_1216/Controller/IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `qm_right` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `qm_right` WHERE ( id in ('') and parent_id=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_right` WHERE ( id in ('') and parent_id>0 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/jp.luhanforex.cn/Application/QM_Admin_1216/Controller/IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008103s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008140s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011770s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011800s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001818s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001840s ]
+
+[ 2018-02-08T13:14:30+08:00 ] 119.163.164.67 /index.php/QM_Admin_1216/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000237s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004095s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004119s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000390s ]
+
+[ 2018-02-08T13:14:32+08:00 ] 119.163.164.67 /index.php/QM_Admin_1216/Login/checklogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+SQL: SHOW COLUMNS FROM `qm_adminus` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_adminus` WHERE ( username='123' AND password='123' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002530s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002551s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000285s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000299s ]
+
+[ 2018-02-08T13:14:33+08:00 ] 119.163.164.67 /index.php/QM_Admin_1216/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000280s ]
+SQL: SHOW COLUMNS FROM `qm_adminus` [ RunTime:0.0004s ]
+SQL: SELECT `role_id` FROM `qm_adminus` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_role_right` [ RunTime:0.0003s ]
+SQL: SELECT `right_id` FROM `qm_role_right` WHERE ( role_id='14' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_right` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_right` WHERE ( id in ('20','19','7','6','5','4','3','2','1','21') and parent_id=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_right` WHERE ( id in ('20','19','7','6','5','4','3','2','1','21') and parent_id>0 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045624s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000442s ]
+
+[ 2018-02-08T13:14:33+08:00 ] 119.163.164.67 /index.php/QM_Admin_1216/Index/img/icon/baidu.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+
+[ 2018-02-08T13:14:34+08:00 ] 119.163.164.67 /index.php/QM_Admin_1216/Index/img/presentation/1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+
+[ 2018-02-08T13:24:37+08:00 ] 119.163.164.67 /index.php/QM_Admin_1216/Mgt/jpxx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000265s ]
+SQL: SHOW COLUMNS FROM `qm_jpxx` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `qm_jpxx`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+NOTIC: [8] Undefined variable: pageinfo /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/74e6363987e84f50d02d8214b61923dd.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000303s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000318s ]
+
+[ 2018-02-08T13:24:40+08:00 ] 119.163.164.67 /index.php/QM_Admin_1216/Mgt/sodel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000230s ]
+ERR: 非法操作:sodel
+
+[ 2018-02-08T13:24:40+08:00 ] 119.163.164.67 /index.php/QM_Admin_1216/Mgt/add_jp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000237s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005557s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005582s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000474s ]
+
+[ 2018-02-08T13:24:41+08:00 ] 119.163.164.67 /index.php/QM_Admin_1216/Mgt/sfklist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000555s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `qm_fk` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `qm_fk`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+NOTIC: [8] Undefined index: cptime /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/761804a313fbf1b51827f63c8bd73c59.php 第 64 行.
+NOTIC: [8] Undefined index: ckxm /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/761804a313fbf1b51827f63c8bd73c59.php 第 65 行.
+NOTIC: [8] Undefined index: jph /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/761804a313fbf1b51827f63c8bd73c59.php 第 67 行.
+NOTIC: [8] Undefined index: xc /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/761804a313fbf1b51827f63c8bd73c59.php 第 68 行.
+NOTIC: [8] Undefined index: jph /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/761804a313fbf1b51827f63c8bd73c59.php 第 70 行.
+NOTIC: [8] Undefined index: cptime /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/761804a313fbf1b51827f63c8bd73c59.php 第 64 行.
+NOTIC: [8] Undefined index: ckxm /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/761804a313fbf1b51827f63c8bd73c59.php 第 65 行.
+NOTIC: [8] Undefined index: jph /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/761804a313fbf1b51827f63c8bd73c59.php 第 67 行.
+NOTIC: [8] Undefined index: xc /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/761804a313fbf1b51827f63c8bd73c59.php 第 68 行.
+NOTIC: [8] Undefined index: jph /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/761804a313fbf1b51827f63c8bd73c59.php 第 70 行.
+NOTIC: [8] Undefined variable: pageinfo /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/761804a313fbf1b51827f63c8bd73c59.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004478s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004494s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000291s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000306s ]
+
+[ 2018-02-08T13:25:27+08:00 ] 119.163.164.67 /index.php/QM_Admin_1216/Mgt/jbsz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000264s ]
+SQL: SHOW COLUMNS FROM `qm_jcxx` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `qm_jcxx` WHERE ( stat=1 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+NOTIC: [8] Undefined variable: pageinfo /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/b2305d6326b64407490e354c82a8529c.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010265s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010322s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000444s ]
+
+[ 2018-02-08T13:25:32+08:00 ] 119.163.164.67 /index.php/QM_Admin_1216/Mgt/jpxx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+SQL: SHOW COLUMNS FROM `qm_jpxx` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qm_jpxx`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+NOTIC: [8] Undefined variable: pageinfo /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/74e6363987e84f50d02d8214b61923dd.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005098s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005121s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000437s ]
+
+[ 2018-02-08T13:25:38+08:00 ] 119.163.164.67 /index.php/QM_Admin_1216/Mgt/sfklist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `qm_fk` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_fk`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Undefined index: cptime /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/761804a313fbf1b51827f63c8bd73c59.php 第 64 行.
+NOTIC: [8] Undefined index: ckxm /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/761804a313fbf1b51827f63c8bd73c59.php 第 65 行.
+NOTIC: [8] Undefined index: jph /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/761804a313fbf1b51827f63c8bd73c59.php 第 67 行.
+NOTIC: [8] Undefined index: xc /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/761804a313fbf1b51827f63c8bd73c59.php 第 68 行.
+NOTIC: [8] Undefined index: jph /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/761804a313fbf1b51827f63c8bd73c59.php 第 70 行.
+NOTIC: [8] Undefined index: cptime /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/761804a313fbf1b51827f63c8bd73c59.php 第 64 行.
+NOTIC: [8] Undefined index: ckxm /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/761804a313fbf1b51827f63c8bd73c59.php 第 65 行.
+NOTIC: [8] Undefined index: jph /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/761804a313fbf1b51827f63c8bd73c59.php 第 67 行.
+NOTIC: [8] Undefined index: xc /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/761804a313fbf1b51827f63c8bd73c59.php 第 68 行.
+NOTIC: [8] Undefined index: jph /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/761804a313fbf1b51827f63c8bd73c59.php 第 70 行.
+NOTIC: [8] Undefined variable: pageinfo /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/761804a313fbf1b51827f63c8bd73c59.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004900s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004925s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000539s ]
+
+[ 2018-02-08T13:32:51+08:00 ] 119.163.164.67 /index.php/QM_Admin_1216/Mgt/add_dd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000235s ]
+SQL: SHOW COLUMNS FROM `qm_fk` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_fk`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004260s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004278s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000276s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000291s ]
+
+[ 2018-02-08T13:33:28+08:00 ] 119.163.164.67 /index.php/QM_Admin_1216/Mgt/sodel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000236s ]
+ERR: 非法操作:sodel
+
+[ 2018-02-08T13:33:28+08:00 ] 119.163.164.67 /index.php/QM_Admin_1216/Mgt/gqjp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000245s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+NOTIC: [8] Undefined variable: data /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/806a2930831acdd0453197b4c4f1a442.php 第 74 行.
+NOTIC: [8] Undefined variable: pageinfo /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/806a2930831acdd0453197b4c4f1a442.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004571s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004586s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000086s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000274s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000287s ]
+
+[ 2018-02-08T13:36:30+08:00 ] 119.163.164.67 /index.php/QM_Admin_1216/Mgt/sfklist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `qm_fk` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_fk`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+NOTIC: [8] Undefined index: cptime /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/761804a313fbf1b51827f63c8bd73c59.php 第 64 行.
+NOTIC: [8] Undefined index: ckxm /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/761804a313fbf1b51827f63c8bd73c59.php 第 65 行.
+NOTIC: [8] Undefined index: jph /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/761804a313fbf1b51827f63c8bd73c59.php 第 67 行.
+NOTIC: [8] Undefined index: xc /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/761804a313fbf1b51827f63c8bd73c59.php 第 68 行.
+NOTIC: [8] Undefined index: jph /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/761804a313fbf1b51827f63c8bd73c59.php 第 70 行.
+NOTIC: [8] Undefined index: cptime /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/761804a313fbf1b51827f63c8bd73c59.php 第 64 行.
+NOTIC: [8] Undefined index: ckxm /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/761804a313fbf1b51827f63c8bd73c59.php 第 65 行.
+NOTIC: [8] Undefined index: jph /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/761804a313fbf1b51827f63c8bd73c59.php 第 67 行.
+NOTIC: [8] Undefined index: xc /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/761804a313fbf1b51827f63c8bd73c59.php 第 68 行.
+NOTIC: [8] Undefined index: jph /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/761804a313fbf1b51827f63c8bd73c59.php 第 70 行.
+NOTIC: [8] Undefined variable: pageinfo /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/761804a313fbf1b51827f63c8bd73c59.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003306s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003323s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000419s ]
+
+[ 2018-02-08T23:42:46+08:00 ] 119.163.164.67 /index.php/QM_Admin_1216/Mgt/jbsz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+SQL: SHOW COLUMNS FROM `qm_jcxx` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_jcxx` WHERE ( stat=1 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+NOTIC: [8] Undefined variable: pageinfo /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/b2305d6326b64407490e354c82a8529c.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011284s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011321s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001915s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001950s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000896s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000921s ]
+
+[ 2018-02-08T23:42:49+08:00 ] 119.163.164.67 /index.php/QM_Admin_1216/Mgt/jpxx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `qm_jpxx` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `qm_jpxx`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+NOTIC: [8] Undefined variable: pageinfo /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/74e6363987e84f50d02d8214b61923dd.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009842s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009859s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000260s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000273s ]
+
+[ 2018-02-08T23:42:50+08:00 ] 119.163.164.67 /index.php/QM_Admin_1216/Mgt/sodel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+ERR: 非法操作:sodel
+
+[ 2018-02-08T23:42:50+08:00 ] 119.163.164.67 /index.php/QM_Admin_1216/Mgt/add_jp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003975s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003997s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000293s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000308s ]
+
+[ 2018-02-08T23:43:01+08:00 ] 119.163.164.67 /index.php/QM_Admin_1216/Mgt/jbsz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+SQL: SHOW COLUMNS FROM `qm_jcxx` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qm_jcxx` WHERE ( stat=1 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined variable: pageinfo /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/b2305d6326b64407490e354c82a8529c.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004820s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004841s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000407s ]
+
+[ 2018-02-08T23:45:23+08:00 ] 119.163.164.67 /index.php/QM_Admin_1216/Mgt/jpxx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+SQL: SHOW COLUMNS FROM `qm_jpxx` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qm_jpxx`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+NOTIC: [8] Undefined variable: pageinfo /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/74e6363987e84f50d02d8214b61923dd.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005033s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000413s ]
+
+[ 2018-02-08T23:45:27+08:00 ] 119.163.164.67 /index.php/QM_Admin_1216/Mgt/sfklist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+SQL: SHOW COLUMNS FROM `qm_fk` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_fk`  [ RunTime:0.0175s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Undefined index: cptime /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/761804a313fbf1b51827f63c8bd73c59.php 第 64 行.
+NOTIC: [8] Undefined index: ckxm /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/761804a313fbf1b51827f63c8bd73c59.php 第 65 行.
+NOTIC: [8] Undefined index: jph /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/761804a313fbf1b51827f63c8bd73c59.php 第 67 行.
+NOTIC: [8] Undefined index: xc /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/761804a313fbf1b51827f63c8bd73c59.php 第 68 行.
+NOTIC: [8] Undefined index: jph /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/761804a313fbf1b51827f63c8bd73c59.php 第 70 行.
+NOTIC: [8] Undefined index: cptime /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/761804a313fbf1b51827f63c8bd73c59.php 第 64 行.
+NOTIC: [8] Undefined index: ckxm /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/761804a313fbf1b51827f63c8bd73c59.php 第 65 行.
+NOTIC: [8] Undefined index: jph /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/761804a313fbf1b51827f63c8bd73c59.php 第 67 行.
+NOTIC: [8] Undefined index: xc /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/761804a313fbf1b51827f63c8bd73c59.php 第 68 行.
+NOTIC: [8] Undefined index: jph /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/761804a313fbf1b51827f63c8bd73c59.php 第 70 行.
+NOTIC: [8] Undefined variable: pageinfo /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/761804a313fbf1b51827f63c8bd73c59.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015822s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015842s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000290s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000306s ]
+
+[ 2018-02-08T23:47:02+08:00 ] 119.163.164.67 /index.php/QM_Admin_1216/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `qm_adminus` [ RunTime:0.0013s ]
+SQL: SELECT `role_id` FROM `qm_adminus` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_role_right` [ RunTime:0.0010s ]
+SQL: SELECT `right_id` FROM `qm_role_right` WHERE ( role_id='14' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_right` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `qm_right` WHERE ( id in ('20','19','7','6','5','4','3','2','1','21') and parent_id=0 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_right` WHERE ( id in ('20','19','7','6','5','4','3','2','1','21') and parent_id>0 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006966s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006991s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000383s ]
+
+[ 2018-02-08T23:47:02+08:00 ] 119.163.164.67 /index.php/QM_Admin_1216/Index/img/icon/baidu.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+
+[ 2018-02-08T23:47:02+08:00 ] 119.163.164.67 /index.php/QM_Admin_1216/Index/img/presentation/1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+
+[ 2018-02-08T23:47:08+08:00 ] 119.163.164.67 /index.php/QM_Admin_1216/Mgt/sfklist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000228s ]
+SQL: SHOW COLUMNS FROM `qm_fk` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_fk`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+NOTIC: [8] Undefined index: cptime /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/761804a313fbf1b51827f63c8bd73c59.php 第 64 行.
+NOTIC: [8] Undefined index: ckxm /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/761804a313fbf1b51827f63c8bd73c59.php 第 65 行.
+NOTIC: [8] Undefined index: jph /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/761804a313fbf1b51827f63c8bd73c59.php 第 67 行.
+NOTIC: [8] Undefined index: xc /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/761804a313fbf1b51827f63c8bd73c59.php 第 68 行.
+NOTIC: [8] Undefined index: jph /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/761804a313fbf1b51827f63c8bd73c59.php 第 70 行.
+NOTIC: [8] Undefined index: cptime /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/761804a313fbf1b51827f63c8bd73c59.php 第 64 行.
+NOTIC: [8] Undefined index: ckxm /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/761804a313fbf1b51827f63c8bd73c59.php 第 65 行.
+NOTIC: [8] Undefined index: jph /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/761804a313fbf1b51827f63c8bd73c59.php 第 67 行.
+NOTIC: [8] Undefined index: xc /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/761804a313fbf1b51827f63c8bd73c59.php 第 68 行.
+NOTIC: [8] Undefined index: jph /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/761804a313fbf1b51827f63c8bd73c59.php 第 70 行.
+NOTIC: [8] Undefined variable: pageinfo /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/761804a313fbf1b51827f63c8bd73c59.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003348s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003365s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000249s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000263s ]
+
+[ 2018-02-08T23:47:32+08:00 ] 119.163.164.67 /index.php/QM_Admin_1216/Mgt/add_dd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+SQL: SHOW COLUMNS FROM `qm_fk` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_fk`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005584s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000078s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000277s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000292s ]
+
+[ 2018-02-08T23:53:25+08:00 ] 119.163.164.67 /index.php/QM_Admin_1216/Mgt/jbsz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `qm_jcxx` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_jcxx` WHERE ( stat=1 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined variable: pageinfo /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/b2305d6326b64407490e354c82a8529c.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004189s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004209s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000412s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000437s ]
+
+[ 2018-02-08T23:53:29+08:00 ] 119.163.164.67 /index.php/QM_Admin_1216/Mgt/jpxx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000231s ]
+SQL: SHOW COLUMNS FROM `qm_jpxx` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qm_jpxx`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+NOTIC: [8] Undefined variable: pageinfo /www/wwwroot/jp.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/74e6363987e84f50d02d8214b61923dd.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004129s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004148s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000276s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000289s ]
+
+[ 2018-02-08T23:55:14+08:00 ] 119.163.164.67 /index.php/QM_Admin_1216/Mgt/sodel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000258s ]
+ERR: 非法操作:sodel
+
+[ 2018-02-08T23:55:14+08:00 ] 119.163.164.67 /index.php/QM_Admin_1216/Mgt/add_jp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000288s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003597s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003617s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000094s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000282s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000296s ]
+

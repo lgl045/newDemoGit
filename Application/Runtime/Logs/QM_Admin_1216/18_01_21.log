@@ -1,0 +1,1457 @@
+[ 2018-01-21T16:07:17+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/mai.luhanforex.cn/Application/QM_Admin_1216/Controller/IndexController.class.php 第 6 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004343s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004385s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015195s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000571s ]
+
+[ 2018-01-21T16:07:20+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003173s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003206s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000357s ]
+
+[ 2018-01-21T16:07:20+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002960s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002990s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000275s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000300s ]
+
+[ 2018-01-21T16:07:26+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Login/checklogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `qm_adminus` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_adminus` WHERE ( username='123' AND password='123' ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003980s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004023s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000464s ]
+
+[ 2018-01-21T16:07:27+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007034s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007074s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000152s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2018-01-21T16:07:27+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Index/img/icon/baidu.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+
+[ 2018-01-21T16:07:27+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Index/img/presentation/1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+
+[ 2018-01-21T16:12:05+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000292s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004993s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005030s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000492s ]
+
+[ 2018-01-21T16:12:05+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Index/img/icon/baidu.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+
+[ 2018-01-21T16:12:05+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Index/img/presentation/1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+
+[ 2018-01-21T16:13:02+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004946s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004977s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000336s ]
+
+[ 2018-01-21T16:13:02+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Index/img/icon/baidu.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+
+[ 2018-01-21T16:13:02+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Index/img/presentation/1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+
+[ 2018-01-21T16:13:23+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004296s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004326s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000270s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000297s ]
+
+[ 2018-01-21T16:13:23+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Index/img/icon/baidu.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+
+[ 2018-01-21T16:13:23+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Index/img/presentation/1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+
+[ 2018-01-21T16:13:41+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Mgt/jl_user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+
+[ 2018-01-21T16:13:53+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Mgt/jl_user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `qm_juser` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_juser`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002646s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002676s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000292s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000318s ]
+
+[ 2018-01-21T16:14:22+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007040s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007079s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000510s ]
+
+[ 2018-01-21T16:14:22+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Index/img/icon/baidu.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+
+[ 2018-01-21T16:14:22+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Index/img/presentation/1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+
+[ 2018-01-21T16:14:23+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Mgt/jl_user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+SQL: SHOW COLUMNS FROM `qm_juser` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_juser`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003647s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003686s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000398s ]
+
+[ 2018-01-21T16:15:09+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006655s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006696s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000482s ]
+
+[ 2018-01-21T16:15:10+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Index/img/icon/baidu.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+
+[ 2018-01-21T16:15:10+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Index/img/presentation/1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+
+[ 2018-01-21T16:15:10+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Mgt/jl_user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `qm_juser` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_juser`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+NOTIC: [8] Undefined variable: goods /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/92fa9d56ff38608fb0442a78bb992259.php 第 61 行.
+NOTIC: [8] Undefined variable: pageinfo /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/92fa9d56ff38608fb0442a78bb992259.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004367s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004401s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000289s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000318s ]
+
+[ 2018-01-21T16:17:02+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Mgt/jl_user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `qm_juser` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_juser`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/92fa9d56ff38608fb0442a78bb992259.php 第 52 行.
+NOTIC: [8] Undefined index: danjia1 /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/92fa9d56ff38608fb0442a78bb992259.php 第 55 行.
+NOTIC: [8] Undefined index: danjia2 /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/92fa9d56ff38608fb0442a78bb992259.php 第 56 行.
+NOTIC: [8] Undefined index: addtime /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/92fa9d56ff38608fb0442a78bb992259.php 第 59 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/92fa9d56ff38608fb0442a78bb992259.php 第 60 行.
+NOTIC: [8] Undefined index: id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/92fa9d56ff38608fb0442a78bb992259.php 第 52 行.
+NOTIC: [8] Undefined index: danjia1 /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/92fa9d56ff38608fb0442a78bb992259.php 第 55 行.
+NOTIC: [8] Undefined index: danjia2 /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/92fa9d56ff38608fb0442a78bb992259.php 第 56 行.
+NOTIC: [8] Undefined index: addtime /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/92fa9d56ff38608fb0442a78bb992259.php 第 59 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/92fa9d56ff38608fb0442a78bb992259.php 第 60 行.
+NOTIC: [8] Undefined variable: pageinfo /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/92fa9d56ff38608fb0442a78bb992259.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004414s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004444s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000326s ]
+
+[ 2018-01-21T16:17:30+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Mgt/jl_user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `qm_juser` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_juser`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/92fa9d56ff38608fb0442a78bb992259.php 第 52 行.
+NOTIC: [8] Undefined index: danjia1 /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/92fa9d56ff38608fb0442a78bb992259.php 第 55 行.
+NOTIC: [8] Undefined index: addtime /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/92fa9d56ff38608fb0442a78bb992259.php 第 59 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/92fa9d56ff38608fb0442a78bb992259.php 第 60 行.
+NOTIC: [8] Undefined index: id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/92fa9d56ff38608fb0442a78bb992259.php 第 52 行.
+NOTIC: [8] Undefined index: danjia1 /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/92fa9d56ff38608fb0442a78bb992259.php 第 55 行.
+NOTIC: [8] Undefined index: addtime /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/92fa9d56ff38608fb0442a78bb992259.php 第 59 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/92fa9d56ff38608fb0442a78bb992259.php 第 60 行.
+NOTIC: [8] Undefined variable: pageinfo /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/92fa9d56ff38608fb0442a78bb992259.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005076s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005120s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000139s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000512s ]
+
+[ 2018-01-21T16:17:33+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000300s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004900s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004930s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000337s ]
+
+[ 2018-01-21T16:17:33+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Index/img/icon/baidu.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+
+[ 2018-01-21T16:17:33+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Index/img/presentation/1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+
+[ 2018-01-21T16:18:44+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Mgt/jl_user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `qm_juser` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_juser`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+NOTIC: [8] Undefined index: addtime /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/92fa9d56ff38608fb0442a78bb992259.php 第 59 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/92fa9d56ff38608fb0442a78bb992259.php 第 60 行.
+NOTIC: [8] Undefined index: addtime /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/92fa9d56ff38608fb0442a78bb992259.php 第 59 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/92fa9d56ff38608fb0442a78bb992259.php 第 60 行.
+NOTIC: [8] Undefined variable: pageinfo /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/92fa9d56ff38608fb0442a78bb992259.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004469s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004503s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000381s ]
+
+[ 2018-01-21T16:19:46+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Mgt/jl_user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `qm_juser` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_juser`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/92fa9d56ff38608fb0442a78bb992259.php 第 57 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/92fa9d56ff38608fb0442a78bb992259.php 第 57 行.
+NOTIC: [8] Undefined variable: pageinfo /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/92fa9d56ff38608fb0442a78bb992259.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005551s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005598s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000510s ]
+
+[ 2018-01-21T16:20:05+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Mgt/jl_user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+SQL: SHOW COLUMNS FROM `qm_juser` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_juser`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/92fa9d56ff38608fb0442a78bb992259.php 第 57 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/92fa9d56ff38608fb0442a78bb992259.php 第 57 行.
+NOTIC: [8] Undefined variable: pageinfo /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/92fa9d56ff38608fb0442a78bb992259.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004914s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000393s ]
+
+[ 2018-01-21T16:22:43+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005044s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005101s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000290s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000326s ]
+
+[ 2018-01-21T16:22:43+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Index/img/icon/baidu.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+
+[ 2018-01-21T16:22:43+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Index/img/presentation/1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+
+[ 2018-01-21T16:22:44+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Mgt/jl_income
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+SQL: SHOW COLUMNS FROM `qm_income` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_income`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+NOTIC: [8] Undefined variable: goods /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/a9e0862042f951ea3f2b6ac7615074bb.php 第 61 行.
+NOTIC: [8] Undefined variable: pageinfo /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/a9e0862042f951ea3f2b6ac7615074bb.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004670s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004700s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000308s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000335s ]
+
+[ 2018-01-21T16:25:17+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Mgt/jl_income
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+SQL: SHOW COLUMNS FROM `qm_income` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_income`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/a9e0862042f951ea3f2b6ac7615074bb.php 第 51 行.
+NOTIC: [8] Undefined index: jbye /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/a9e0862042f951ea3f2b6ac7615074bb.php 第 54 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/a9e0862042f951ea3f2b6ac7615074bb.php 第 56 行.
+NOTIC: [8] Undefined variable: pageinfo /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/a9e0862042f951ea3f2b6ac7615074bb.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007107s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007154s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000156s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2018-01-21T16:25:51+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Mgt/jl_income
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+SQL: SHOW COLUMNS FROM `qm_income` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_income`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/a9e0862042f951ea3f2b6ac7615074bb.php 第 56 行.
+NOTIC: [8] Undefined variable: pageinfo /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/a9e0862042f951ea3f2b6ac7615074bb.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005968s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000432s ]
+
+[ 2018-01-21T16:25:57+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Mgt/jl_user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+SQL: SHOW COLUMNS FROM `qm_juser` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_juser`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/92fa9d56ff38608fb0442a78bb992259.php 第 57 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/92fa9d56ff38608fb0442a78bb992259.php 第 57 行.
+NOTIC: [8] Undefined variable: pageinfo /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/92fa9d56ff38608fb0442a78bb992259.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006804s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006846s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000493s ]
+
+[ 2018-01-21T16:25:57+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Mgt/jl_income
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+SQL: SHOW COLUMNS FROM `qm_income` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_income`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/a9e0862042f951ea3f2b6ac7615074bb.php 第 56 行.
+NOTIC: [8] Undefined variable: pageinfo /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/a9e0862042f951ea3f2b6ac7615074bb.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006777s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000392s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000438s ]
+
+[ 2018-01-21T16:28:35+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004951s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004994s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000352s ]
+
+[ 2018-01-21T16:28:35+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Index/img/icon/baidu.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+
+[ 2018-01-21T16:28:35+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Index/img/presentation/1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+
+[ 2018-01-21T16:28:36+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Mgt/jl_applist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `qm_jb` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_jb` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_jb` LIMIT 0,20   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Undefined index: content /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 64 行.
+NOTIC: [8] Undefined index: danjia1 /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: danjia2 /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 66 行.
+NOTIC: [8] Undefined index: img /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 67 行.
+NOTIC: [8] Undefined index: addtime /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 69 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 70 行.
+NOTIC: [8] Undefined index: content /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 64 行.
+NOTIC: [8] Undefined index: danjia1 /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: danjia2 /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 66 行.
+NOTIC: [8] Undefined index: img /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 67 行.
+NOTIC: [8] Undefined index: addtime /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 69 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 70 行.
+NOTIC: [8] Undefined index: content /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 64 行.
+NOTIC: [8] Undefined index: danjia1 /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: danjia2 /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 66 行.
+NOTIC: [8] Undefined index: img /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 67 行.
+NOTIC: [8] Undefined index: addtime /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 69 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 70 行.
+NOTIC: [8] Undefined index: content /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 64 行.
+NOTIC: [8] Undefined index: danjia1 /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: danjia2 /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 66 行.
+NOTIC: [8] Undefined index: img /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 67 行.
+NOTIC: [8] Undefined index: addtime /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 69 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 70 行.
+NOTIC: [8] Undefined index: content /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 64 行.
+NOTIC: [8] Undefined index: danjia1 /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: danjia2 /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 66 行.
+NOTIC: [8] Undefined index: img /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 67 行.
+NOTIC: [8] Undefined index: addtime /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 69 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 70 行.
+NOTIC: [8] Undefined index: content /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 64 行.
+NOTIC: [8] Undefined index: danjia1 /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: danjia2 /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 66 行.
+NOTIC: [8] Undefined index: img /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 67 行.
+NOTIC: [8] Undefined index: addtime /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 69 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 70 行.
+NOTIC: [8] Undefined index: content /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 64 行.
+NOTIC: [8] Undefined index: danjia1 /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: danjia2 /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 66 行.
+NOTIC: [8] Undefined index: img /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 67 行.
+NOTIC: [8] Undefined index: addtime /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 69 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 70 行.
+NOTIC: [8] Undefined index: content /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 64 行.
+NOTIC: [8] Undefined index: danjia1 /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: danjia2 /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 66 行.
+NOTIC: [8] Undefined index: img /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 67 行.
+NOTIC: [8] Undefined index: addtime /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 69 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004924s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004960s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000354s ]
+
+[ 2018-01-21T16:31:10+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007404s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007453s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000383s ]
+
+[ 2018-01-21T16:31:10+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Index/img/icon/baidu.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+
+[ 2018-01-21T16:31:10+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Index/img/presentation/1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+
+[ 2018-01-21T16:31:11+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Mgt/jl_applist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000441s ]
+SQL: SHOW COLUMNS FROM `qm_jb` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_jb` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_jb` LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+NOTIC: [8] Undefined index: danjia1 /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 66 行.
+NOTIC: [8] Undefined index: danjia2 /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 67 行.
+NOTIC: [8] Undefined index: img /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 68 行.
+NOTIC: [8] Undefined index: addtime /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 70 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 71 行.
+NOTIC: [8] Undefined index: danjia1 /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 66 行.
+NOTIC: [8] Undefined index: danjia2 /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 67 行.
+NOTIC: [8] Undefined index: img /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 68 行.
+NOTIC: [8] Undefined index: addtime /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 70 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 71 行.
+NOTIC: [8] Undefined index: danjia1 /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 66 行.
+NOTIC: [8] Undefined index: danjia2 /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 67 行.
+NOTIC: [8] Undefined index: img /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 68 行.
+NOTIC: [8] Undefined index: addtime /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 70 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 71 行.
+NOTIC: [8] Undefined index: danjia1 /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 66 行.
+NOTIC: [8] Undefined index: danjia2 /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 67 行.
+NOTIC: [8] Undefined index: img /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 68 行.
+NOTIC: [8] Undefined index: addtime /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 70 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 71 行.
+NOTIC: [8] Undefined index: danjia1 /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 66 行.
+NOTIC: [8] Undefined index: danjia2 /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 67 行.
+NOTIC: [8] Undefined index: img /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 68 行.
+NOTIC: [8] Undefined index: addtime /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 70 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 71 行.
+NOTIC: [8] Undefined index: danjia1 /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 66 行.
+NOTIC: [8] Undefined index: danjia2 /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 67 行.
+NOTIC: [8] Undefined index: img /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 68 行.
+NOTIC: [8] Undefined index: addtime /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 70 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 71 行.
+NOTIC: [8] Undefined index: danjia1 /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 66 行.
+NOTIC: [8] Undefined index: danjia2 /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 67 行.
+NOTIC: [8] Undefined index: img /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 68 行.
+NOTIC: [8] Undefined index: addtime /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 70 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 71 行.
+NOTIC: [8] Undefined index: danjia1 /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 66 行.
+NOTIC: [8] Undefined index: danjia2 /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 67 行.
+NOTIC: [8] Undefined index: img /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 68 行.
+NOTIC: [8] Undefined index: addtime /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 70 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006880s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006926s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000161s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000510s ]
+
+[ 2018-01-21T16:32:13+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005037s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000339s ]
+
+[ 2018-01-21T16:32:13+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Index/img/icon/baidu.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+
+[ 2018-01-21T16:32:13+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Index/img/presentation/1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+
+[ 2018-01-21T16:32:14+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Mgt/jl_applist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+SQL: SHOW COLUMNS FROM `qm_jb` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_jb` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_jb` LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+NOTIC: [8] Undefined index: danjia1 /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 66 行.
+NOTIC: [8] Undefined index: danjia2 /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 67 行.
+NOTIC: [8] Undefined index: img /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 68 行.
+NOTIC: [8] Undefined index: addtime /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 70 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 71 行.
+NOTIC: [8] Undefined index: danjia1 /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 66 行.
+NOTIC: [8] Undefined index: danjia2 /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 67 行.
+NOTIC: [8] Undefined index: img /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 68 行.
+NOTIC: [8] Undefined index: addtime /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 70 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 71 行.
+NOTIC: [8] Undefined index: danjia1 /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 66 行.
+NOTIC: [8] Undefined index: danjia2 /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 67 行.
+NOTIC: [8] Undefined index: img /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 68 行.
+NOTIC: [8] Undefined index: addtime /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 70 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 71 行.
+NOTIC: [8] Undefined index: danjia1 /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 66 行.
+NOTIC: [8] Undefined index: danjia2 /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 67 行.
+NOTIC: [8] Undefined index: img /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 68 行.
+NOTIC: [8] Undefined index: addtime /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 70 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 71 行.
+NOTIC: [8] Undefined index: danjia1 /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 66 行.
+NOTIC: [8] Undefined index: danjia2 /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 67 行.
+NOTIC: [8] Undefined index: img /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 68 行.
+NOTIC: [8] Undefined index: addtime /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 70 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 71 行.
+NOTIC: [8] Undefined index: danjia1 /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 66 行.
+NOTIC: [8] Undefined index: danjia2 /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 67 行.
+NOTIC: [8] Undefined index: img /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 68 行.
+NOTIC: [8] Undefined index: addtime /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 70 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 71 行.
+NOTIC: [8] Undefined index: danjia1 /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 66 行.
+NOTIC: [8] Undefined index: danjia2 /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 67 行.
+NOTIC: [8] Undefined index: img /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 68 行.
+NOTIC: [8] Undefined index: addtime /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 70 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 71 行.
+NOTIC: [8] Undefined index: danjia1 /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 66 行.
+NOTIC: [8] Undefined index: danjia2 /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 67 行.
+NOTIC: [8] Undefined index: img /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 68 行.
+NOTIC: [8] Undefined index: addtime /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 70 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005658s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005697s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2018-01-21T16:33:20+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Mgt/jl_applist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+SQL: SHOW COLUMNS FROM `qm_jb` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_jb` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_jb` LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004237s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000360s ]
+
+[ 2018-01-21T16:34:09+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007346s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007393s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000158s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000511s ]
+
+[ 2018-01-21T16:34:09+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Index/img/icon/baidu.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+
+[ 2018-01-21T16:34:09+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Index/img/presentation/1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+
+[ 2018-01-21T16:34:10+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Mgt/jl_applist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `qm_jb` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_jb` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_jb` LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004487s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004518s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000350s ]
+
+[ 2018-01-21T16:34:25+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004740s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000365s ]
+
+[ 2018-01-21T16:34:25+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Index/img/icon/baidu.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+
+[ 2018-01-21T16:34:25+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Index/img/presentation/1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+
+[ 2018-01-21T16:34:25+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Mgt/jl_applist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `qm_jb` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_jb` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_jb` LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005072s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005108s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000342s ]
+
+[ 2018-01-21T16:34:29+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Mgt/jl_user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `qm_juser` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_juser`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/92fa9d56ff38608fb0442a78bb992259.php 第 57 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/92fa9d56ff38608fb0442a78bb992259.php 第 57 行.
+NOTIC: [8] Undefined variable: pageinfo /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/92fa9d56ff38608fb0442a78bb992259.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003984s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000295s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000320s ]
+
+[ 2018-01-21T16:34:30+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Mgt/jl_income
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+SQL: SHOW COLUMNS FROM `qm_income` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_income`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/a9e0862042f951ea3f2b6ac7615074bb.php 第 56 行.
+NOTIC: [8] Undefined variable: pageinfo /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/a9e0862042f951ea3f2b6ac7615074bb.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004203s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004234s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000364s ]
+
+[ 2018-01-21T16:34:31+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Mgt/jl_applist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `qm_jb` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_jb` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_jb` LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005793s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2018-01-21T16:34:50+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006119s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000294s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000326s ]
+
+[ 2018-01-21T16:34:50+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Index/img/icon/baidu.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+
+[ 2018-01-21T16:34:50+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Index/img/presentation/1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+
+[ 2018-01-21T16:34:51+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Mgt/jl_applist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+SQL: SHOW COLUMNS FROM `qm_jb` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_jb` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_jb` LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005999s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000488s ]
+
+[ 2018-01-21T16:35:01+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000318s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005431s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005469s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000473s ]
+
+[ 2018-01-21T16:35:02+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Index/img/icon/baidu.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+
+[ 2018-01-21T16:35:02+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Index/img/presentation/1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+
+[ 2018-01-21T16:35:03+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Mgt/jl_income
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `qm_income` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_income`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/a9e0862042f951ea3f2b6ac7615074bb.php 第 56 行.
+NOTIC: [8] Undefined variable: pageinfo /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/a9e0862042f951ea3f2b6ac7615074bb.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004904s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004934s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000444s ]
+
+[ 2018-01-21T16:35:04+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Mgt/jl_applist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000351s ]
+SQL: SHOW COLUMNS FROM `qm_jb` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_jb` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_jb` LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004261s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004292s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000324s ]
+
+[ 2018-01-21T16:35:15+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Mgt/jl_applist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+SQL: SHOW COLUMNS FROM `qm_jb` [ RunTime:0.0077s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_jb` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_jb` LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/fe0786943852a7cf28a1f51ec96aadc4.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004707s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004741s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000387s ]
+
+[ 2018-01-21T16:35:15+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Mgt/jl_income
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+SQL: SHOW COLUMNS FROM `qm_income` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_income`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/a9e0862042f951ea3f2b6ac7615074bb.php 第 56 行.
+NOTIC: [8] Undefined variable: pageinfo /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/a9e0862042f951ea3f2b6ac7615074bb.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005187s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005238s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000383s ]
+
+[ 2018-01-21T16:35:16+08:00 ] 112.230.4.189 /index.php/QM_Admin_1216/Mgt/jl_user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+SQL: SHOW COLUMNS FROM `qm_juser` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_juser`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/92fa9d56ff38608fb0442a78bb992259.php 第 57 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/92fa9d56ff38608fb0442a78bb992259.php 第 57 行.
+NOTIC: [8] Undefined variable: pageinfo /www/wwwroot/mai.luhanforex.cn/Application/Runtime/Cache/QM_Admin_1216/92fa9d56ff38608fb0442a78bb992259.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010356s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010399s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000382s ]
+

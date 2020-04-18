@@ -1,0 +1,1130 @@
+[ 2018-07-18T12:19:22+08:00 ] 120.92.11.27 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007897s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007930s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000303s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000322s ]
+
+[ 2018-07-18T12:19:22+08:00 ] 120.92.11.159 /index.php/Home/Index/inslist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000235s ]
+NOTIC: [8] Undefined index: name /www/wwwroot/dai.juhuaian.cn/Application/Home/Controller/IndexController.class.php 第 347 行.
+NOTIC: [8] Undefined index: applyMoney /www/wwwroot/dai.juhuaian.cn/Application/Home/Controller/IndexController.class.php 第 348 行.
+NOTIC: [8] Undefined index: phone /www/wwwroot/dai.juhuaian.cn/Application/Home/Controller/IndexController.class.php 第 349 行.
+NOTIC: [8] Undefined index: hcityt /www/wwwroot/dai.juhuaian.cn/Application/Home/Controller/IndexController.class.php 第 350 行.
+SQL: SHOW COLUMNS FROM `qm_list` [ RunTime:0.0004s ]
+ERR: 1048:Column 'name' cannot be null
+ [ SQL语句 ] : INSERT INTO `qm_list` (`name`,`money`,`phone`,`res`,`addtime`) VALUES (NULL,NULL,NULL,NULL,'2018-07-18 12:19')
+ERR: 1048:Column 'name' cannot be null
+ [ SQL语句 ] : INSERT INTO `qm_list` (`name`,`money`,`phone`,`res`,`addtime`) VALUES (NULL,NULL,NULL,NULL,'2018-07-18 12:19')
+
+[ 2018-07-18T12:53:10+08:00 ] 120.204.17.69 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000222s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012224s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000299s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000315s ]
+
+[ 2018-07-18T12:53:10+08:00 ] 223.167.152.21 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000220s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003541s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000241s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000255s ]
+
+[ 2018-07-18T15:40:35+08:00 ] 61.151.207.252 /index.php/Home/index/rwmzc?uid=676177
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000255s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_users` WHERE ( id=676177 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017961s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017982s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000290s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000305s ]
+
+[ 2018-07-18T15:40:52+08:00 ] 223.167.152.125 /index.php/Home/Index/yzm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000246s ]
+
+[ 2018-07-18T15:41:08+08:00 ] 61.151.207.252 /index.php/Home/Index/zcxx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000223s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=15615617273 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `qm_users` (`id`,`phone`,`username`,`password`,`fid`,`pic`,`addtime`) VALUES ('58013627','15615617273','15615617273','dcc8f42d32853bd435511d6bc6a7ba4a','15063342277','/Public/img/mr.jpg','1531899668') [ RunTime:0.0002s ]
+
+[ 2018-07-18T15:41:10+08:00 ] 61.151.207.252 /index.php/Home/Index/zcxx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000298s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=15615617273 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-07-18T15:41:28+08:00 ] 61.151.207.252 /index.php/Home/index/rwmzc?uid=676177
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000227s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_users` WHERE ( id=676177 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002656s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002672s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000082s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000266s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000282s ]
+
+[ 2018-07-18T15:41:38+08:00 ] 106.39.191.236 /index.php/Home/index/rwmzc?uid=676177
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000221s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_users` WHERE ( id=676177 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002646s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002662s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000251s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000265s ]
+
+[ 2018-07-18T15:42:01+08:00 ] 106.39.191.247 /index.php/Home/Index/yzm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000231s ]
+
+[ 2018-07-18T15:42:15+08:00 ] 106.39.191.247 /index.php/Home/Index/yzm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+
+[ 2018-07-18T15:42:20+08:00 ] 106.39.191.247 /index.php/Home/Index/zcxx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000272s ]
+
+[ 2018-07-18T15:42:33+08:00 ] 106.39.191.247 /index.php/Home/Index/yzm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000230s ]
+
+[ 2018-07-18T15:42:34+08:00 ] 106.39.191.247 /index.php/Home/Index/yzm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000242s ]
+
+[ 2018-07-18T15:42:40+08:00 ] 106.39.191.247 /index.php/Home/Index/yzm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000244s ]
+
+[ 2018-07-18T15:43:25+08:00 ] 61.151.178.172 /index.php/Home/index/rwmzc?uid=676177
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000225s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_users` WHERE ( id=676177 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002984s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000320s ]
+
+[ 2018-07-18T15:43:42+08:00 ] 61.151.178.172 /index.php/Home/Index/yzm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000244s ]
+
+[ 2018-07-18T15:43:53+08:00 ] 106.39.191.247 /index.php/Home/Index/yzm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000251s ]
+
+[ 2018-07-18T15:44:04+08:00 ] 106.39.191.247 /index.php/Home/Index/zcxx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000256s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=15564114411 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `qm_users` (`id`,`phone`,`username`,`password`,`fid`,`pic`,`addtime`) VALUES ('75206389','15564114411','15564114411','dcc8f42d32853bd435511d6bc6a7ba4a','15063342277','/Public/img/mr.jpg','1531899844') [ RunTime:0.0002s ]
+
+[ 2018-07-18T15:44:11+08:00 ] 106.39.191.247 /index.php/Home/Index/zcxx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=15564114411 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-07-18T15:44:19+08:00 ] 106.39.191.247 /index.php/Home/Index/zcxx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000246s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=15564114411 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-07-18T15:49:07+08:00 ] 60.216.137.56 /index.php/Home/index/rwmzc?uid=676177
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_users` WHERE ( id=676177 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003060s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003077s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000281s ]
+
+[ 2018-07-18T16:57:06+08:00 ] 112.224.19.112 /index.php/Home/index/rwmzc?uid=882657
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000242s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_users` WHERE ( id=882657 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002586s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000252s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000266s ]
+
+[ 2018-07-18T16:57:15+08:00 ] 119.164.77.23 /index.php/Home/index/rwmzc?uid=882657
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000250s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_users` WHERE ( id=882657 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002607s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000271s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000284s ]
+
+[ 2018-07-18T16:57:43+08:00 ] 119.164.77.23 /index.php/Home/Index/yzm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000218s ]
+
+[ 2018-07-18T16:58:06+08:00 ] 119.164.77.23 /index.php/Home/Index/zcxx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000248s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=17076012243 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_users` WHERE ( id=17605416927 ) LIMIT 1   [ RunTime:0.0001s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `qm_users` SET `dshje`='50' WHERE ( id= )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `qm_users` SET `dshje`='50' WHERE ( id= )
+
+[ 2018-07-18T16:58:08+08:00 ] 119.164.77.23 /index.php/Home/Index/zcxx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000302s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=17076012243 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_users` WHERE ( id=17605416927 ) LIMIT 1   [ RunTime:0.0000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `qm_users` SET `dshje`='50' WHERE ( id= )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `qm_users` SET `dshje`='50' WHERE ( id= )
+
+[ 2018-07-18T16:58:21+08:00 ] 119.164.77.23 /index.php/Home/Index/zcxx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000223s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=17076012243 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_users` WHERE ( id=17605416927 ) LIMIT 1   [ RunTime:0.0001s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `qm_users` SET `dshje`='50' WHERE ( id= )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `qm_users` SET `dshje`='50' WHERE ( id= )
+
+[ 2018-07-18T16:58:22+08:00 ] 119.164.77.23 /index.php/Home/Index/zcxx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000264s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=17076012243 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_users` WHERE ( id=17605416927 ) LIMIT 1   [ RunTime:0.0000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `qm_users` SET `dshje`='50' WHERE ( id= )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `qm_users` SET `dshje`='50' WHERE ( id= )
+
+[ 2018-07-18T16:58:22+08:00 ] 119.164.77.23 /index.php/Home/Index/zcxx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000244s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=17076012243 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_users` WHERE ( id=17605416927 ) LIMIT 1   [ RunTime:0.0000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `qm_users` SET `dshje`='50' WHERE ( id= )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `qm_users` SET `dshje`='50' WHERE ( id= )
+
+[ 2018-07-18T16:58:22+08:00 ] 119.164.77.23 /index.php/Home/Index/zcxx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000242s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=17076012243 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_users` WHERE ( id=17605416927 ) LIMIT 1   [ RunTime:0.0000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `qm_users` SET `dshje`='50' WHERE ( id= )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `qm_users` SET `dshje`='50' WHERE ( id= )
+
+[ 2018-07-18T16:58:23+08:00 ] 119.164.77.23 /index.php/Home/Index/zcxx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000241s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=17076012243 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_users` WHERE ( id=17605416927 ) LIMIT 1   [ RunTime:0.0000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `qm_users` SET `dshje`='50' WHERE ( id= )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `qm_users` SET `dshje`='50' WHERE ( id= )
+
+[ 2018-07-18T16:58:23+08:00 ] 119.164.77.23 /index.php/Home/Index/zcxx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000253s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=17076012243 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_users` WHERE ( id=17605416927 ) LIMIT 1   [ RunTime:0.0000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `qm_users` SET `dshje`='50' WHERE ( id= )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `qm_users` SET `dshje`='50' WHERE ( id= )
+
+[ 2018-07-18T16:58:23+08:00 ] 119.164.77.23 /index.php/Home/Index/zcxx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000245s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=17076012243 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_users` WHERE ( id=17605416927 ) LIMIT 1   [ RunTime:0.0000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `qm_users` SET `dshje`='50' WHERE ( id= )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `qm_users` SET `dshje`='50' WHERE ( id= )
+
+[ 2018-07-18T16:58:23+08:00 ] 119.164.77.23 /index.php/Home/Index/zcxx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=17076012243 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_users` WHERE ( id=17605416927 ) LIMIT 1   [ RunTime:0.0000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `qm_users` SET `dshje`='50' WHERE ( id= )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `qm_users` SET `dshje`='50' WHERE ( id= )
+
+[ 2018-07-18T16:58:24+08:00 ] 119.164.77.23 /index.php/Home/Index/zcxx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000234s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=17076012243 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_users` WHERE ( id=17605416927 ) LIMIT 1   [ RunTime:0.0000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `qm_users` SET `dshje`='50' WHERE ( id= )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `qm_users` SET `dshje`='50' WHERE ( id= )
+
+[ 2018-07-18T16:58:24+08:00 ] 119.164.77.23 /index.php/Home/Index/zcxx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000241s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=17076012243 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_users` WHERE ( id=17605416927 ) LIMIT 1   [ RunTime:0.0000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `qm_users` SET `dshje`='50' WHERE ( id= )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `qm_users` SET `dshje`='50' WHERE ( id= )
+
+[ 2018-07-18T16:58:24+08:00 ] 119.164.77.23 /index.php/Home/Index/zcxx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000224s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=17076012243 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_users` WHERE ( id=17605416927 ) LIMIT 1   [ RunTime:0.0001s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `qm_users` SET `dshje`='50' WHERE ( id= )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `qm_users` SET `dshje`='50' WHERE ( id= )
+
+[ 2018-07-18T16:58:25+08:00 ] 119.164.77.23 /index.php/Home/Index/zcxx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=17076012243 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_users` WHERE ( id=17605416927 ) LIMIT 1   [ RunTime:0.0000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `qm_users` SET `dshje`='50' WHERE ( id= )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `qm_users` SET `dshje`='50' WHERE ( id= )
+
+[ 2018-07-18T16:58:25+08:00 ] 119.164.77.23 /index.php/Home/Index/zcxx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000234s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=17076012243 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_users` WHERE ( id=17605416927 ) LIMIT 1   [ RunTime:0.0001s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `qm_users` SET `dshje`='50' WHERE ( id= )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `qm_users` SET `dshje`='50' WHERE ( id= )
+
+[ 2018-07-18T16:58:25+08:00 ] 119.164.77.23 /index.php/Home/Index/zcxx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000236s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=17076012243 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_users` WHERE ( id=17605416927 ) LIMIT 1   [ RunTime:0.0001s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `qm_users` SET `dshje`='50' WHERE ( id= )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `qm_users` SET `dshje`='50' WHERE ( id= )
+
+[ 2018-07-18T16:58:25+08:00 ] 119.164.77.23 /index.php/Home/Index/zcxx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=17076012243 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_users` WHERE ( id=17605416927 ) LIMIT 1   [ RunTime:0.0001s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `qm_users` SET `dshje`='50' WHERE ( id= )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `qm_users` SET `dshje`='50' WHERE ( id= )
+
+[ 2018-07-18T16:58:25+08:00 ] 119.164.77.23 /index.php/Home/Index/zcxx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000222s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=17076012243 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_users` WHERE ( id=17605416927 ) LIMIT 1   [ RunTime:0.0000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `qm_users` SET `dshje`='50' WHERE ( id= )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `qm_users` SET `dshje`='50' WHERE ( id= )
+
+[ 2018-07-18T16:58:26+08:00 ] 119.164.77.23 /index.php/Home/Index/zcxx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=17076012243 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_users` WHERE ( id=17605416927 ) LIMIT 1   [ RunTime:0.0001s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `qm_users` SET `dshje`='50' WHERE ( id= )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `qm_users` SET `dshje`='50' WHERE ( id= )
+
+[ 2018-07-18T16:58:41+08:00 ] 183.61.51.62 /index.php/Home/index/rwmzc?uid=882657
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000245s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `qm_users` WHERE ( id=882657 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002685s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002703s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000389s ]
+
+[ 2018-07-18T16:58:56+08:00 ] 119.164.77.23 /index.php/Home/index/rwmzc?uid=882657
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_users` WHERE ( id=882657 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003442s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000082s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000335s ]
+
+[ 2018-07-18T16:59:03+08:00 ] 119.164.77.23 /index.php/Home/index/rwmzc?uid=882657
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000252s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_users` WHERE ( id=882657 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002654s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002670s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000235s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000248s ]
+
+[ 2018-07-18T16:59:24+08:00 ] 119.164.77.23 /index.php/Home/Index/yzm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000242s ]
+
+[ 2018-07-18T16:59:33+08:00 ] 119.164.77.23 /index.php/Home/Index/zcxx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000239s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=17076012243 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_users` WHERE ( id=17605416927 ) LIMIT 1   [ RunTime:0.0000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `qm_users` SET `dshje`='50' WHERE ( id= )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `qm_users` SET `dshje`='50' WHERE ( id= )
+
+[ 2018-07-18T17:00:23+08:00 ] 119.164.77.23 /index.php/Home/Index/zcxx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000260s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=17076012243 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: resss /www/wwwroot/dai.juhuaian.cn/Application/Home/Controller/IndexController.class.php 第 392 行.
+SQL: INSERT INTO `qm_users` (`id`,`phone`,`username`,`password`,`fid`,`pic`,`addtime`) VALUES ('95876213','17076012243','17076012243','e10adc3949ba59abbe56e057f20f883e',NULL,'/img/mr.jpg','1531904423') [ RunTime:0.0002s ]
+
+[ 2018-07-18T17:00:32+08:00 ] 119.164.77.23 /index.php/Home/Index/zcxx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000225s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=17076012243 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-07-18T17:01:18+08:00 ] 119.164.77.23 /index.php/Home/index/rwmzc?uid=882657
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_users` WHERE ( id=882657 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003193s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003210s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000323s ]
+
+[ 2018-07-18T17:01:30+08:00 ] 119.164.77.23 /index.php/Home/Index/yzm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000224s ]
+
+[ 2018-07-18T17:01:39+08:00 ] 119.164.77.23 /index.php/Home/Index/zcxx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000272s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=17076012243 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-07-18T17:02:47+08:00 ] 119.164.77.23 /index.php/Home/Index/zcxx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000234s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=17076012243 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qm_users` WHERE ( id=17605416927 ) LIMIT 1   [ RunTime:0.0001s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `qm_users` SET `dshje`='50' WHERE ( id= )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `qm_users` SET `dshje`='50' WHERE ( id= )
+
+[ 2018-07-18T17:03:05+08:00 ] 119.164.77.23 /index.php/Home/Index/zcxx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=17076012243 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_users` WHERE ( id=17605416927 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-07-18T17:03:28+08:00 ] 119.164.77.23 /index.php/Home/Index/zcxx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=17076012243 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_users` WHERE ( id=17605416927 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-07-18T17:03:56+08:00 ] 119.164.77.23 /index.php/Home/Index/zcxx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000257s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=17076012243 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=17605416927 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-07-18T17:04:12+08:00 ] 119.164.77.23 /index.php/Home/Index/zcxx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000265s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=17076012243 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=17605416927 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `qm_users` SET `dshje`='50' WHERE ( id=882657 ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=17605416927 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `qm_users` (`id`,`phone`,`username`,`password`,`fid`,`pic`,`addtime`) VALUES ('39402865','17076012243','17076012243','4297f44b13955235245b2497399d7a93','882657','/img/mr.jpg','1531904652') [ RunTime:0.0001s ]
+
+[ 2018-07-18T17:13:21+08:00 ] 119.164.77.23 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000255s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003738s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003756s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000256s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000270s ]
+
+[ 2018-07-18T18:30:12+08:00 ] 120.92.11.126 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003902s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003920s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000251s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000264s ]
+
+[ 2018-07-18T18:30:12+08:00 ] 120.92.11.155 /index.php/Home/Index/inslist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+NOTIC: [8] Undefined index: name /www/wwwroot/dai.juhuaian.cn/Application/Home/Controller/IndexController.class.php 第 347 行.
+NOTIC: [8] Undefined index: applyMoney /www/wwwroot/dai.juhuaian.cn/Application/Home/Controller/IndexController.class.php 第 348 行.
+NOTIC: [8] Undefined index: phone /www/wwwroot/dai.juhuaian.cn/Application/Home/Controller/IndexController.class.php 第 349 行.
+NOTIC: [8] Undefined index: hcityt /www/wwwroot/dai.juhuaian.cn/Application/Home/Controller/IndexController.class.php 第 350 行.
+SQL: SHOW COLUMNS FROM `qm_list` [ RunTime:0.0004s ]
+ERR: 1048:Column 'name' cannot be null
+ [ SQL语句 ] : INSERT INTO `qm_list` (`name`,`money`,`phone`,`res`,`addtime`) VALUES (NULL,NULL,NULL,NULL,'2018-07-18 18:30')
+ERR: 1048:Column 'name' cannot be null
+ [ SQL语句 ] : INSERT INTO `qm_list` (`name`,`money`,`phone`,`res`,`addtime`) VALUES (NULL,NULL,NULL,NULL,'2018-07-18 18:30')
+
+[ 2018-07-18T20:22:04+08:00 ] 119.164.77.23 /index.php/Home/Index/zcxx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000227s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=17076012243 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=17605416927 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `qm_users` SET `dshje`='50' WHERE ( id=882657 ) [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=17605416927 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `qm_users` (`id`,`phone`,`username`,`password`,`fid`,`pic`,`addtime`) VALUES ('35970216','17076012243','17076012243','4297f44b13955235245b2497399d7a93','882657','/img/mr.jpg','1531916524') [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: result /www/wwwroot/dai.juhuaian.cn/Application/Home/Controller/IndexController.class.php 第 399 行.
+NOTIC: [8] Undefined variable:  /www/wwwroot/dai.juhuaian.cn/Application/Home/Controller/IndexController.class.php 第 399 行.
+ERR: 1146:Table 'dai.qm_id=' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `qm_id=`
+ERR: 1146:Table 'dai.qm_id=' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `qm_id=`
+
+[ 2018-07-18T20:22:08+08:00 ] 119.164.77.23 /index.php/Home/Index/zcxx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=17076012243 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-07-18T20:28:39+08:00 ] 119.164.77.23 /index.php/Home/Index/zcxx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000220s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=17076012243 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=17605416927 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `qm_users` SET `dshje`='50' WHERE ( id=882657 ) [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=17605416927 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `qm_users` (`id`,`phone`,`username`,`password`,`fid`,`pic`,`addtime`) VALUES ('12097648','17076012243','17076012243','4297f44b13955235245b2497399d7a93','882657','/img/mr.jpg','1531916919') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_sx` [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: result /www/wwwroot/dai.juhuaian.cn/Application/Home/Controller/IndexController.class.php 第 399 行.
+NOTIC: [8] Undefined variable:  /www/wwwroot/dai.juhuaian.cn/Application/Home/Controller/IndexController.class.php 第 399 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `qm_sx` WHERE ( id= ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `qm_sx` WHERE ( id= ) LIMIT 1  
+
+[ 2018-07-18T20:28:48+08:00 ] 119.164.77.23 /index.php/Home/Index/zcxx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000257s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=17076012243 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-07-18T20:30:34+08:00 ] 119.164.77.23 /index.php/Home/Index/zcxx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=17076012243 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=17605416927 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `qm_users` SET `dshje`='50' WHERE ( id=882657 ) [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=17605416927 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `qm_users` (`id`,`phone`,`username`,`password`,`fid`,`pic`,`addtime`) VALUES ('53174806','17076012243','17076012243','4297f44b13955235245b2497399d7a93','882657','/img/mr.jpg','1531917034') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_sx` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_sx` WHERE ( id=53174806 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_users` WHERE ( id=17605416927 ) LIMIT 1   [ RunTime:0.0001s ]
+ERR: 1048:Column 'uid' cannot be null
+ [ SQL语句 ] : INSERT INTO `qm_sx` (`data`,`uid`,`addtime`) VALUES ('您推广的用户已注册成功！资金已反到待审核金额中，请协助您的下级用户开通会员后已获得该佣金。',NULL,'2018-07-18 08:30:34')
+ERR: 1048:Column 'uid' cannot be null
+ [ SQL语句 ] : INSERT INTO `qm_sx` (`data`,`uid`,`addtime`) VALUES ('您推广的用户已注册成功！资金已反到待审核金额中，请协助您的下级用户开通会员后已获得该佣金。',NULL,'2018-07-18 08:30:34')
+
+[ 2018-07-18T20:31:49+08:00 ] 119.164.77.23 /index.php/Home/Index/zcxx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000229s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=17076012243 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=17605416927 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `qm_users` SET `dshje`='50' WHERE ( id=882657 ) [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=17605416927 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `qm_users` (`id`,`phone`,`username`,`password`,`fid`,`pic`,`addtime`) VALUES ('13052869','17076012243','17076012243','4297f44b13955235245b2497399d7a93','882657','/img/mr.jpg','1531917109') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_sx` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_sx` WHERE ( id=13052869 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-07-18T20:33:01+08:00 ] 119.164.77.23 /index.php/Home/Index/zcxx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=17076012243 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-07-18T20:33:19+08:00 ] 119.164.77.23 /index.php/Home/Index/zcxx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000264s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=17076012243 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=17605416927 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `qm_users` SET `dshje`='50' WHERE ( id=882657 ) [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=17605416927 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `qm_users` (`id`,`phone`,`username`,`password`,`fid`,`pic`,`addtime`) VALUES ('75281049','17076012243','17076012243','4297f44b13955235245b2497399d7a93','882657','/img/mr.jpg','1531917199') [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_users` WHERE ( id=75281049 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-07-18T20:33:38+08:00 ] 119.164.77.23 /index.php/Home/Index/zcxx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000258s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=17076012243 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=17605416927 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `qm_users` SET `dshje`='50' WHERE ( id=882657 ) [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=17605416927 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `qm_users` (`id`,`phone`,`username`,`password`,`fid`,`pic`,`addtime`) VALUES ('9641327','17076012243','17076012243','4297f44b13955235245b2497399d7a93','882657','/img/mr.jpg','1531917218') [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_users` WHERE ( id=9641327 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_users` WHERE ( id=17605416927 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qm_sx` [ RunTime:0.0003s ]
+ERR: 1048:Column 'uid' cannot be null
+ [ SQL语句 ] : INSERT INTO `qm_sx` (`data`,`uid`,`addtime`) VALUES ('您推广的用户17076012243已注册成功！资金已反到待审核金额中，请协助您的下级用户开通会员后已获得该佣金。',NULL,'2018-07-18 08:33:38')
+ERR: 1048:Column 'uid' cannot be null
+ [ SQL语句 ] : INSERT INTO `qm_sx` (`data`,`uid`,`addtime`) VALUES ('您推广的用户17076012243已注册成功！资金已反到待审核金额中，请协助您的下级用户开通会员后已获得该佣金。',NULL,'2018-07-18 08:33:38')
+
+[ 2018-07-18T20:35:35+08:00 ] 119.164.77.23 /index.php/Home/Index/zcxx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=17076012243 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-07-18T20:35:48+08:00 ] 119.164.77.23 /index.php/Home/Index/zcxx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000222s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=17076012243 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=17605416927 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `qm_users` SET `dshje`='50' WHERE ( id=882657 ) [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=17605416927 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `qm_users` (`id`,`phone`,`username`,`password`,`fid`,`pic`,`addtime`) VALUES ('14076532','17076012243','17076012243','4297f44b13955235245b2497399d7a93','882657','/img/mr.jpg','1531917348') [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_users` WHERE ( id=14076532 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone=17605416927 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_sx` [ RunTime:0.0002s ]
+SQL: INSERT INTO `qm_sx` (`data`,`uid`,`addtime`) VALUES ('您推广的用户17076012243已注册成功！资金已反到待审核金额中，请协助您的下级用户开通会员后已获得该佣金。','882657','2018-07-18 08:35:48') [ RunTime:0.0047s ]
+
+[ 2018-07-18T22:13:13+08:00 ] 119.27.168.193 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000266s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006044s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006062s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001917s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001933s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000322s ]
+
+[ 2018-07-18T22:13:14+08:00 ] 119.27.168.193 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000237s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003756s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003786s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000271s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000285s ]
+

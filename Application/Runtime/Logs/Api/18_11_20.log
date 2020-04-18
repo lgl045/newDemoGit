@@ -1,0 +1,15 @@
+[ 2018-11-20T09:24:24+08:00 ] 124.133.153.86 /index.php/Api/index/fllist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+SQL: SHOW COLUMNS FROM `qm_fl` [ RunTime:0.0238s ]
+SQL: SELECT * FROM `qm_fl` WHERE ( prentid=0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fl` WHERE ( prentid=6 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_fl` WHERE ( prentid=7 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_fl` WHERE ( prentid=11 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_fl` WHERE ( prentid=12 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_fl` WHERE ( prentid=14 )  [ RunTime:0.0001s ]
+

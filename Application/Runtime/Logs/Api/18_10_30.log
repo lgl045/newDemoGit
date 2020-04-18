@@ -1,0 +1,1086 @@
+[ 2018-10-30T00:08:31+08:00 ] 223.104.189.227 /index.php/Api/Index/ones
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000311s ]
+SQL: SHOW COLUMNS FROM `qm_zxkzs` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_zxkzs` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0001s ]
+
+[ 2018-10-30T07:26:18+08:00 ] 117.136.37.68 /index.php/Api/Index/ones
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000300s ]
+SQL: SHOW COLUMNS FROM `qm_zxkzs` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_zxkzs` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0001s ]
+
+[ 2018-10-30T07:52:57+08:00 ] 117.136.37.245 /index.php/Api/Index/ones
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+SQL: SHOW COLUMNS FROM `qm_zxkzs` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_zxkzs` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0001s ]
+
+[ 2018-10-30T08:17:20+08:00 ] 223.99.3.111 /index.php/Api/Index/ones
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000281s ]
+SQL: SHOW COLUMNS FROM `qm_zxkzs` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_zxkzs` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0001s ]
+
+[ 2018-10-30T08:23:18+08:00 ] 223.99.3.111 /index.php/Api/Index/ones
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `qm_zxkzs` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_zxkzs` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0001s ]
+
+[ 2018-10-30T10:43:08+08:00 ] 118.206.154.238 /index.php/Api/Index/ticity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/dai.juhuaian.cn/Application/Api/Controller/IndexController.class.php 第 207 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `qm_users` SET `city`='济南市' WHERE ( id= )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `qm_users` SET `city`='济南市' WHERE ( id= )
+
+[ 2018-10-30T10:43:08+08:00 ] 118.206.154.238 /index.php/Api/Index/lblist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+SQL: SHOW COLUMNS FROM `qm_lb` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qm_lb` WHERE ( stat=1 )  [ RunTime:0.0001s ]
+
+[ 2018-10-30T10:43:08+08:00 ] 118.206.154.238 /index.php/Api/Index/zxkz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `qm_zxkz` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_zxkz` WHERE ( stat=1  ) ORDER BY id desc LIMIT 0,5   [ RunTime:0.0001s ]
+
+[ 2018-10-30T10:43:08+08:00 ] 118.206.154.238 /index.php/Api/Index/xyk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000307s ]
+SQL: SHOW COLUMNS FROM `qm_zxkz` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_zxkz` WHERE ( stat=2 ) ORDER BY id desc LIMIT 0,5   [ RunTime:0.0001s ]
+
+[ 2018-10-30T10:43:09+08:00 ] 118.206.154.238 /index.php/Api/Index/gh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `qm_zxkz` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_zxkz` WHERE ( stat=3 ) ORDER BY id desc LIMIT 0,5   [ RunTime:0.0001s ]
+
+[ 2018-10-30T10:43:09+08:00 ] 118.206.154.238 /index.php/Api/Index/tjcp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000286s ]
+SQL: SHOW COLUMNS FROM `qm_product` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_product` WHERE ( iszx=1 )  [ RunTime:0.0001s ]
+
+[ 2018-10-30T10:43:12+08:00 ] 118.206.154.238 /index.php/Api/Index/getggfir
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+SQL: SHOW COLUMNS FROM `qm_gggl` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_gggl` ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-10-30T10:43:12+08:00 ] 118.206.154.238 /index.php/Api/Index/getggfir
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000275s ]
+SQL: SHOW COLUMNS FROM `qm_gggl` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_gggl` ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-10-30T10:43:47+08:00 ] 118.206.154.238 /index.php/Api/Index/lblist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM `qm_lb` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_lb` WHERE ( stat=1 )  [ RunTime:0.0001s ]
+
+[ 2018-10-30T10:43:48+08:00 ] 118.206.154.238 /index.php/Api/Index/zxkz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `qm_zxkz` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_zxkz` WHERE ( stat=1  ) ORDER BY id desc LIMIT 0,5   [ RunTime:0.0001s ]
+
+[ 2018-10-30T10:43:48+08:00 ] 118.206.154.238 /index.php/Api/Index/xyk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000280s ]
+SQL: SHOW COLUMNS FROM `qm_zxkz` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_zxkz` WHERE ( stat=2 ) ORDER BY id desc LIMIT 0,5   [ RunTime:0.0001s ]
+
+[ 2018-10-30T10:43:48+08:00 ] 118.206.154.238 /index.php/Api/Index/gh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `qm_zxkz` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_zxkz` WHERE ( stat=3 ) ORDER BY id desc LIMIT 0,5   [ RunTime:0.0001s ]
+
+[ 2018-10-30T10:43:48+08:00 ] 118.206.154.238 /index.php/Api/Index/tjcp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `qm_product` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_product` WHERE ( iszx=1 )  [ RunTime:0.0001s ]
+
+[ 2018-10-30T10:43:49+08:00 ] 118.206.154.238 /index.php/Api/Index/ticity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/dai.juhuaian.cn/Application/Api/Controller/IndexController.class.php 第 207 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `qm_users` SET `city`='济南市' WHERE ( id= )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `qm_users` SET `city`='济南市' WHERE ( id= )
+
+[ 2018-10-30T10:43:49+08:00 ] 118.206.154.238 /index.php/Api/Index/getggfir
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000298s ]
+SQL: SHOW COLUMNS FROM `qm_gggl` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_gggl` ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-10-30T10:43:50+08:00 ] 118.206.154.238 /index.php/Api/Index/getggfir
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+SQL: SHOW COLUMNS FROM `qm_gggl` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qm_gggl` ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-10-30T10:43:56+08:00 ] 118.206.154.238 /index.php/Api/Index/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000297s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone='15753115103' AND password='25f9e794323b453885f5181f1b624d0b' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone='15753115103' ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-10-30T10:44:05+08:00 ] 118.206.154.238 /index.php/Api/Index/IsMerber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone ='15753115103' ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-10-30T10:44:32+08:00 ] 118.206.154.238 /index.php/Api/Index/doregister
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000282s ]
+NOTIC: [8] Undefined index: fid /www/wwwroot/dai.juhuaian.cn/Application/Api/Controller/IndexController.class.php 第 132 行.
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0005s ]
+SQL: INSERT INTO `qm_users` (`id`,`phone`,`username`,`password`,`pic`,`addtime`) VALUES ('761298','15753115103','15753115103','247e0259a4c24ea35e8e6b5ee8d18f55','/img/mr.jpg','1540867472') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: fid /www/wwwroot/dai.juhuaian.cn/Application/Api/Controller/IndexController.class.php 第 141 行.
+
+[ 2018-10-30T10:44:44+08:00 ] 118.206.154.238 /index.php/Api/Index/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone='15753115103' AND password='247e0259a4c24ea35e8e6b5ee8d18f55' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_users` WHERE ( phone='15753115103' ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-10-30T10:44:58+08:00 ] 118.206.154.238 /index.php/Api/Index/jxz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `qm_jilu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qm_jilu` WHERE ( `stat` = 3 OR `stat` = 1 OR `stat` = 0 ) AND `uid` = 761298  [ RunTime:0.0002s ]
+
+[ 2018-10-30T10:44:58+08:00 ] 118.206.154.238 /index.php/Api/Index/productfl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000283s ]
+SQL: SHOW COLUMNS FROM `qm_product` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_product` WHERE ( fid=2 ) ORDER BY px asc  [ RunTime:0.0001s ]
+
+[ 2018-10-30T10:44:59+08:00 ] 118.206.154.238 /index.php/Api/Index/productfl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `qm_product` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qm_product` WHERE ( fid=1 ) ORDER BY px asc  [ RunTime:0.0002s ]
+
+[ 2018-10-30T10:44:59+08:00 ] 118.206.154.238 /index.php/Api/Index/wc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000269s ]
+SQL: SHOW COLUMNS FROM `qm_jilu` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_jilu` WHERE ( uid=761298 and stat =2  )  [ RunTime:0.0002s ]
+
+[ 2018-10-30T10:45:00+08:00 ] 118.206.154.238 /index.php/Api/Index/productfl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `qm_product` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_product` WHERE ( fid=10 ) ORDER BY px asc  [ RunTime:0.0001s ]
+
+[ 2018-10-30T10:45:00+08:00 ] 118.206.154.238 /index.php/Api/Index/hqhh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `qm_hh` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_hh` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-10-30T10:45:11+08:00 ] 118.206.154.238 /index.php/Api/Index/cpxq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000284s ]
+SQL: SHOW COLUMNS FROM `qm_product` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_product` WHERE ( id=129 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-10-30T10:45:57+08:00 ] 118.206.154.238 /index.php/Api/Index/getdkbj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000297s ]
+SQL: SHOW COLUMNS FROM `qm_dkbjt` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_dkbjt` WHERE ( pid=129 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-10-30T10:51:05+08:00 ] 117.136.77.57 /index.php/Api/Index/lblist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+SQL: SHOW COLUMNS FROM `qm_lb` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_lb` WHERE ( stat=1 )  [ RunTime:0.0001s ]
+
+[ 2018-10-30T10:51:05+08:00 ] 117.136.77.57 /index.php/Api/Index/zxkz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+SQL: SHOW COLUMNS FROM `qm_zxkz` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_zxkz` WHERE ( stat=1  ) ORDER BY id desc LIMIT 0,5   [ RunTime:0.0001s ]
+
+[ 2018-10-30T10:51:06+08:00 ] 117.136.77.57 /index.php/Api/Index/xyk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `qm_zxkz` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_zxkz` WHERE ( stat=2 ) ORDER BY id desc LIMIT 0,5   [ RunTime:0.0001s ]
+
+[ 2018-10-30T10:51:06+08:00 ] 117.136.77.57 /index.php/Api/Index/ticity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0005s ]
+SQL: UPDATE `qm_users` SET `city`='济南市' WHERE ( id=676177 ) [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000294s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000326s ]
+
+[ 2018-10-30T10:51:06+08:00 ] 117.136.77.57 /index.php/Api/Index/gh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `qm_zxkz` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_zxkz` WHERE ( stat=3 ) ORDER BY id desc LIMIT 0,5   [ RunTime:0.0001s ]
+
+[ 2018-10-30T10:51:06+08:00 ] 117.136.77.57 /index.php/Api/Index/tjcp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `qm_product` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `qm_product` WHERE ( iszx=1 )  [ RunTime:0.0002s ]
+
+[ 2018-10-30T10:51:07+08:00 ] 117.136.77.57 /index.php/Api/Index/getggfir
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000270s ]
+SQL: SHOW COLUMNS FROM `qm_gggl` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_gggl` ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-10-30T10:51:07+08:00 ] 117.136.77.57 /index.php/Api/Index/getggfir
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000307s ]
+SQL: SHOW COLUMNS FROM `qm_gggl` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_gggl` ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-10-30T11:09:03+08:00 ] 223.104.190.3 /index.php/Api/Index/ones
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+SQL: SHOW COLUMNS FROM `qm_zxkzs` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `qm_zxkzs` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0001s ]
+
+[ 2018-10-30T12:34:09+08:00 ] 223.99.3.109 /index.php/Api/Index/ones
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `qm_zxkzs` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_zxkzs` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0001s ]
+
+[ 2018-10-30T12:41:02+08:00 ] 223.104.190.3 /index.php/Api/Index/ones
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+SQL: SHOW COLUMNS FROM `qm_zxkzs` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_zxkzs` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0001s ]
+
+[ 2018-10-30T12:41:52+08:00 ] 223.104.190.3 /index.php/Api/Index/ones
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000287s ]
+SQL: SHOW COLUMNS FROM `qm_zxkzs` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_zxkzs` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0001s ]
+
+[ 2018-10-30T12:45:52+08:00 ] 223.104.190.3 /index.php/Api/Index/ones
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `qm_zxkzs` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_zxkzs` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0001s ]
+
+[ 2018-10-30T13:34:27+08:00 ] 223.104.187.56 /index.php/Api/Index/ones
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+SQL: SHOW COLUMNS FROM `qm_zxkzs` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_zxkzs` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0001s ]
+
+[ 2018-10-30T14:43:33+08:00 ] 120.192.4.220 /index.php/Api/Index/lblist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `qm_lb` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_lb` WHERE ( stat=1 )  [ RunTime:0.0001s ]
+
+[ 2018-10-30T14:43:34+08:00 ] 120.192.4.220 /index.php/Api/Index/zxkz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000299s ]
+SQL: SHOW COLUMNS FROM `qm_zxkz` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_zxkz` WHERE ( stat=1  ) ORDER BY id desc LIMIT 0,5   [ RunTime:0.0001s ]
+
+[ 2018-10-30T14:43:34+08:00 ] 120.192.4.220 /index.php/Api/Index/xyk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `qm_zxkz` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qm_zxkz` WHERE ( stat=2 ) ORDER BY id desc LIMIT 0,5   [ RunTime:0.0001s ]
+
+[ 2018-10-30T14:43:35+08:00 ] 120.192.4.220 /index.php/Api/Index/gh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000286s ]
+SQL: SHOW COLUMNS FROM `qm_zxkz` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_zxkz` WHERE ( stat=3 ) ORDER BY id desc LIMIT 0,5   [ RunTime:0.0001s ]
+
+[ 2018-10-30T14:43:35+08:00 ] 120.192.4.220 /index.php/Api/Index/tjcp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000274s ]
+SQL: SHOW COLUMNS FROM `qm_product` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_product` WHERE ( iszx=1 )  [ RunTime:0.0001s ]
+
+[ 2018-10-30T14:43:35+08:00 ] 120.192.4.220 /index.php/Api/Index/ticity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0005s ]
+SQL: UPDATE `qm_users` SET `city`='济南市' WHERE ( id=50137986 ) [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000348s ]
+
+[ 2018-10-30T14:43:37+08:00 ] 120.192.4.220 /index.php/Api/Index/getggfir
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000298s ]
+SQL: SHOW COLUMNS FROM `qm_gggl` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `qm_gggl` ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-10-30T14:43:38+08:00 ] 120.192.4.220 /index.php/Api/Index/getggfir
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `qm_gggl` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_gggl` ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-10-30T14:43:43+08:00 ] 120.192.4.220 /index.php/Api/Index/obtaingg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000297s ]
+SQL: SHOW COLUMNS FROM `qm_gggl` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_gggl` ORDER BY id desc  [ RunTime:0.0001s ]
+
+[ 2018-10-30T14:43:43+08:00 ] 120.192.4.220 /index.php/Api/Index/sxlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+SQL: SHOW COLUMNS FROM `qm_sx` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_sx` WHERE ( uid=50137986 ) ORDER BY id desc  [ RunTime:0.0031s ]
+
+[ 2018-10-30T14:43:43+08:00 ] 120.192.4.220 /index.php/Api/Index/medata
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000282s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_users` WHERE ( id=50137986 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-10-30T14:43:43+08:00 ] 120.192.4.220 /index.php/Api/Index/medata
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_users` WHERE ( id=35124876 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-10-30T14:43:53+08:00 ] 120.192.4.220 /index.php/Api/Index/srmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `qm_srmx` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_srmx` WHERE ( uid=50137986 )  [ RunTime:0.0002s ]
+
+[ 2018-10-30T15:17:45+08:00 ] 117.136.37.166 /index.php/Api/Index/ones
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+SQL: SHOW COLUMNS FROM `qm_zxkzs` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `qm_zxkzs` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0001s ]
+
+[ 2018-10-30T16:13:10+08:00 ] 58.251.121.184 /index.php/Api/Index/xyk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `qm_zxkz` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: z /www/wwwroot/dai.juhuaian.cn/Application/Api/Controller/IndexController.class.php 第 283 行.
+NOTIC: [8] Undefined index: y /www/wwwroot/dai.juhuaian.cn/Application/Api/Controller/IndexController.class.php 第 283 行.
+SQL: SELECT * FROM `qm_zxkz` WHERE ( stat=2 ) ORDER BY id desc  [ RunTime:0.0001s ]
+
+[ 2018-10-30T19:19:21+08:00 ] 117.136.77.57 /index.php/Api/Index/lblist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+SQL: SHOW COLUMNS FROM `qm_lb` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_lb` WHERE ( stat=1 )  [ RunTime:0.0001s ]
+
+[ 2018-10-30T19:19:21+08:00 ] 117.136.77.57 /index.php/Api/Index/ticity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0006s ]
+SQL: UPDATE `qm_users` SET `city`='济南市' WHERE ( id=676177 ) [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000381s ]
+
+[ 2018-10-30T19:19:21+08:00 ] 117.136.77.57 /index.php/Api/Index/zxkz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `qm_zxkz` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_zxkz` WHERE ( stat=1  ) ORDER BY id desc LIMIT 0,5   [ RunTime:0.0001s ]
+
+[ 2018-10-30T19:19:21+08:00 ] 117.136.77.57 /index.php/Api/Index/xyk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000279s ]
+SQL: SHOW COLUMNS FROM `qm_zxkz` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_zxkz` WHERE ( stat=2 ) ORDER BY id desc LIMIT 0,5   [ RunTime:0.0001s ]
+
+[ 2018-10-30T19:19:22+08:00 ] 117.136.77.57 /index.php/Api/Index/gh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `qm_zxkz` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_zxkz` WHERE ( stat=3 ) ORDER BY id desc LIMIT 0,5   [ RunTime:0.0001s ]
+
+[ 2018-10-30T20:39:05+08:00 ] 116.210.71.18 /index.php/Api/Index/lblist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000280s ]
+SQL: SHOW COLUMNS FROM `qm_lb` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_lb` WHERE ( stat=1 )  [ RunTime:0.0001s ]
+
+[ 2018-10-30T20:39:06+08:00 ] 116.210.71.18 /index.php/Api/Index/zxkz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `qm_zxkz` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_zxkz` WHERE ( stat=1  ) ORDER BY id desc LIMIT 0,5   [ RunTime:0.0001s ]
+
+[ 2018-10-30T20:39:06+08:00 ] 116.210.71.18 /index.php/Api/Index/xyk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000286s ]
+SQL: SHOW COLUMNS FROM `qm_zxkz` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_zxkz` WHERE ( stat=2 ) ORDER BY id desc LIMIT 0,5   [ RunTime:0.0001s ]
+
+[ 2018-10-30T20:39:06+08:00 ] 116.210.71.18 /index.php/Api/Index/gh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000293s ]
+SQL: SHOW COLUMNS FROM `qm_zxkz` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_zxkz` WHERE ( stat=3 ) ORDER BY id desc LIMIT 0,5   [ RunTime:0.0001s ]
+
+[ 2018-10-30T20:39:06+08:00 ] 116.210.71.18 /index.php/Api/Index/ticity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000307s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0006s ]
+SQL: UPDATE `qm_users` SET `city`='恩施土家族苗族自治州' WHERE ( id=13206478 ) [ RunTime:0.0002s ]
+
+[ 2018-10-30T20:39:06+08:00 ] 116.210.71.18 /index.php/Api/Index/tjcp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+SQL: SHOW COLUMNS FROM `qm_product` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_product` WHERE ( iszx=1 )  [ RunTime:0.0001s ]
+
+[ 2018-10-30T20:39:07+08:00 ] 116.210.71.18 /index.php/Api/Index/getggfir
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+SQL: SHOW COLUMNS FROM `qm_gggl` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_gggl` ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-10-30T20:39:07+08:00 ] 116.210.71.18 /index.php/Api/Index/getggfir
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+SQL: SHOW COLUMNS FROM `qm_gggl` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_gggl` ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-10-30T20:39:18+08:00 ] 116.210.71.18 /index.php/Api/Index/dtzq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000281s ]
+SQL: SHOW COLUMNS FROM `qm_dt` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `qm_dt` ORDER BY px asc  [ RunTime:0.0002s ]
+
+[ 2018-10-30T20:39:21+08:00 ] 116.210.71.18 /index.php/Api/Index/bgt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+SQL: SHOW COLUMNS FROM `qm_dt` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_dt` WHERE ( id=105 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-10-30T20:39:23+08:00 ] 116.210.71.18 /index.php/Api/Index/ewm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `qm_dt` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_dt` WHERE ( id=105 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-10-30T20:39:29+08:00 ] 116.210.71.18 /index.php/Api/Index/productfl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `qm_product` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_product` WHERE ( fid=1 ) ORDER BY px asc  [ RunTime:0.0003s ]
+
+[ 2018-10-30T20:39:30+08:00 ] 116.210.71.18 /index.php/Api/Index/jxz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `qm_jilu` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_jilu` WHERE ( `stat` = 3 OR `stat` = 1 OR `stat` = 0 ) AND `uid` = 13206478  [ RunTime:0.0001s ]
+
+[ 2018-10-30T20:39:30+08:00 ] 116.210.71.18 /index.php/Api/Index/productfl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `qm_product` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_product` WHERE ( fid=2 ) ORDER BY px asc  [ RunTime:0.0001s ]
+
+[ 2018-10-30T20:39:30+08:00 ] 116.210.71.18 /index.php/Api/Index/wc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000293s ]
+SQL: SHOW COLUMNS FROM `qm_jilu` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_jilu` WHERE ( uid=13206478 and stat =2  )  [ RunTime:0.0001s ]
+
+[ 2018-10-30T20:39:30+08:00 ] 116.210.71.18 /index.php/Api/Index/productfl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `qm_product` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_product` WHERE ( fid=10 ) ORDER BY px asc  [ RunTime:0.0001s ]
+
+[ 2018-10-30T20:39:30+08:00 ] 116.210.71.18 /index.php/Api/Index/hqhh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `qm_hh` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_hh` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-10-30T20:39:35+08:00 ] 116.210.71.18 /index.php/Api/Index/obtaingg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000286s ]
+SQL: SHOW COLUMNS FROM `qm_gggl` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_gggl` ORDER BY id desc  [ RunTime:0.0001s ]
+
+[ 2018-10-30T20:39:35+08:00 ] 116.210.71.18 /index.php/Api/Index/medata
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_users` WHERE ( id=13206478 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-10-30T20:39:35+08:00 ] 116.210.71.18 /index.php/Api/Index/medata
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000310s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_users` WHERE ( id=58013627 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-10-30T20:39:35+08:00 ] 116.210.71.18 /index.php/Api/Index/sxlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `qm_sx` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_sx` WHERE ( uid=13206478 ) ORDER BY id desc  [ RunTime:0.0001s ]
+
+[ 2018-10-30T20:39:38+08:00 ] 116.210.71.18 /index.php/Api/Index/vip_1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM `qm_vipcz` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_vipcz` WHERE ( stat=1 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-10-30T20:39:38+08:00 ] 116.210.71.18 /index.php/Api/Index/vip_2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `qm_vipcz` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_vipcz` WHERE ( stat=2 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-10-30T20:39:38+08:00 ] 116.210.71.18 /index.php/Api/Index/vip_3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `qm_vipcz` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_vipcz` WHERE ( stat=3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-10-30T20:39:38+08:00 ] 116.210.71.18 /index.php/Api/Index/viplb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000298s ]
+SQL: SHOW COLUMNS FROM `qm_lb` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_lb` WHERE ( stat=2 )  [ RunTime:0.0001s ]
+
+[ 2018-10-30T20:39:48+08:00 ] 116.210.71.18 /index.php/Api/Index/dtzq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000289s ]
+SQL: SHOW COLUMNS FROM `qm_dt` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_dt` ORDER BY px asc  [ RunTime:0.0002s ]
+
+[ 2018-10-30T20:39:50+08:00 ] 116.210.71.18 /index.php/Api/Index/bgt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `qm_dt` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qm_dt` WHERE ( id=105 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-10-30T23:32:07+08:00 ] 117.136.32.90 /index.php/Api/Index/lblist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+SQL: SHOW COLUMNS FROM `qm_lb` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_lb` WHERE ( stat=1 )  [ RunTime:0.0001s ]
+
+[ 2018-10-30T23:32:07+08:00 ] 117.136.32.90 /index.php/Api/Index/zxkz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `qm_zxkz` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_zxkz` WHERE ( stat=1  ) ORDER BY id desc LIMIT 0,5   [ RunTime:0.0001s ]
+
+[ 2018-10-30T23:32:08+08:00 ] 117.136.32.90 /index.php/Api/Index/xyk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM `qm_zxkz` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qm_zxkz` WHERE ( stat=2 ) ORDER BY id desc LIMIT 0,5   [ RunTime:0.0001s ]
+
+[ 2018-10-30T23:32:09+08:00 ] 117.136.32.90 /index.php/Api/Index/ticity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000293s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0005s ]
+SQL: UPDATE `qm_users` SET `city`='广州市' WHERE ( id=5143796 ) [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000319s ]
+
+[ 2018-10-30T23:32:09+08:00 ] 117.136.32.90 /index.php/Api/Index/gh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `qm_zxkz` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_zxkz` WHERE ( stat=3 ) ORDER BY id desc LIMIT 0,5   [ RunTime:0.0001s ]
+
+[ 2018-10-30T23:32:11+08:00 ] 117.136.32.90 /index.php/Api/Index/tjcp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000300s ]
+SQL: SHOW COLUMNS FROM `qm_product` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `qm_product` WHERE ( iszx=1 )  [ RunTime:0.0001s ]
+
+[ 2018-10-30T23:32:13+08:00 ] 117.136.32.90 /index.php/Api/Index/medata
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_users` WHERE ( id=5143796 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-10-30T23:32:16+08:00 ] 117.136.32.90 /index.php/Api/Index/medata
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_users` WHERE ( id=83659 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-10-30T23:32:16+08:00 ] 117.136.32.90 /index.php/Api/Index/obtaingg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000284s ]
+SQL: SHOW COLUMNS FROM `qm_gggl` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_gggl` ORDER BY id desc  [ RunTime:0.0001s ]
+
+[ 2018-10-30T23:32:26+08:00 ] 117.136.32.90 /index.php/Api/Index/getggfir
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+SQL: SHOW COLUMNS FROM `qm_gggl` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_gggl` ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-10-30T23:32:31+08:00 ] 117.136.32.90 /index.php/Api/Index/getggfir
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000292s ]
+SQL: SHOW COLUMNS FROM `qm_gggl` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_gggl` ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-10-30T23:32:34+08:00 ] 117.136.32.90 /index.php/Api/Index/sxlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000273s ]
+SQL: SHOW COLUMNS FROM `qm_sx` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_sx` WHERE ( uid=5143796 ) ORDER BY id desc  [ RunTime:0.0031s ]
+

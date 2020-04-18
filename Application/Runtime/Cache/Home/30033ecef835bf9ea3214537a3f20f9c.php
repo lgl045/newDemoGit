@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?><img src="/Xx/qrcode/id/1" width="100" height="100"/>

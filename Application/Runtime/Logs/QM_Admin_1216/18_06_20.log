@@ -1,0 +1,110 @@
+[ 2018-06-20T14:22:01+08:00 ] 61.151.207.252 /index.php/QM_Admin_1216
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004098s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000268s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000283s ]
+
+[ 2018-06-20T14:22:07+08:00 ] 61.151.207.252 /index.php/QM_Admin_1216/Mgt/dsq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `qm_data` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qm_data`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+NOTIC: [8] Undefined variable: pageinfo /www/wwwroot/dai.juhuaian.cn/Application/Runtime/Cache/QM_Admin_1216/d8523ec92113949067aba165a3046d52.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014830s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014848s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000349s ]
+
+[ 2018-06-20T14:22:19+08:00 ] 61.151.207.252 /index.php/QM_Admin_1216/Mgt/xqdata/id/24
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000215s ]
+SQL: SHOW COLUMNS FROM `qm_data` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_data` WHERE ( id='24' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+NOTIC: [8] Undefined variable: name /www/wwwroot/dai.juhuaian.cn/Application/Runtime/Cache/QM_Admin_1216/ee10e7e9431fb07698f7443c16452d25.php 第 26 行.
+NOTIC: [8] Undefined variable: sex /www/wwwroot/dai.juhuaian.cn/Application/Runtime/Cache/QM_Admin_1216/ee10e7e9431fb07698f7443c16452d25.php 第 27 行.
+NOTIC: [8] Undefined variable: newphone /www/wwwroot/dai.juhuaian.cn/Application/Runtime/Cache/QM_Admin_1216/ee10e7e9431fb07698f7443c16452d25.php 第 28 行.
+NOTIC: [8] Undefined variable: lphone /www/wwwroot/dai.juhuaian.cn/Application/Runtime/Cache/QM_Admin_1216/ee10e7e9431fb07698f7443c16452d25.php 第 29 行.
+NOTIC: [8] Undefined variable: xl /www/wwwroot/dai.juhuaian.cn/Application/Runtime/Cache/QM_Admin_1216/ee10e7e9431fb07698f7443c16452d25.php 第 30 行.
+NOTIC: [8] Undefined variable: yx /www/wwwroot/dai.juhuaian.cn/Application/Runtime/Cache/QM_Admin_1216/ee10e7e9431fb07698f7443c16452d25.php 第 31 行.
+NOTIC: [8] Undefined variable: idcnu /www/wwwroot/dai.juhuaian.cn/Application/Runtime/Cache/QM_Admin_1216/ee10e7e9431fb07698f7443c16452d25.php 第 32 行.
+NOTIC: [8] Undefined variable: sfzyxq /www/wwwroot/dai.juhuaian.cn/Application/Runtime/Cache/QM_Admin_1216/ee10e7e9431fb07698f7443c16452d25.php 第 33 行.
+NOTIC: [8] Undefined variable: hjdz /www/wwwroot/dai.juhuaian.cn/Application/Runtime/Cache/QM_Admin_1216/ee10e7e9431fb07698f7443c16452d25.php 第 34 行.
+NOTIC: [8] Undefined variable: fzjg /www/wwwroot/dai.juhuaian.cn/Application/Runtime/Cache/QM_Admin_1216/ee10e7e9431fb07698f7443c16452d25.php 第 35 行.
+NOTIC: [8] Undefined variable: xzz /www/wwwroot/dai.juhuaian.cn/Application/Runtime/Cache/QM_Admin_1216/ee10e7e9431fb07698f7443c16452d25.php 第 36 行.
+NOTIC: [8] Undefined variable: gsmc /www/wwwroot/dai.juhuaian.cn/Application/Runtime/Cache/QM_Admin_1216/ee10e7e9431fb07698f7443c16452d25.php 第 37 行.
+NOTIC: [8] Undefined variable: zg /www/wwwroot/dai.juhuaian.cn/Application/Runtime/Cache/QM_Admin_1216/ee10e7e9431fb07698f7443c16452d25.php 第 38 行.
+NOTIC: [8] Undefined variable: gsdz /www/wwwroot/dai.juhuaian.cn/Application/Runtime/Cache/QM_Admin_1216/ee10e7e9431fb07698f7443c16452d25.php 第 39 行.
+NOTIC: [8] Undefined variable: gsdh /www/wwwroot/dai.juhuaian.cn/Application/Runtime/Cache/QM_Admin_1216/ee10e7e9431fb07698f7443c16452d25.php 第 40 行.
+NOTIC: [8] Undefined variable: bm /www/wwwroot/dai.juhuaian.cn/Application/Runtime/Cache/QM_Admin_1216/ee10e7e9431fb07698f7443c16452d25.php 第 41 行.
+NOTIC: [8] Undefined variable: zw /www/wwwroot/dai.juhuaian.cn/Application/Runtime/Cache/QM_Admin_1216/ee10e7e9431fb07698f7443c16452d25.php 第 42 行.
+NOTIC: [8] Undefined variable: nsr /www/wwwroot/dai.juhuaian.cn/Application/Runtime/Cache/QM_Admin_1216/ee10e7e9431fb07698f7443c16452d25.php 第 43 行.
+NOTIC: [8] Undefined variable: gznx /www/wwwroot/dai.juhuaian.cn/Application/Runtime/Cache/QM_Admin_1216/ee10e7e9431fb07698f7443c16452d25.php 第 44 行.
+NOTIC: [8] Undefined variable: sfyc /www/wwwroot/dai.juhuaian.cn/Application/Runtime/Cache/QM_Admin_1216/ee10e7e9431fb07698f7443c16452d25.php 第 45 行.
+NOTIC: [8] Undefined variable: cph /www/wwwroot/dai.juhuaian.cn/Application/Runtime/Cache/QM_Admin_1216/ee10e7e9431fb07698f7443c16452d25.php 第 46 行.
+NOTIC: [8] Undefined variable: fc /www/wwwroot/dai.juhuaian.cn/Application/Runtime/Cache/QM_Admin_1216/ee10e7e9431fb07698f7443c16452d25.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005245s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005260s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000351s ]
+
+[ 2018-06-20T14:22:40+08:00 ] 61.151.207.252 /index.php/QM_Admin_1216/Mgt/dsq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000220s ]
+SQL: SHOW COLUMNS FROM `qm_data` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_data`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+NOTIC: [8] Undefined variable: pageinfo /www/wwwroot/dai.juhuaian.cn/Application/Runtime/Cache/QM_Admin_1216/d8523ec92113949067aba165a3046d52.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003367s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003382s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000278s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000292s ]
+

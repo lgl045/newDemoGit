@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>商品--后台管理</title>
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="__PUBLIC__/layui/css/layui.css" media="all" />
+	<link rel="stylesheet" href="__PUBLIC__/css/font_eolqem241z66flxr.css" media="all" />
+	<link rel="stylesheet" href="__PUBLIC__/css/user.css" media="all" />
+	 <link rel="stylesheet" href="__PUBLIC__/css/bootstrap.min.css" media="all" />
+</head>
+<body class="childrenBody">
+	<blockquote class="layui-elem-quote news_search">
+		<div class="layui-inline">
+			<a href="javascript:void" class="layui-btn layui-btn-normal usersAdd_btn">分配给{$res["name"]}权限</a>
+		</div>
+	</blockquote>
+		<form action="__URL__/addpermissions" method="post"  enctype="multipart/form-data">
+		<div class="container">
+		<volist name="parent" id="pa">
+		<div  class="checkbox col-md-8">
+		&nbsp;&nbsp;&nbsp;
+		<input  type="checkbox" id="check" value="{$a=$pa['id']}"   <in name="a" value="$qxid">checked=checked</in> name="right_id[]">
+		{$pa['name']}
+	</div>
+	<br>
+	<hr>
+	<div  style="border: 1px dashed rgb(200,200,200);line-height: 30px;">
+		<volist name="pa[parent]" id="vos">
+		&nbsp;&nbsp;&nbsp;&nbsp;
+	    <input  type="checkbox" value="{$b=$vos['id']}"             <in name="b" value="$qxid">checked=checked</in> name="right_id[]">
+		{$vos["name"]}
+		</volist>
+	</div>
+	</volist>   
+	</div><br>
+	<div  style="margin-left: 100px" class="layui-inline">
+		<input  class="layui-btn layui-btn-normal usersAdd_btn" type="submit"  value="确认分配">
+		</div>
+		<!--role_id 角色id -->
+		<input type="hidden" name="role_id" value="{$res['id']}">
+	</form>
+	<script type="text/javascript" src="__PUBLIC__/layui/layui.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/jquery-2.1.1.min.js"></script>
+</body>
+<script>
+	$(function(){
+		$("#check ").click(function(){
+	    var n=$(this).prop("checked");
+		$(this).parent().next().next().next().find("input").prop("checked",n);         
+	    });
+	});
+</script>
+</html>

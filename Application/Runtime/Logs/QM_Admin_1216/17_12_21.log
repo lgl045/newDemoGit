@@ -1,0 +1,493 @@
+[ 2017-12-21T11:52:19+08:00 ] 183.57.53.177 /index.php/QM_Admin_1216/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id C:\phpStudy\WWW\Application\QM_Admin_1216\Controller\IndexController.class.php 第 6 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-21T17:45:39+08:00 ] 14.17.3.64 /index.php/QM_Admin_1216/Mgt/account
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_users` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_users` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2017-12-21T19:10:24+08:00 ] 119.147.207.152 /index.php/QM_Admin_1216/Login/checklogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: ername C:\phpStudy\WWW\Application\QM_Admin_1216\Controller\LoginController.class.php 第 11 行.
+NOTIC: [8] Undefined index: password C:\phpStudy\WWW\Application\QM_Admin_1216\Controller\LoginController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `qm_adminus` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_adminus` WHERE ( username='%s' AND password='%s' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-21T21:59:10+08:00 ] 60.216.187.163 /index.php/QM_Admin_1216
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id C:\phpStudy\WWW\Application\QM_Admin_1216\Controller\IndexController.class.php 第 6 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-21T21:59:12+08:00 ] 60.216.187.163 /index.php/QM_Admin_1216/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-21T21:59:20+08:00 ] 60.216.187.163 /index.php/QM_Admin_1216/Login/checklogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qm_adminus` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_adminus` WHERE ( username='ghd' AND password='966521' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-21T21:59:21+08:00 ] 60.216.187.163 /index.php/QM_Admin_1216/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-21T21:59:23+08:00 ] 60.216.187.163 /index.php/QM_Admin_1216/Index/img/icon/baidu.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-21T21:59:23+08:00 ] 60.216.187.163 /index.php/QM_Admin_1216/Index/img/presentation/1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-21T22:00:01+08:00 ] 60.216.187.163 /index.php/QM_Admin_1216/Mgt/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-21T22:00:05+08:00 ] 60.216.187.163 /index.php/QM_Admin_1216/Mgt/partner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qm_shop` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_shop` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_shop` LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_diqu` [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `qm_diqu` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `qm_diqu` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `qm_diqu` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `qm_diqu` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: pic1 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 72 行.
+NOTIC: [8] Undefined index: pic1 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 72 行.
+NOTIC: [8] Undefined index: pic1 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 72 行.
+NOTIC: [8] Undefined index: pic1 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 75 行.
+NOTIC: [8] Undefined index: pic2 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 83 行.
+NOTIC: [8] Undefined index: pic3 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 84 行.
+NOTIC: [8] Undefined index: pic1 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 72 行.
+NOTIC: [8] Undefined index: pic1 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 72 行.
+NOTIC: [8] Undefined index: pic1 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 72 行.
+NOTIC: [8] Undefined index: pic1 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 75 行.
+NOTIC: [8] Undefined index: pic2 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 83 行.
+NOTIC: [8] Undefined index: pic3 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 84 行.
+NOTIC: [8] Undefined index: pic1 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 72 行.
+NOTIC: [8] Undefined index: pic1 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 72 行.
+NOTIC: [8] Undefined index: pic1 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 72 行.
+NOTIC: [8] Undefined index: pic1 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 75 行.
+NOTIC: [8] Undefined index: pic2 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 83 行.
+NOTIC: [8] Undefined index: pic3 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 84 行.
+NOTIC: [8] Undefined index: pic1 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 72 行.
+NOTIC: [8] Undefined index: pic1 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 72 行.
+NOTIC: [8] Undefined index: pic1 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 72 行.
+NOTIC: [8] Undefined index: pic1 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 75 行.
+NOTIC: [8] Undefined index: pic2 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 83 行.
+NOTIC: [8] Undefined index: pic3 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-21T22:00:05+08:00 ] 60.216.187.163 /index.php/QM_Admin_1216/Mgt/Public/2017-11-28/5a1d3dea1ce675.93438439.jpeg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:Public
+
+[ 2017-12-21T22:00:05+08:00 ] 60.216.187.163 /index.php/QM_Admin_1216/Mgt/Public/2017-11-03/072FB202-A16D-4501-B7B5-23DE94C4BCC4-2654-0000024AEAE5524C.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-21T22:00:05+08:00 ] 60.216.187.163 /index.php/QM_Admin_1216/Mgt/Public/2017-11-03/4A619AD3-3144-48BF-9ECC-CB2949EB1201-23369-00002402B0174C66.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-21T22:00:05+08:00 ] 60.216.187.163 /index.php/QM_Admin_1216/Mgt/Public/2017-11-03/1FA5462F-93AB-4DBC-8745-C41EC71A9C6D-5649-00000D1EBF7C3300.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-21T22:00:10+08:00 ] 60.216.187.163 /index.php/QM_Admin_1216/Mgt/commodity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` ORDER BY code,addtime desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-21T22:00:10+08:00 ] 60.216.187.163 /index.php/QM_Admin_1216/Mgt/Public/2017-11-08/image_lib_201711080935553_src.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-21T22:00:10+08:00 ] 60.216.187.163 /index.php/QM_Admin_1216/Mgt/Public/2017-11-04/image_lib_201711041927090_src.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-21T22:00:10+08:00 ] 60.216.187.163 /index.php/QM_Admin_1216/Mgt/Public/2017-11-03/image_lib_201711030125322_src.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-21T22:00:10+08:00 ] 60.216.187.163 /index.php/QM_Admin_1216/Mgt/Public/2017-11-04/image_lib_201711041008293_src.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-21T22:00:10+08:00 ] 60.216.187.163 /index.php/QM_Admin_1216/Mgt/Public/2017-11-03/image_lib_201711031252493_src.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-21T22:00:10+08:00 ] 60.216.187.163 /index.php/QM_Admin_1216/Mgt/Public/2017-11-08/image_lib_201711081004340_src.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-21T22:00:21+08:00 ] 58.246.221.74 /index.php/QM_Admin_1216/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id C:\phpStudy\WWW\Application\QM_Admin_1216\Controller\IndexController.class.php 第 6 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-21T22:01:05+08:00 ] 112.65.193.15 /index.php/QM_Admin_1216/Mgt/partner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qm_shop` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_shop` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_shop` LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_diqu` [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `qm_diqu` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `qm_diqu` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `qm_diqu` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `qm_diqu` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: pic1 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 72 行.
+NOTIC: [8] Undefined index: pic1 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 72 行.
+NOTIC: [8] Undefined index: pic1 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 72 行.
+NOTIC: [8] Undefined index: pic1 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 75 行.
+NOTIC: [8] Undefined index: pic2 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 83 行.
+NOTIC: [8] Undefined index: pic3 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 84 行.
+NOTIC: [8] Undefined index: pic1 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 72 行.
+NOTIC: [8] Undefined index: pic1 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 72 行.
+NOTIC: [8] Undefined index: pic1 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 72 行.
+NOTIC: [8] Undefined index: pic1 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 75 行.
+NOTIC: [8] Undefined index: pic2 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 83 行.
+NOTIC: [8] Undefined index: pic3 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 84 行.
+NOTIC: [8] Undefined index: pic1 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 72 行.
+NOTIC: [8] Undefined index: pic1 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 72 行.
+NOTIC: [8] Undefined index: pic1 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 72 行.
+NOTIC: [8] Undefined index: pic1 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 75 行.
+NOTIC: [8] Undefined index: pic2 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 83 行.
+NOTIC: [8] Undefined index: pic3 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 84 行.
+NOTIC: [8] Undefined index: pic1 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 72 行.
+NOTIC: [8] Undefined index: pic1 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 72 行.
+NOTIC: [8] Undefined index: pic1 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 72 行.
+NOTIC: [8] Undefined index: pic1 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 75 行.
+NOTIC: [8] Undefined index: pic2 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 83 行.
+NOTIC: [8] Undefined index: pic3 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-21T22:01:10+08:00 ] 223.167.152.126 /index.php/QM_Admin_1216/Mgt/commodity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_goods` ORDER BY code,addtime desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: img C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\256a87d94a770344611a6c2a4d0ca1d7.php 第 65 行.
+NOTIC: [8] Undefined index: img C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\256a87d94a770344611a6c2a4d0ca1d7.php 第 65 行.
+NOTIC: [8] Undefined index: img C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\256a87d94a770344611a6c2a4d0ca1d7.php 第 65 行.
+NOTIC: [8] Undefined index: img C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\256a87d94a770344611a6c2a4d0ca1d7.php 第 65 行.
+NOTIC: [8] Undefined index: img C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\256a87d94a770344611a6c2a4d0ca1d7.php 第 65 行.
+NOTIC: [8] Undefined index: img C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\256a87d94a770344611a6c2a4d0ca1d7.php 第 65 行.
+NOTIC: [8] Undefined index: img C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\256a87d94a770344611a6c2a4d0ca1d7.php 第 65 行.
+NOTIC: [8] Undefined index: img C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\256a87d94a770344611a6c2a4d0ca1d7.php 第 65 行.
+NOTIC: [8] Undefined index: img C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\256a87d94a770344611a6c2a4d0ca1d7.php 第 65 行.
+NOTIC: [8] Undefined index: img C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\256a87d94a770344611a6c2a4d0ca1d7.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2017-12-21T22:02:05+08:00 ] 60.216.187.163 /index.php/QM_Admin_1216/Mgt/partner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qm_shop` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_shop` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_shop` LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_diqu` [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `qm_diqu` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `qm_diqu` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `qm_diqu` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `qm_diqu` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: pic1 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 73 行.
+NOTIC: [8] Undefined index: pic1 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 74 行.
+NOTIC: [8] Undefined index: pic1 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 74 行.
+NOTIC: [8] Undefined index: pic1 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 77 行.
+NOTIC: [8] Undefined index: pic1 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 79 行.
+NOTIC: [8] Undefined index: pic2 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 85 行.
+NOTIC: [8] Undefined index: pic3 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 86 行.
+NOTIC: [8] Undefined index: pic1 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 73 行.
+NOTIC: [8] Undefined index: pic1 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 74 行.
+NOTIC: [8] Undefined index: pic1 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 74 行.
+NOTIC: [8] Undefined index: pic1 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 77 行.
+NOTIC: [8] Undefined index: pic1 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 79 行.
+NOTIC: [8] Undefined index: pic2 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 85 行.
+NOTIC: [8] Undefined index: pic3 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 86 行.
+NOTIC: [8] Undefined index: pic1 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 73 行.
+NOTIC: [8] Undefined index: pic1 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 74 行.
+NOTIC: [8] Undefined index: pic1 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 74 行.
+NOTIC: [8] Undefined index: pic1 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 77 行.
+NOTIC: [8] Undefined index: pic1 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 79 行.
+NOTIC: [8] Undefined index: pic2 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 85 行.
+NOTIC: [8] Undefined index: pic3 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 86 行.
+NOTIC: [8] Undefined index: pic1 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 73 行.
+NOTIC: [8] Undefined index: pic1 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 74 行.
+NOTIC: [8] Undefined index: pic1 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 74 行.
+NOTIC: [8] Undefined index: pic1 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 77 行.
+NOTIC: [8] Undefined index: pic1 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 79 行.
+NOTIC: [8] Undefined index: pic2 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 85 行.
+NOTIC: [8] Undefined index: pic3 C:\phpStudy\WWW\Application\Runtime\Cache\QM_Admin_1216\3a9f9d94fe7052c2ebc8e670bf7dbb8b.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2017-12-21T22:02:05+08:00 ] 60.216.187.163 /index.php/QM_Admin_1216/Mgt/Public/2017-11-28/5a1d3dea1ce675.93438439.jpeg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:Public
+
+[ 2017-12-21T22:02:05+08:00 ] 60.216.187.163 /index.php/QM_Admin_1216/Mgt/Public/2017-11-03/072FB202-A16D-4501-B7B5-23DE94C4BCC4-2654-0000024AEAE5524C.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-21T22:02:05+08:00 ] 60.216.187.163 /index.php/QM_Admin_1216/Mgt/Public/2017-11-03/4A619AD3-3144-48BF-9ECC-CB2949EB1201-23369-00002402B0174C66.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-21T22:02:05+08:00 ] 60.216.187.163 /index.php/QM_Admin_1216/Mgt/Public/2017-11-03/1FA5462F-93AB-4DBC-8745-C41EC71A9C6D-5649-00000D1EBF7C3300.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+

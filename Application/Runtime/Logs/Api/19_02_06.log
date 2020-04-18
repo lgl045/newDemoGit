@@ -1,0 +1,2506 @@
+[ 2019-02-06T09:50:25+08:00 ] 112.38.207.223 /index.php/Api/index/toutiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `qm_toutiao` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name`,`content` FROM `qm_toutiao` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0009s ]
+
+[ 2019-02-06T09:50:25+08:00 ] 112.38.207.223 /index.php/Api/index/jnblall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_fbjn` ORDER BY id desc LIMIT 0,6   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=96430772 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qm_jineng` [ RunTime:0.0003s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103689 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=39 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103689 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=148 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=37408195 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425019 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=76 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425019 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=150 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2019-02-06T09:50:25+08:00 ] 112.38.207.223 /index.php/Api/index/lunbo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `qm_lb` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_lb` WHERE ( stat=0 )  [ RunTime:0.0005s ]
+
+[ 2019-02-06T09:50:25+08:00 ] 112.38.207.223 /index.php/Api/index/fwxx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000300s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_user` ORDER BY rand() LIMIT 6   [ RunTime:0.0026s ]
+
+[ 2019-02-06T09:50:25+08:00 ] 112.38.207.223 /index.php/Api/index/xjwd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0006s ]
+SQL: UPDATE `qm_user` SET `lat`='36.64573287963867',`lon`='116.99925994873043',`zd`='1549417825' WHERE ( id='86425033' ) [ RunTime:0.0868s ]
+
+[ 2019-02-06T11:38:55+08:00 ] 112.224.1.137 /index.php/Api/index/fwxx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000240s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qm_user` ORDER BY rand() LIMIT 6   [ RunTime:0.0030s ]
+
+[ 2019-02-06T11:38:55+08:00 ] 112.224.1.137 /index.php/Api/index/lunbo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000261s ]
+SQL: SHOW COLUMNS FROM `qm_lb` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_lb` WHERE ( stat=0 )  [ RunTime:0.0001s ]
+
+[ 2019-02-06T11:38:55+08:00 ] 112.224.1.137 /index.php/Api/index/jnblall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000270s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_fbjn` ORDER BY id desc LIMIT 0,6   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=96430772 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qm_jineng` [ RunTime:0.0003s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103689 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=39 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103689 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=148 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=37408195 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425019 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=76 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425019 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=150 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-02-06T11:38:55+08:00 ] 112.224.1.137 /index.php/Api/index/xjwd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000235s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0010s ]
+SQL: UPDATE `qm_user` SET `lat`='36.64019003665466',`lon`='116.99552917480462',`zd`='1549424335' WHERE ( id='96430767' ) [ RunTime:0.0140s ]
+
+[ 2019-02-06T11:38:55+08:00 ] 112.224.1.137 /index.php/Api/index/toutiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000257s ]
+SQL: SHOW COLUMNS FROM `qm_toutiao` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name`,`content` FROM `qm_toutiao` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0001s ]
+
+[ 2019-02-06T11:39:05+08:00 ] 112.224.1.137 /index.php/Api/index/toutiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000258s ]
+SQL: SHOW COLUMNS FROM `qm_toutiao` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name`,`content` FROM `qm_toutiao` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0001s ]
+
+[ 2019-02-06T11:39:05+08:00 ] 112.224.1.137 /index.php/Api/index/fwxx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `qm_user` ORDER BY rand() LIMIT 6   [ RunTime:0.0027s ]
+
+[ 2019-02-06T11:39:05+08:00 ] 112.224.1.137 /index.php/Api/index/jnblall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000233s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_fbjn` ORDER BY id desc LIMIT 0,6   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=96430772 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qm_jineng` [ RunTime:0.0004s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103689 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=39 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103689 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=148 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=37408195 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425019 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=76 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425019 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=150 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-02-06T11:39:05+08:00 ] 112.224.1.137 /index.php/Api/index/lunbo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `qm_lb` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_lb` WHERE ( stat=0 )  [ RunTime:0.0001s ]
+
+[ 2019-02-06T11:39:05+08:00 ] 112.224.1.137 /index.php/Api/index/xjwd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0008s ]
+SQL: UPDATE `qm_user` SET `lat`='36.64019003665466',`lon`='116.99552917480462',`zd`='1549424345' WHERE ( id='96430767' ) [ RunTime:0.0201s ]
+
+[ 2019-02-06T11:39:15+08:00 ] 112.224.1.137 /index.php/Api/index/fuwuyuan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000245s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `qm_user` WHERE ( fbzt>0 ) ORDER BY id desc LIMIT 0,6   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qm_grdt` [ RunTime:0.0003s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=89250354 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=89250349 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=86425033 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=69237807 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=57103676 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=57103674 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2019-02-06T11:39:20+08:00 ] 112.224.1.137 /index.php/Api/index/yjfx?uid=96430767
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qm_user` WHERE ( fid=96430767 )  [ RunTime:0.0006s ]
+
+[ 2019-02-06T11:39:20+08:00 ] 112.224.1.137 /index.php/Api/index/getye
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000250s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=96430767 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-02-06T11:39:20+08:00 ] 112.224.1.137 /index.php/Api/index/cstat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000274s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`cstat` FROM `qm_user` WHERE ( id=96430767 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-02-06T12:03:01+08:00 ] 112.224.67.10 /index.php/Api/index/toutiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+SQL: SHOW COLUMNS FROM `qm_toutiao` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`name`,`content` FROM `qm_toutiao` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0001s ]
+
+[ 2019-02-06T12:03:01+08:00 ] 112.224.67.10 /index.php/Api/index/fwxx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `qm_user` ORDER BY rand() LIMIT 6   [ RunTime:0.0033s ]
+
+[ 2019-02-06T12:03:01+08:00 ] 112.224.67.10 /index.php/Api/index/xjwd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0008s ]
+SQL: UPDATE `qm_user` SET `lat`='36.70462790711361',`lon`='117.01134490966791',`zd`='1549425781' WHERE ( id='69237812' ) [ RunTime:0.0294s ]
+
+[ 2019-02-06T12:03:01+08:00 ] 112.224.67.10 /index.php/Api/index/lunbo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000307s ]
+SQL: SHOW COLUMNS FROM `qm_lb` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_lb` WHERE ( stat=0 )  [ RunTime:0.0001s ]
+
+[ 2019-02-06T12:03:01+08:00 ] 112.224.67.10 /index.php/Api/index/jnblall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qm_fbjn` ORDER BY id desc LIMIT 0,6   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=96430772 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qm_jineng` [ RunTime:0.0005s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103689 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=39 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103689 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=148 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=37408195 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425019 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=76 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425019 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=150 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-02-06T12:03:13+08:00 ] 112.224.67.10 /index.php/Api/index/fuwuyuanxq?id=96430772
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000240s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=96430772 )  [ RunTime:0.0003s ]
+SQL: SELECT `pic` FROM `qm_user` ORDER BY rand() LIMIT 8   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `qm_grdt` [ RunTime:0.0004s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=96430772 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2019-02-06T12:03:32+08:00 ] 112.224.67.10 /index.php/Api/index/jnblall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000251s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_fbjn` ORDER BY id desc LIMIT 6,10   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425019 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_jineng` [ RunTime:0.0003s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=152 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425019 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=153 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=75982134 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=147 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250349 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=90 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=75982133 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=39 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=96430755 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=151 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250362 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=76 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250362 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=76 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=96430751 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=81 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425018 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2019-02-06T12:03:45+08:00 ] 112.224.67.10 /index.php/Api/index/jnblall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000256s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_fbjn` ORDER BY id desc LIMIT 16,10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425018 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_jineng` [ RunTime:0.0003s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=148 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=75982134 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=39 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425017 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=96430735 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=146 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=75982133 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=147 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=96430722 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=17 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=96430722 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=99 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250362 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=84 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425033 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425033 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=47 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2019-02-06T12:03:51+08:00 ] 112.224.67.10 /index.php/Api/index/fuwuyuan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qm_user` WHERE ( fbzt>0 ) ORDER BY id desc LIMIT 0,6   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qm_grdt` [ RunTime:0.0003s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=89250354 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=89250349 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=86425033 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=69237807 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=57103676 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=57103674 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2019-02-06T12:03:55+08:00 ] 112.224.67.10 /index.php/Api/index/getye
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000267s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=69237812 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-02-06T12:03:55+08:00 ] 112.224.67.10 /index.php/Api/index/yjfx?uid=69237812
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000268s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `qm_user` WHERE ( fid=69237812 )  [ RunTime:0.0007s ]
+
+[ 2019-02-06T12:03:55+08:00 ] 112.224.67.10 /index.php/Api/index/cstat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000258s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`cstat` FROM `qm_user` WHERE ( id=69237812 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-02-06T12:05:17+08:00 ] 112.224.67.10 /index.php/Api/index/toutiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000244s ]
+SQL: SHOW COLUMNS FROM `qm_toutiao` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name`,`content` FROM `qm_toutiao` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0001s ]
+
+[ 2019-02-06T12:05:17+08:00 ] 112.224.67.10 /index.php/Api/index/xjwd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000245s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0007s ]
+SQL: UPDATE `qm_user` SET `lat`='36.70462790711361',`lon`='117.01134490966791',`zd`='1549425917' WHERE ( id='69237812' ) [ RunTime:0.0167s ]
+
+[ 2019-02-06T12:05:17+08:00 ] 112.224.67.10 /index.php/Api/index/jnblall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_fbjn` ORDER BY id desc LIMIT 0,6   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=96430772 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qm_jineng` [ RunTime:0.0003s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103689 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=39 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103689 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=148 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=37408195 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425019 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=76 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425019 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=150 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-02-06T12:05:17+08:00 ] 112.224.67.10 /index.php/Api/index/fwxx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000262s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `qm_user` ORDER BY rand() LIMIT 6   [ RunTime:0.0028s ]
+
+[ 2019-02-06T12:05:17+08:00 ] 112.224.67.10 /index.php/Api/index/lunbo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `qm_lb` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_lb` WHERE ( stat=0 )  [ RunTime:0.0001s ]
+
+[ 2019-02-06T12:05:29+08:00 ] 112.224.67.10 /index.php/Api/index/lunbo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000238s ]
+SQL: SHOW COLUMNS FROM `qm_lb` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_lb` WHERE ( stat=6 )  [ RunTime:0.0002s ]
+
+[ 2019-02-06T12:05:29+08:00 ] 112.224.67.10 /index.php/Api/index/shichang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( code =1 and zts=0 ) ORDER BY id desc LIMIT 0,6   [ RunTime:0.0002s ]
+
+[ 2019-02-06T12:05:32+08:00 ] 112.224.67.10 /index.php/Api/index/shichang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000246s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( code =1 and zts=0 ) ORDER BY id desc LIMIT 6,6   [ RunTime:0.0002s ]
+
+[ 2019-02-06T12:05:33+08:00 ] 112.224.67.10 /index.php/Api/index/shichang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000282s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( code =1 and zts=0 ) ORDER BY id desc LIMIT 9,6   [ RunTime:0.0002s ]
+
+[ 2019-02-06T12:05:38+08:00 ] 112.224.67.10 /index.php/Api/index/lunbo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000244s ]
+SQL: SHOW COLUMNS FROM `qm_lb` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_lb` WHERE ( stat=6 )  [ RunTime:0.0001s ]
+
+[ 2019-02-06T12:05:38+08:00 ] 112.224.67.10 /index.php/Api/index/shichang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000270s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( code =1 and zts=1 ) ORDER BY id desc LIMIT 0,6   [ RunTime:0.0003s ]
+
+[ 2019-02-06T12:05:51+08:00 ] 112.224.67.10 /index.php/Api/index/shichang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( code =1 and zts=1 ) ORDER BY id desc LIMIT 6,6   [ RunTime:0.0002s ]
+
+[ 2019-02-06T12:06:17+08:00 ] 112.224.67.10 /index.php/Api/index/shichang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000284s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( code =1 and zts=1 ) ORDER BY id desc LIMIT 12,6   [ RunTime:0.0002s ]
+
+[ 2019-02-06T12:06:18+08:00 ] 112.224.67.10 /index.php/Api/index/shichang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( code =1 and zts=1 ) ORDER BY id desc LIMIT 12,6   [ RunTime:0.0001s ]
+
+[ 2019-02-06T12:06:19+08:00 ] 112.224.67.10 /index.php/Api/index/shichang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( code =1 and zts=1 ) ORDER BY id desc LIMIT 12,6   [ RunTime:0.0000s ]
+
+[ 2019-02-06T12:06:20+08:00 ] 112.224.67.10 /index.php/Api/index/shichang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000289s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( code =1 and zts=1 ) ORDER BY id desc LIMIT 12,6   [ RunTime:0.0000s ]
+
+[ 2019-02-06T12:06:50+08:00 ] 112.224.67.10 /index.php/Api/index/fuwuyuan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000259s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `qm_user` WHERE ( fbzt>0 ) ORDER BY id desc LIMIT 0,6   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qm_grdt` [ RunTime:0.0003s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=89250354 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=89250349 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=86425033 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=69237807 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=57103676 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=57103674 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-02-06T12:06:58+08:00 ] 112.224.67.10 /index.php/Api/index/lunbo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+SQL: SHOW COLUMNS FROM `qm_lb` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_lb` WHERE ( stat=6 )  [ RunTime:0.0001s ]
+
+[ 2019-02-06T12:06:58+08:00 ] 112.224.67.10 /index.php/Api/index/shichang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000237s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_goods` WHERE ( code =1 and zts=1 ) ORDER BY id desc LIMIT 0,6   [ RunTime:0.0001s ]
+
+[ 2019-02-06T12:40:37+08:00 ] 112.224.67.10 /index.php/Api/index/toutiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `qm_toutiao` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name`,`content` FROM `qm_toutiao` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0001s ]
+
+[ 2019-02-06T12:40:37+08:00 ] 112.224.67.10 /index.php/Api/index/fwxx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000262s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qm_user` ORDER BY rand() LIMIT 6   [ RunTime:0.0028s ]
+
+[ 2019-02-06T12:40:37+08:00 ] 112.224.67.10 /index.php/Api/index/xjwd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000236s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0008s ]
+SQL: UPDATE `qm_user` SET `lat`='36.70462790711361',`lon`='117.01134490966791',`zd`='1549428037' WHERE ( id='69237812' ) [ RunTime:0.0134s ]
+
+[ 2019-02-06T12:40:37+08:00 ] 112.224.67.10 /index.php/Api/index/lunbo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000275s ]
+SQL: SHOW COLUMNS FROM `qm_lb` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_lb` WHERE ( stat=0 )  [ RunTime:0.0001s ]
+
+[ 2019-02-06T12:40:37+08:00 ] 112.224.67.10 /index.php/Api/index/jnblall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014022s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_fbjn` ORDER BY id desc LIMIT 0,6   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=96430772 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qm_jineng` [ RunTime:0.0004s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103689 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=39 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103689 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=148 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=37408195 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425019 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=76 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425019 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=150 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-02-06T12:41:12+08:00 ] 112.224.67.10 /index.php/Api/index/jnbl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_fbjn` WHERE ( fwpl=75 ) LIMIT 0,6   [ RunTime:0.0002s ]
+
+[ 2019-02-06T12:42:28+08:00 ] 112.224.67.10 /index.php/Api/index/jnblyl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000226s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_fbjn` WHERE ( fwpl=9 or fwpl=8 or fwpl=7 or fwpl=6 or fwpl=5 or fwpl=4 or fwpl=3 or fwpl=2 or fwpl=1 ) ORDER BY id desc LIMIT 0,6   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=37408195 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_jineng` [ RunTime:0.0003s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425018 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425017 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250364 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250363 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250363 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2019-02-06T12:42:28+08:00 ] 112.224.67.10 /index.php/Api/index/lunbo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000252s ]
+SQL: SHOW COLUMNS FROM `qm_lb` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_lb` WHERE ( stat=2 )  [ RunTime:0.0003s ]
+
+[ 2019-02-06T12:42:28+08:00 ] 112.224.67.10 /index.php/Api/index/fwxx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000267s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qm_user` ORDER BY rand() LIMIT 6   [ RunTime:0.0027s ]
+
+[ 2019-02-06T12:42:37+08:00 ] 112.224.67.10 /index.php/Api/index/fuwuyuanxq?id=84037516
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000275s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=84037516 )  [ RunTime:0.0003s ]
+SQL: SELECT `pic` FROM `qm_user` ORDER BY rand() LIMIT 8   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `qm_grdt` [ RunTime:0.0005s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=84037516 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-02-06T12:43:01+08:00 ] 112.224.67.10 /index.php/Api/index/fuwuyuan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000269s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qm_user` WHERE ( fbzt>0 ) ORDER BY id desc LIMIT 0,6   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `qm_grdt` [ RunTime:0.0006s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=89250354 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=89250349 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=86425033 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=69237807 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=57103676 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=57103674 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-02-06T12:43:04+08:00 ] 112.224.67.10 /index.php/Api/index/yjfx?uid=69237812
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000246s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `qm_user` WHERE ( fid=69237812 )  [ RunTime:0.0008s ]
+
+[ 2019-02-06T12:43:04+08:00 ] 112.224.67.10 /index.php/Api/index/getye
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000273s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=69237812 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2019-02-06T12:43:04+08:00 ] 112.224.67.10 /index.php/Api/index/cstat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000267s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`cstat` FROM `qm_user` WHERE ( id=69237812 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-02-06T12:44:00+08:00 ] 112.224.67.10 /index.php/Api/index/cstat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000276s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0038s ]
+SQL: SELECT `id`,`cstat` FROM `qm_user` WHERE ( id=69237812 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2019-02-06T12:44:00+08:00 ] 112.224.67.10 /index.php/Api/index/getye
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000252s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=69237812 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2019-02-06T12:44:00+08:00 ] 112.224.67.10 /index.php/Api/index/yjfx?uid=69237812
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_user` WHERE ( fid=69237812 )  [ RunTime:0.0001s ]
+
+[ 2019-02-06T12:45:22+08:00 ] 112.224.67.10 /index.php/Api/index/jnblall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000267s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_fbjn` ORDER BY id desc LIMIT 6,10   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425019 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_jineng` [ RunTime:0.0004s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=152 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425019 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=153 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=75982134 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=147 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250349 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=90 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=75982133 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=39 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=96430755 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=151 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250362 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=76 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250362 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=76 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=96430751 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=81 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425018 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-02-06T12:45:34+08:00 ] 112.224.67.10 /index.php/Api/index/jnblall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_fbjn` ORDER BY id desc LIMIT 16,10   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425018 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_jineng` [ RunTime:0.0005s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=148 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=75982134 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=39 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425017 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=96430735 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=146 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=75982133 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=147 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=96430722 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=17 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=96430722 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=99 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250362 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=84 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425033 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425033 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=47 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-02-06T12:45:49+08:00 ] 112.224.67.10 /index.php/Api/index/fuwuyuanxq?id=86425018
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425018 )  [ RunTime:0.0003s ]
+SQL: SELECT `pic` FROM `qm_user` ORDER BY rand() LIMIT 8   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `qm_grdt` [ RunTime:0.0005s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=86425018 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-02-06T13:55:00+08:00 ] 117.136.95.24 /index.php/Api/index/toutiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000272s ]
+SQL: SHOW COLUMNS FROM `qm_toutiao` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name`,`content` FROM `qm_toutiao` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0001s ]
+
+[ 2019-02-06T13:55:00+08:00 ] 117.136.95.24 /index.php/Api/index/fwxx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000279s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qm_user` ORDER BY rand() LIMIT 6   [ RunTime:0.0032s ]
+
+[ 2019-02-06T13:55:00+08:00 ] 117.136.95.24 /index.php/Api/index/lunbo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000261s ]
+SQL: SHOW COLUMNS FROM `qm_lb` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_lb` WHERE ( stat=0 )  [ RunTime:0.0001s ]
+
+[ 2019-02-06T13:55:00+08:00 ] 117.136.95.24 /index.php/Api/index/jnblall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000260s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_fbjn` ORDER BY id desc LIMIT 0,6   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=96430772 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qm_jineng` [ RunTime:0.0004s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103689 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=39 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103689 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=148 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=37408195 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425019 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=76 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425019 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=150 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-02-06T13:55:13+08:00 ] 117.136.95.24 /index.php/Api/index/fuwuyuan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000255s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qm_user` WHERE ( fbzt>0 ) ORDER BY id desc LIMIT 0,6   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qm_grdt` [ RunTime:0.0004s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=89250354 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=89250349 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=86425033 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=69237807 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=57103676 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=57103674 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-02-06T16:19:31+08:00 ] 112.224.2.23 /index.php/Api/index/toutiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000236s ]
+SQL: SHOW COLUMNS FROM `qm_toutiao` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name`,`content` FROM `qm_toutiao` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0001s ]
+
+[ 2019-02-06T16:19:31+08:00 ] 112.224.2.23 /index.php/Api/index/lunbo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000255s ]
+SQL: SHOW COLUMNS FROM `qm_lb` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `qm_lb` WHERE ( stat=0 )  [ RunTime:0.0001s ]
+
+[ 2019-02-06T16:19:31+08:00 ] 112.224.2.23 /index.php/Api/index/jnblall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `qm_fbjn` ORDER BY id desc LIMIT 0,6   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=96430772 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qm_jineng` [ RunTime:0.0003s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103689 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=39 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103689 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=148 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=37408195 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425019 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=76 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425019 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=150 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-02-06T16:19:31+08:00 ] 112.224.2.23 /index.php/Api/index/fwxx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000245s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `qm_user` ORDER BY rand() LIMIT 6   [ RunTime:0.0036s ]
+
+[ 2019-02-06T16:19:31+08:00 ] 112.224.2.23 /index.php/Api/index/xjwd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000261s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0007s ]
+SQL: UPDATE `qm_user` SET `lat`='36.64573287963867',`lon`='116.99925994873043',`zd`='1549441171' WHERE ( id='86425033' ) [ RunTime:0.0279s ]
+
+[ 2019-02-06T19:25:08+08:00 ] 112.224.67.10 /index.php/Api/index/fwxx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000256s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qm_user` ORDER BY rand() LIMIT 6   [ RunTime:0.0030s ]
+
+[ 2019-02-06T19:25:08+08:00 ] 112.224.67.10 /index.php/Api/index/toutiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000236s ]
+SQL: SHOW COLUMNS FROM `qm_toutiao` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name`,`content` FROM `qm_toutiao` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0001s ]
+
+[ 2019-02-06T19:25:08+08:00 ] 112.224.67.10 /index.php/Api/index/jnblall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000257s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_fbjn` ORDER BY id desc LIMIT 0,6   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=96430772 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qm_jineng` [ RunTime:0.0003s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103689 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=39 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103689 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=148 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=37408195 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425019 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=76 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425019 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=150 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-02-06T19:25:09+08:00 ] 112.224.67.10 /index.php/Api/index/xjwd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0006s ]
+SQL: UPDATE `qm_user` SET `lat`='36.70462790711361',`lon`='117.01134490966791',`zd`='1549452308' WHERE ( id='69237812' ) [ RunTime:0.0178s ]
+
+[ 2019-02-06T19:25:09+08:00 ] 112.224.67.10 /index.php/Api/index/lunbo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000229s ]
+SQL: SHOW COLUMNS FROM `qm_lb` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_lb` WHERE ( stat=0 )  [ RunTime:0.0001s ]
+
+[ 2019-02-06T19:25:11+08:00 ] 112.224.67.10 /index.php/Api/index/fuwuyuan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000257s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qm_user` WHERE ( fbzt>0 ) ORDER BY id desc LIMIT 0,6   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `qm_grdt` [ RunTime:0.0006s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=89250354 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=89250349 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=86425033 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=69237807 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=57103676 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=57103674 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-02-06T19:25:13+08:00 ] 112.224.67.10 /index.php/Api/index/yjfx?uid=69237812
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `qm_user` WHERE ( fid=69237812 )  [ RunTime:0.0006s ]
+
+[ 2019-02-06T19:25:13+08:00 ] 112.224.67.10 /index.php/Api/index/getye
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=69237812 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-02-06T19:25:13+08:00 ] 112.224.67.10 /index.php/Api/index/cstat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000237s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`cstat` FROM `qm_user` WHERE ( id=69237812 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-02-06T20:16:26+08:00 ] 122.7.45.69 /index.php/Api/index/jnblall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000256s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_fbjn` ORDER BY id desc LIMIT 0,6   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=96430772 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qm_jineng` [ RunTime:0.0004s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103689 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=39 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103689 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=148 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=37408195 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425019 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=76 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425019 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=150 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-02-06T20:16:26+08:00 ] 122.7.45.69 /index.php/Api/index/fwxx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000276s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `qm_user` ORDER BY rand() LIMIT 6   [ RunTime:0.0035s ]
+
+[ 2019-02-06T20:16:26+08:00 ] 122.7.45.69 /index.php/Api/index/toutiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.014121s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000273s ]
+SQL: SHOW COLUMNS FROM `qm_toutiao` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`name`,`content` FROM `qm_toutiao` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0001s ]
+
+[ 2019-02-06T20:16:26+08:00 ] 122.7.45.69 /index.php/Api/index/xjwd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000281s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0009s ]
+SQL: UPDATE `qm_user` SET `lat`='36.70445243102738',`lon`='117.01127624511712',`zd`='1549455386' WHERE ( id='96430749' ) [ RunTime:0.0329s ]
+
+[ 2019-02-06T20:16:26+08:00 ] 122.7.45.69 /index.php/Api/index/lunbo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+SQL: SHOW COLUMNS FROM `qm_lb` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_lb` WHERE ( stat=0 )  [ RunTime:0.0001s ]
+
+[ 2019-02-06T20:17:02+08:00 ] 122.7.45.69 /index.php/Api/index/fuwuyuanxq?id=96430772
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=96430772 )  [ RunTime:0.0003s ]
+SQL: SELECT `pic` FROM `qm_user` ORDER BY rand() LIMIT 8   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `qm_grdt` [ RunTime:0.0006s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=96430772 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-02-06T20:17:29+08:00 ] 122.7.45.69 /index.php/Api/index/jnblall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000271s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_fbjn` ORDER BY id desc LIMIT 6,10   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425019 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qm_jineng` [ RunTime:0.0004s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=152 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425019 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=153 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=75982134 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=147 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250349 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=90 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=75982133 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=39 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=96430755 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=151 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250362 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=76 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250362 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=76 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=96430751 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=81 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425018 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-02-06T20:17:38+08:00 ] 122.7.45.69 /index.php/Api/index/fuwuyuanxq?id=75982134
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000271s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=75982134 )  [ RunTime:0.0002s ]
+SQL: SELECT `pic` FROM `qm_user` ORDER BY rand() LIMIT 8   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `qm_grdt` [ RunTime:0.0004s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=75982134 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2019-02-06T20:18:33+08:00 ] 122.7.45.69 /index.php/Api/index/jnblall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000258s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_fbjn` ORDER BY id desc LIMIT 16,10   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425018 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_jineng` [ RunTime:0.0005s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=148 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=75982134 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=39 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425017 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=96430735 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=146 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=75982133 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=147 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=96430722 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=17 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=96430722 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=99 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250362 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=84 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425033 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425033 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=47 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-02-06T20:19:01+08:00 ] 122.7.45.69 /index.php/Api/index/fuwuyuanxq?id=96430735
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000299s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=96430735 )  [ RunTime:0.0002s ]
+SQL: SELECT `pic` FROM `qm_user` ORDER BY rand() LIMIT 8   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `qm_grdt` [ RunTime:0.0004s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=96430735 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2019-02-06T20:19:22+08:00 ] 122.7.45.69 /index.php/Api/index/jnblall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_fbjn` ORDER BY id desc LIMIT 26,10   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250364 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qm_jineng` [ RunTime:0.0005s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250364 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=150 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250364 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=151 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250364 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=147 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250364 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=146 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250363 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250363 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=148 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250363 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=149 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250363 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=65 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250363 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=61 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2019-02-06T20:19:34+08:00 ] 122.7.45.69 /index.php/Api/index/jnblall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_fbjn` ORDER BY id desc LIMIT 36,10   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250363 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_jineng` [ RunTime:0.0004s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=64 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250363 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=63 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250363 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250363 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250363 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=151 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250363 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=150 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250363 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=147 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250363 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=146 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250361 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=132 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250361 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=127 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2019-02-06T20:19:39+08:00 ] 122.7.45.69 /index.php/Api/index/jnblall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000267s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `qm_fbjn` ORDER BY id desc LIMIT 46,10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=10253796 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qm_jineng` [ RunTime:0.0004s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=90 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103681 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=63 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250357 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=40 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250357 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250357 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=20 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250357 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=16 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425033 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=31 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425033 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=19 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425033 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=17 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103674 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=150 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-02-06T20:19:39+08:00 ] 122.7.45.69 /index.php/Api/index/jnblall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000261s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_fbjn` ORDER BY id desc LIMIT 46,10   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=10253796 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_jineng` [ RunTime:0.0003s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=90 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103681 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=63 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250357 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=40 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250357 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250357 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=20 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250357 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=16 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425033 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=31 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425033 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=19 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425033 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=17 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103674 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=150 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-02-06T20:20:01+08:00 ] 122.7.45.69 /index.php/Api/index/jnblall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qm_fbjn` ORDER BY id desc LIMIT 66,10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103674 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_jineng` [ RunTime:0.0005s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=15 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103674 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=101 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103674 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=100 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103676 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=76 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103685 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=64 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103685 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=151 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103685 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=147 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103685 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=146 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103676 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=152 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103676 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=78 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2019-02-06T20:20:02+08:00 ] 122.7.45.69 /index.php/Api/index/jnblall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_fbjn` ORDER BY id desc LIMIT 66,10   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103674 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_jineng` [ RunTime:0.0004s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=15 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103674 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=101 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103674 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=100 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103676 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=76 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103685 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=64 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103685 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=151 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103685 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=147 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103685 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=146 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103676 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=152 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103676 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=78 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-02-06T20:20:19+08:00 ] 122.7.45.69 /index.php/Api/index/jnblall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000274s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_fbjn` ORDER BY id desc LIMIT 86,10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103676 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_jineng` [ RunTime:0.0004s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=129 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=1008 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=130 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103676 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=129 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103676 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=130 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=1008 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=146 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=1008 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=147 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103675 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=150 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=1008 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=148 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103675 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=149 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-02-06T20:20:20+08:00 ] 122.7.45.69 /index.php/Api/index/jnblall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000242s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qm_fbjn` ORDER BY id desc LIMIT 86,10   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103676 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_jineng` [ RunTime:0.0004s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=129 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=1008 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=130 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103676 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=129 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103676 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=130 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=1008 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=146 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=1008 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=147 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103675 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=150 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=1008 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=148 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103675 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=149 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-02-06T20:20:25+08:00 ] 122.7.45.69 /index.php/Api/index/jnblall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_fbjn` ORDER BY id desc LIMIT 104,10   [ RunTime:0.0002s ]
+
+[ 2019-02-06T20:20:26+08:00 ] 122.7.45.69 /index.php/Api/index/jnblall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000249s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_fbjn` ORDER BY id desc LIMIT 104,10   [ RunTime:0.0001s ]
+
+[ 2019-02-06T20:20:27+08:00 ] 122.7.45.69 /index.php/Api/index/jnblall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000253s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_fbjn` ORDER BY id desc LIMIT 104,10   [ RunTime:0.0001s ]
+
+[ 2019-02-06T20:20:27+08:00 ] 122.7.45.69 /index.php/Api/index/jnblall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000285s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qm_fbjn` ORDER BY id desc LIMIT 104,10   [ RunTime:0.0001s ]
+
+[ 2019-02-06T20:20:28+08:00 ] 122.7.45.69 /index.php/Api/index/jnblall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_fbjn` ORDER BY id desc LIMIT 104,10   [ RunTime:0.0001s ]
+
+[ 2019-02-06T20:20:29+08:00 ] 122.7.45.69 /index.php/Api/index/jnblall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000239s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_fbjn` ORDER BY id desc LIMIT 104,10   [ RunTime:0.0001s ]
+
+[ 2019-02-06T20:20:29+08:00 ] 122.7.45.69 /index.php/Api/index/jnblall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000307s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_fbjn` ORDER BY id desc LIMIT 104,10   [ RunTime:0.0000s ]
+
+[ 2019-02-06T20:20:30+08:00 ] 122.7.45.69 /index.php/Api/index/jnblall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `qm_fbjn` ORDER BY id desc LIMIT 104,10   [ RunTime:0.0001s ]
+
+[ 2019-02-06T20:20:31+08:00 ] 122.7.45.69 /index.php/Api/index/jnblall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000302s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_fbjn` ORDER BY id desc LIMIT 104,10   [ RunTime:0.0001s ]
+
+[ 2019-02-06T20:20:31+08:00 ] 122.7.45.69 /index.php/Api/index/jnblall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000318s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qm_fbjn` ORDER BY id desc LIMIT 104,10   [ RunTime:0.0001s ]
+
+[ 2019-02-06T20:20:31+08:00 ] 122.7.45.69 /index.php/Api/index/jnblall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qm_fbjn` ORDER BY id desc LIMIT 104,10   [ RunTime:0.0001s ]
+
+[ 2019-02-06T20:20:32+08:00 ] 122.7.45.69 /index.php/Api/index/jnblall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000287s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_fbjn` ORDER BY id desc LIMIT 104,10   [ RunTime:0.0001s ]
+
+[ 2019-02-06T20:20:33+08:00 ] 122.7.45.69 /index.php/Api/index/lunbo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `qm_lb` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qm_lb` WHERE ( stat=4 )  [ RunTime:0.0003s ]
+
+[ 2019-02-06T20:20:33+08:00 ] 122.7.45.69 /index.php/Api/index/xqbl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+SQL: SHOW COLUMNS FROM `qm_fbxq` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_fbxq` ORDER BY id desc LIMIT 0,6   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=96430735 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_jineng` [ RunTime:0.0003s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=146 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425033 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=146 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425030 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=79 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425030 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=76 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425030 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=78 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425030 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=78 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-02-06T20:20:33+08:00 ] 122.7.45.69 /index.php/Api/index/jnbl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000252s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_fbjn` WHERE ( fwpl=150 ) LIMIT 0,6   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103675 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_jineng` [ RunTime:0.0003s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=150 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250350 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=150 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103674 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=150 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250363 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=150 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250364 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=150 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425019 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=150 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-02-06T20:20:37+08:00 ] 122.7.45.69 /index.php/Api/index/fuwuyuan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000250s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `qm_user` WHERE ( fbzt>0 ) ORDER BY id desc LIMIT 0,6   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qm_grdt` [ RunTime:0.0004s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=89250354 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=89250349 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=86425033 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=69237807 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=57103676 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=57103674 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-02-06T20:20:43+08:00 ] 122.7.45.69 /index.php/Api/index/toutiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000251s ]
+SQL: SHOW COLUMNS FROM `qm_toutiao` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name`,`content` FROM `qm_toutiao` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0001s ]
+
+[ 2019-02-06T20:20:43+08:00 ] 122.7.45.69 /index.php/Api/index/fwxx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qm_user` ORDER BY rand() LIMIT 6   [ RunTime:0.0031s ]
+
+[ 2019-02-06T20:20:43+08:00 ] 122.7.45.69 /index.php/Api/index/lunbo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007827s ]
+SQL: SHOW COLUMNS FROM `qm_lb` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_lb` WHERE ( stat=0 )  [ RunTime:0.0001s ]
+
+[ 2019-02-06T20:20:43+08:00 ] 122.7.45.69 /index.php/Api/index/jnblall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000266s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qm_fbjn` ORDER BY id desc LIMIT 0,6   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=96430772 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qm_jineng` [ RunTime:0.0004s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103689 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=39 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103689 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=148 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=37408195 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425019 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=76 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425019 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=150 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-02-06T20:21:01+08:00 ] 122.7.45.69 /index.php/Api/index/jnbl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_fbjn` WHERE ( fwpl=147 ) LIMIT 0,6   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=1008 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_jineng` [ RunTime:0.0004s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=147 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103676 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=147 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103685 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=147 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250363 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=147 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250364 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=147 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=75982133 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=147 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-02-06T20:21:12+08:00 ] 122.7.45.69 /index.php/Api/index/jnbl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000279s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_fbjn` WHERE ( fwpl=147 ) LIMIT 6,6   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=75982134 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_jineng` [ RunTime:0.0003s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=147 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-02-06T20:21:14+08:00 ] 122.7.45.69 /index.php/Api/index/jnbl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000285s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `qm_fbjn` WHERE ( fwpl=147 ) LIMIT 7,6   [ RunTime:0.0004s ]
+
+[ 2019-02-06T20:21:14+08:00 ] 122.7.45.69 /index.php/Api/index/jnbl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000250s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_fbjn` WHERE ( fwpl=147 ) LIMIT 7,6   [ RunTime:0.0001s ]
+
+[ 2019-02-06T20:21:15+08:00 ] 122.7.45.69 /index.php/Api/index/jnbl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `qm_fbjn` WHERE ( fwpl=147 ) LIMIT 7,6   [ RunTime:0.0001s ]
+
+[ 2019-02-06T20:21:17+08:00 ] 122.7.45.69 /index.php/Api/index/jnbl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000297s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_fbjn` WHERE ( fwpl=147 ) LIMIT 7,6   [ RunTime:0.0001s ]
+
+[ 2019-02-06T20:21:17+08:00 ] 122.7.45.69 /index.php/Api/index/jnbl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000233s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_fbjn` WHERE ( fwpl=147 ) LIMIT 7,6   [ RunTime:0.0000s ]
+
+[ 2019-02-06T20:21:18+08:00 ] 122.7.45.69 /index.php/Api/index/jnbl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000231s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_fbjn` WHERE ( fwpl=147 ) LIMIT 7,6   [ RunTime:0.0000s ]
+
+[ 2019-02-06T20:21:28+08:00 ] 122.7.45.69 /index.php/Api/index/jnbl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_fbjn` WHERE ( fwpl=146 ) LIMIT 0,6   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=1008 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_jineng` [ RunTime:0.0004s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=146 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103685 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=146 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250363 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=146 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250364 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=146 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=96430735 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=146 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-02-06T20:21:36+08:00 ] 122.7.45.69 /index.php/Api/index/jnbl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `qm_fbjn` WHERE ( fwpl=146 ) LIMIT 5,6   [ RunTime:0.0002s ]
+
+[ 2019-02-06T20:45:09+08:00 ] 112.224.67.10 /index.php/Api/index/lunbo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000234s ]
+SQL: SHOW COLUMNS FROM `qm_lb` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_lb` WHERE ( stat=0 )  [ RunTime:0.0001s ]
+
+[ 2019-02-06T20:45:09+08:00 ] 112.224.67.10 /index.php/Api/index/jnblall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000243s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_fbjn` ORDER BY id desc LIMIT 0,6   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=96430772 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_jineng` [ RunTime:0.0003s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103689 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=39 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103689 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=148 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=37408195 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425019 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=76 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425019 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=150 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-02-06T20:45:09+08:00 ] 112.224.67.10 /index.php/Api/index/fwxx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000242s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_user` ORDER BY rand() LIMIT 6   [ RunTime:0.0028s ]
+
+[ 2019-02-06T20:45:09+08:00 ] 112.224.67.10 /index.php/Api/index/toutiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000311s ]
+SQL: SHOW COLUMNS FROM `qm_toutiao` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name`,`content` FROM `qm_toutiao` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0001s ]
+
+[ 2019-02-06T20:45:09+08:00 ] 112.224.67.10 /index.php/Api/index/xjwd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000258s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0007s ]
+SQL: UPDATE `qm_user` SET `lat`='36.70462790711361',`lon`='117.01134490966791',`zd`='1549457109' WHERE ( id='69237812' ) [ RunTime:0.0153s ]
+
+[ 2019-02-06T20:45:12+08:00 ] 112.224.67.10 /index.php/Api/index/fuwuyuan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000292s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `qm_user` WHERE ( fbzt>0 ) ORDER BY id desc LIMIT 0,6   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `qm_grdt` [ RunTime:0.0004s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=89250354 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=89250349 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=86425033 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=69237807 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=57103676 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=57103674 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-02-06T20:45:15+08:00 ] 112.224.67.10 /index.php/Api/index/getye
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=69237812 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-02-06T20:45:15+08:00 ] 112.224.67.10 /index.php/Api/index/yjfx?uid=69237812
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `qm_user` WHERE ( fid=69237812 )  [ RunTime:0.0005s ]
+
+[ 2019-02-06T20:45:15+08:00 ] 112.224.67.10 /index.php/Api/index/cstat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000263s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`cstat` FROM `qm_user` WHERE ( id=69237812 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-02-06T20:46:14+08:00 ] 112.224.67.10 /index.php/Api/Index/medata
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=69237812 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2019-02-06T20:46:14+08:00 ] 112.224.67.10 /index.php/Api/index/getcs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000299s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0008s ]
+SQL: SELECT `wstat` FROM `qm_user` WHERE ( id='69237812' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-02-06T20:46:31+08:00 ] 112.224.67.10 /index.php/Api/user/uploads
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000240s ]
+NOTIC: [2] md5() expects at least 1 parameter, 0 given /www/wwwroot/jy.juhuaian.cn/Application/Api/Controller/UserController.class.php 第 1007 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /www/wwwroot/jy.juhuaian.cn/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2019-02-06T20:46:32+08:00 ] 112.224.67.10 /index.php/Api/index/userq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000283s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0007s ]
+SQL: UPDATE `qm_user` SET `pic`='2019-02-06/p-357dbdfb.jpg' WHERE ( id=69237812 ) [ RunTime:0.0202s ]
+
+[ 2019-02-06T20:46:42+08:00 ] 112.224.67.10 /index.php/Api/index/fwxx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000237s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `qm_user` ORDER BY rand() LIMIT 6   [ RunTime:0.0028s ]
+
+[ 2019-02-06T20:46:42+08:00 ] 112.224.67.10 /index.php/Api/index/xjwd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000261s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0008s ]
+SQL: UPDATE `qm_user` SET `lat`='36.70462790711361',`lon`='117.01134490966791',`zd`='1549457202' WHERE ( id='69237812' ) [ RunTime:0.0216s ]
+
+[ 2019-02-06T20:46:42+08:00 ] 112.224.67.10 /index.php/Api/index/jnblall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000248s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_fbjn` ORDER BY id desc LIMIT 0,6   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=96430772 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qm_jineng` [ RunTime:0.0003s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103689 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=39 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103689 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=148 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=37408195 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425019 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=76 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425019 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=150 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2019-02-06T20:46:42+08:00 ] 112.224.67.10 /index.php/Api/index/toutiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000241s ]
+SQL: SHOW COLUMNS FROM `qm_toutiao` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name`,`content` FROM `qm_toutiao` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0001s ]
+
+[ 2019-02-06T20:46:42+08:00 ] 112.224.67.10 /index.php/Api/index/lunbo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000263s ]
+SQL: SHOW COLUMNS FROM `qm_lb` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qm_lb` WHERE ( stat=0 )  [ RunTime:0.0001s ]
+
+[ 2019-02-06T20:46:52+08:00 ] 112.224.67.10 /index.php/Api/index/fuwuyuan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000252s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `qm_user` WHERE ( fbzt>0 ) ORDER BY id desc LIMIT 0,6   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qm_grdt` [ RunTime:0.0004s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=89250354 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=89250349 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=86425033 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=69237807 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=57103676 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=57103674 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-02-06T20:46:55+08:00 ] 112.224.67.10 /index.php/Api/index/getcs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000238s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0007s ]
+SQL: SELECT `wstat` FROM `qm_user` WHERE ( id='69237812' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-02-06T20:46:55+08:00 ] 112.224.67.10 /index.php/Api/Index/medata
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000258s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=69237812 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2019-02-06T20:46:57+08:00 ] 112.224.67.10 /index.php/Api/user/uploads
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000269s ]
+NOTIC: [2] md5() expects at least 1 parameter, 0 given /www/wwwroot/jy.juhuaian.cn/Application/Api/Controller/UserController.class.php 第 1007 行.
+
+[ 2019-02-06T20:47:28+08:00 ] 112.224.67.10 /index.php/Api/user/uploads
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000249s ]
+NOTIC: [2] md5() expects at least 1 parameter, 0 given /www/wwwroot/jy.juhuaian.cn/Application/Api/Controller/UserController.class.php 第 1007 行.
+
+[ 2019-02-06T22:47:39+08:00 ] 112.38.206.145 /index.php/Api/index/lunbo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `qm_lb` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_lb` WHERE ( stat=0 )  [ RunTime:0.0001s ]
+
+[ 2019-02-06T22:47:39+08:00 ] 112.38.206.145 /index.php/Api/index/toutiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000248s ]
+SQL: SHOW COLUMNS FROM `qm_toutiao` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`name`,`content` FROM `qm_toutiao` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0001s ]
+
+[ 2019-02-06T22:47:39+08:00 ] 112.38.206.145 /index.php/Api/index/fwxx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011615s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_user` ORDER BY rand() LIMIT 6   [ RunTime:0.0048s ]
+
+[ 2019-02-06T22:47:39+08:00 ] 112.38.206.145 /index.php/Api/index/jnblall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000244s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_fbjn` ORDER BY id desc LIMIT 0,6   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=96430772 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_jineng` [ RunTime:0.0004s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103689 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=39 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103689 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=148 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=37408195 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425019 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=76 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425019 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=150 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-02-06T22:47:39+08:00 ] 112.38.206.145 /index.php/Api/index/xjwd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0008s ]
+SQL: UPDATE `qm_user` SET `lat`='36.64573287963867',`lon`='116.99925994873043',`zd`='1549464459' WHERE ( id='86425033' ) [ RunTime:0.0299s ]
+
+[ 2019-02-06T22:47:51+08:00 ] 112.38.206.145 /index.php/Api/index/fuwuyuanxq?id=96430766
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=96430766 )  [ RunTime:0.0003s ]
+SQL: SELECT `pic` FROM `qm_user` ORDER BY rand() LIMIT 8   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `qm_grdt` [ RunTime:0.0003s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=96430766 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2019-02-06T22:48:14+08:00 ] 112.38.206.145 /index.php/Api/index/jnblall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000362s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `qm_fbjn` ORDER BY id desc LIMIT 6,10   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425019 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qm_jineng` [ RunTime:0.0004s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=152 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425019 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=153 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=75982134 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=147 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250349 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=90 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=75982133 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=39 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=96430755 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=151 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250362 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=76 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250362 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=76 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=96430751 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=81 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425018 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-02-06T22:48:14+08:00 ] 112.38.206.145 /index.php/Api/index/jnblall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000266s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_fbjn` ORDER BY id desc LIMIT 6,10   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425019 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_jineng` [ RunTime:0.0003s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=152 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425019 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=153 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=75982134 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=147 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250349 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=90 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=75982133 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=39 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=96430755 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=151 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250362 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=76 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250362 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=76 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=96430751 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=81 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425018 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-02-06T22:48:23+08:00 ] 112.38.206.145 /index.php/Api/index/jnblall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000283s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_fbjn` ORDER BY id desc LIMIT 26,10   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250364 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qm_jineng` [ RunTime:0.0004s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250364 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=150 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250364 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=151 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250364 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=147 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250364 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=146 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250363 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250363 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=148 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250363 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=149 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250363 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=65 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250363 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=61 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-02-06T22:48:25+08:00 ] 112.38.206.145 /index.php/Api/index/jnblall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000257s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qm_fbjn` ORDER BY id desc LIMIT 36,10   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250363 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_jineng` [ RunTime:0.0005s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=64 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250363 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=63 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250363 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250363 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250363 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=151 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250363 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=150 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250363 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=147 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250363 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=146 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250361 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=132 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250361 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=127 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-02-06T22:48:26+08:00 ] 112.38.206.145 /index.php/Api/index/jnblall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000271s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_fbjn` ORDER BY id desc LIMIT 46,10   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=10253796 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qm_jineng` [ RunTime:0.0004s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=90 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103681 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=63 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250357 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=40 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250357 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250357 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=20 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250357 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=16 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425033 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=31 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425033 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=19 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=86425033 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=17 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103674 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=150 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-02-06T22:48:36+08:00 ] 112.38.206.145 /index.php/Api/index/jnblall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `qm_fbjn` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `qm_fbjn` ORDER BY id desc LIMIT 56,10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=75982134 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_jineng` [ RunTime:0.0005s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=78 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250353 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=143 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=81967230 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=70 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=69743025 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=44 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250351 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=44 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=89250350 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=150 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103688 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=8 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103688 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103688 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=57103674 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `jname` FROM `qm_jineng` WHERE ( id=15 ) LIMIT 1   [ RunTime:0.0000s ]
+

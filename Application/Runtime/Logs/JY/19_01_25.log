@@ -1,0 +1,935 @@
+[ 2019-01-25T09:59:19+08:00 ] 123.232.180.0 /index.php/JY
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/jy.juhuaian.cn/Application/JY/Controller/IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `qm_adminus` [ RunTime:0.0005s ]
+SQL: SELECT `role_id` FROM `qm_adminus` WHERE `id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_role_right` [ RunTime:0.0003s ]
+SQL: SELECT `right_id` FROM `qm_role_right` WHERE ( role_id='' )  [ RunTime:0.0001s ]
+NOTIC: [2] implode(): Invalid arguments passed /www/wwwroot/jy.juhuaian.cn/Application/JY/Controller/IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `qm_right` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_right` WHERE ( id in ('') and parent_id=0 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qm_right` WHERE ( id in ('') and parent_id>0 )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/jy.juhuaian.cn/Application/JY/Controller/IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037222s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000353s ]
+
+[ 2019-01-25T09:59:25+08:00 ] 123.232.180.0 /index.php/JY/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000283s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018187s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018219s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000308s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000329s ]
+
+[ 2019-01-25T09:59:25+08:00 ] 123.232.180.0 /index.php/JY/Login/css/layui_1.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001521s ]
+ERR: 非法操作:css
+
+[ 2019-01-25T09:59:25+08:00 ] 123.232.180.0 /index.php/JY/Login/css/layui_1.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+ERR: 非法操作:css
+
+[ 2019-01-25T09:59:28+08:00 ] 123.232.180.0 /index.php/JY/Login/checklogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000302s ]
+SQL: SHOW COLUMNS FROM `qm_adminus` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_adminus` WHERE ( username='123' AND password='123' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003454s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003479s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+
+[ 2019-01-25T10:00:22+08:00 ] 123.232.180.0 /index.php/JY/Login/checklogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `qm_adminus` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_adminus` WHERE ( username='2' AND password='2' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000020s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000043s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002576s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002598s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000283s ]
+
+[ 2019-01-25T10:00:23+08:00 ] 123.232.180.0 /index.php/JY/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000318s ]
+SQL: SHOW COLUMNS FROM `qm_adminus` [ RunTime:0.0004s ]
+SQL: SELECT `role_id` FROM `qm_adminus` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_role_right` [ RunTime:0.0003s ]
+SQL: SELECT `right_id` FROM `qm_role_right` WHERE ( role_id='2' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_right` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_right` WHERE ( id in ('17') and parent_id=0 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_right` WHERE ( id in ('17') and parent_id>0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013809s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013839s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000270s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000286s ]
+
+[ 2019-01-25T10:00:24+08:00 ] 123.232.180.0 /index.php/JY/Index/img/icon/baidu.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+
+[ 2019-01-25T10:00:24+08:00 ] 123.232.180.0 /index.php/JY/Index/img/presentation/1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+
+[ 2019-01-25T10:01:45+08:00 ] 123.232.180.0 /index.php/JY/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000285s ]
+SQL: SHOW COLUMNS FROM `qm_adminus` [ RunTime:0.0005s ]
+SQL: SELECT `role_id` FROM `qm_adminus` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_role_right` [ RunTime:0.0004s ]
+SQL: SELECT `right_id` FROM `qm_role_right` WHERE ( role_id='2' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_right` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_right` WHERE ( id in ('17') and parent_id=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_right` WHERE ( id in ('17') and parent_id>0 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004060s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000317s ]
+
+[ 2019-01-25T10:01:45+08:00 ] 123.232.180.0 /index.php/JY/Index/img/icon/baidu.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+
+[ 2019-01-25T10:01:45+08:00 ] 123.232.180.0 /index.php/JY/Index/img/presentation/1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+
+[ 2019-01-25T10:01:48+08:00 ] 123.232.180.0 /index.php/JY/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000297s ]
+SQL: SHOW COLUMNS FROM `qm_adminus` [ RunTime:0.0004s ]
+SQL: SELECT `role_id` FROM `qm_adminus` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_role_right` [ RunTime:0.0004s ]
+SQL: SELECT `right_id` FROM `qm_role_right` WHERE ( role_id='2' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_right` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_right` WHERE ( id in ('17') and parent_id=0 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_right` WHERE ( id in ('17') and parent_id>0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006090s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006241s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000322s ]
+
+[ 2019-01-25T10:01:48+08:00 ] 123.232.180.0 /index.php/JY/Index/img/icon/baidu.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+
+[ 2019-01-25T10:01:48+08:00 ] 123.232.180.0 /index.php/JY/Index/img/presentation/1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+
+[ 2019-01-25T10:01:57+08:00 ] 123.232.180.0 /index.php/JY/Login/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000020s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000045s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003790s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003812s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000292s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000316s ]
+
+[ 2019-01-25T10:02:00+08:00 ] 123.232.180.0 /index.php/JY/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006259s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000425s ]
+
+[ 2019-01-25T10:02:01+08:00 ] 123.232.180.0 /index.php/JY/Login/css/layui_1.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+ERR: 非法操作:css
+
+[ 2019-01-25T10:02:09+08:00 ] 123.232.180.0 /index.php/JY/Login/checklogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+SQL: SHOW COLUMNS FROM `qm_adminus` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_adminus` WHERE ( username='ALan马' AND password='wjma' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000041s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002618s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000082s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000294s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000320s ]
+
+[ 2019-01-25T10:02:11+08:00 ] 123.232.180.0 /index.php/JY/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `qm_adminus` [ RunTime:0.0005s ]
+SQL: SELECT `role_id` FROM `qm_adminus` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qm_role_right` [ RunTime:0.0003s ]
+SQL: SELECT `right_id` FROM `qm_role_right` WHERE ( role_id='1' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_right` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_right` WHERE ( id in ('32','30','29','28','27','26','25','24','23','22','33','21','20','19','18','17','16','14','13','12','11','10','9','8','7','6','5','4','3','2','1') and parent_id=0 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qm_right` WHERE ( id in ('32','30','29','28','27','26','25','24','23','22','33','21','20','19','18','17','16','14','13','12','11','10','9','8','7','6','5','4','3','2','1') and parent_id>0 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005298s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005323s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000374s ]
+
+[ 2019-01-25T10:02:11+08:00 ] 123.232.180.0 /index.php/JY/Index/img/icon/baidu.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+
+[ 2019-01-25T10:02:11+08:00 ] 123.232.180.0 /index.php/JY/Index/img/presentation/1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+
+[ 2019-01-25T10:02:12+08:00 ] 123.232.180.0 /index.php/JY/Rermissions/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `qm_adminus` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_adminus`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_role` [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `qm_role` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `qm_role` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `qm_role` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `qm_role` WHERE ( id='16' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `qm_role` WHERE ( id='4' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+NOTIC: [8] Undefined variable: page /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/92ec72a33bdae785e9c1caec47662e8f.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017936s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017975s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000372s ]
+
+[ 2019-01-25T10:02:16+08:00 ] 123.232.180.0 /index.php/JY/Rermissions/adminxiu/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000237s ]
+SQL: SHOW COLUMNS FROM `qm_adminus` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_adminus` WHERE ( id='9' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_role` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qm_role`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043030s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000259s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000275s ]
+
+[ 2019-01-25T10:02:18+08:00 ] 123.232.180.0 /index.php/JY/Rermissions/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000281s ]
+SQL: SHOW COLUMNS FROM `qm_adminus` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_adminus`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_role` [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `qm_role` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `qm_role` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `qm_role` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `qm_role` WHERE ( id='16' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `qm_role` WHERE ( id='4' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000046s ]
+NOTIC: [8] Undefined variable: page /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/92ec72a33bdae785e9c1caec47662e8f.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003296s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003313s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000340s ]
+
+[ 2019-01-25T10:02:20+08:00 ] 123.232.180.0 /index.php/JY/Rermissions/role
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000233s ]
+SQL: SHOW COLUMNS FROM `qm_role` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_role`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+NOTIC: [8] Undefined variable: page /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/9b4a607212727d447e20f7caf43b9ac2.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019754s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019771s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000284s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000299s ]
+
+[ 2019-01-25T10:02:24+08:00 ] 123.232.180.0 /index.php/JY/Rermissions/allotment_qx/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `qm_role` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_role` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qm_right` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_right` WHERE ( parent_id=0 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qm_right` WHERE ( parent_id='1' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_right` WHERE ( parent_id='2' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_right` WHERE ( parent_id='3' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_right` WHERE ( parent_id='4' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_right` WHERE ( parent_id='5' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_right` WHERE ( parent_id='9' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_right` WHERE ( parent_id='12' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_right` WHERE ( parent_id='19' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_role_right` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_role_right` WHERE ( role_id='2' )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+NOTIC: [8] Use of undefined constant parent - assumed 'parent' /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/9ec3cd8e070291bec8dab5d1a2c10792.php 第 33 行.
+NOTIC: [8] Use of undefined constant parent - assumed 'parent' /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/9ec3cd8e070291bec8dab5d1a2c10792.php 第 33 行.
+NOTIC: [8] Use of undefined constant parent - assumed 'parent' /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/9ec3cd8e070291bec8dab5d1a2c10792.php 第 33 行.
+NOTIC: [8] Use of undefined constant parent - assumed 'parent' /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/9ec3cd8e070291bec8dab5d1a2c10792.php 第 33 行.
+NOTIC: [8] Use of undefined constant parent - assumed 'parent' /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/9ec3cd8e070291bec8dab5d1a2c10792.php 第 33 行.
+NOTIC: [8] Use of undefined constant parent - assumed 'parent' /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/9ec3cd8e070291bec8dab5d1a2c10792.php 第 33 行.
+NOTIC: [8] Use of undefined constant parent - assumed 'parent' /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/9ec3cd8e070291bec8dab5d1a2c10792.php 第 33 行.
+NOTIC: [8] Use of undefined constant parent - assumed 'parent' /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/9ec3cd8e070291bec8dab5d1a2c10792.php 第 33 行.
+NOTIC: [8] Use of undefined constant parent - assumed 'parent' /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/9ec3cd8e070291bec8dab5d1a2c10792.php 第 33 行.
+NOTIC: [8] Use of undefined constant parent - assumed 'parent' /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/9ec3cd8e070291bec8dab5d1a2c10792.php 第 33 行.
+NOTIC: [8] Use of undefined constant parent - assumed 'parent' /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/9ec3cd8e070291bec8dab5d1a2c10792.php 第 33 行.
+NOTIC: [8] Use of undefined constant parent - assumed 'parent' /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/9ec3cd8e070291bec8dab5d1a2c10792.php 第 33 行.
+NOTIC: [8] Use of undefined constant parent - assumed 'parent' /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/9ec3cd8e070291bec8dab5d1a2c10792.php 第 33 行.
+NOTIC: [8] Use of undefined constant parent - assumed 'parent' /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/9ec3cd8e070291bec8dab5d1a2c10792.php 第 33 行.
+NOTIC: [8] Use of undefined constant parent - assumed 'parent' /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/9ec3cd8e070291bec8dab5d1a2c10792.php 第 33 行.
+NOTIC: [8] Use of undefined constant parent - assumed 'parent' /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/9ec3cd8e070291bec8dab5d1a2c10792.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018399s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000450s ]
+
+[ 2019-01-25T10:02:33+08:00 ] 123.232.180.0 /index.php/JY/Rermissions/addpermissions
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+SQL: SHOW COLUMNS FROM `qm_role_right` [ RunTime:0.0006s ]
+SQL: DELETE FROM `qm_role_right` WHERE ( role_id='2' ) [ RunTime:0.0002s ]
+SQL: INSERT INTO `qm_role_right` (`role_id`,`right_id`) VALUES ('2','1') [ RunTime:0.0002s ]
+SQL: INSERT INTO `qm_role_right` (`role_id`,`right_id`) VALUES ('2','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `qm_role_right` (`role_id`,`right_id`) VALUES ('2','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `qm_role_right` (`role_id`,`right_id`) VALUES ('2','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `qm_role_right` (`role_id`,`right_id`) VALUES ('2','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `qm_role_right` (`role_id`,`right_id`) VALUES ('2','9') [ RunTime:0.0001s ]
+SQL: INSERT INTO `qm_role_right` (`role_id`,`right_id`) VALUES ('2','12') [ RunTime:0.0001s ]
+SQL: INSERT INTO `qm_role_right` (`role_id`,`right_id`) VALUES ('2','19') [ RunTime:0.0001s ]
+SQL: INSERT INTO `qm_role_right` (`role_id`,`right_id`) VALUES ('2','20') [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000055s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003753s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003778s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000392s ]
+
+[ 2019-01-25T10:02:34+08:00 ] 123.232.180.0 /index.php/JY/Rermissions/role.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000252s ]
+SQL: SHOW COLUMNS FROM `qm_role` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_role`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+NOTIC: [8] Undefined variable: page /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/9b4a607212727d447e20f7caf43b9ac2.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002798s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002813s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000270s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000289s ]
+
+[ 2019-01-25T10:02:41+08:00 ] 123.232.180.0 /index.php/JY/Goods/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `qm_goods` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_goods` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_goods` ORDER BY code,addtime desc LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022242s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000272s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000288s ]
+
+[ 2019-01-25T10:36:43+08:00 ] 123.232.180.0 /index.php/JY/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000272s ]
+SQL: SHOW COLUMNS FROM `qm_adminus` [ RunTime:0.0005s ]
+SQL: SELECT `role_id` FROM `qm_adminus` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_role_right` [ RunTime:0.0004s ]
+SQL: SELECT `right_id` FROM `qm_role_right` WHERE ( role_id='1' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_right` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_right` WHERE ( id in ('32','30','29','28','27','26','25','24','23','22','33','21','20','19','18','17','16','14','13','12','11','10','9','8','7','6','5','4','3','2','1') and parent_id=0 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_right` WHERE ( id in ('32','30','29','28','27','26','25','24','23','22','33','21','20','19','18','17','16','14','13','12','11','10','9','8','7','6','5','4','3','2','1') and parent_id>0 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000094s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000292s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000312s ]
+
+[ 2019-01-25T10:36:44+08:00 ] 123.232.180.0 /index.php/JY/Index/img/icon/baidu.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+
+[ 2019-01-25T10:36:44+08:00 ] 123.232.180.0 /index.php/JY/Index/img/presentation/1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+
+[ 2019-01-25T10:55:08+08:00 ] 123.232.180.0 /index.php/JY/Index/img/icon/baidu.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+
+[ 2019-01-25T10:55:08+08:00 ] 123.232.180.0 /index.php/JY/Index/img/presentation/1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+
+[ 2019-01-25T11:10:13+08:00 ] 123.232.180.0 /index.php/JY
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000228s ]
+SQL: SHOW COLUMNS FROM `qm_adminus` [ RunTime:0.0006s ]
+SQL: SELECT `role_id` FROM `qm_adminus` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_role_right` [ RunTime:0.0004s ]
+SQL: SELECT `right_id` FROM `qm_role_right` WHERE ( role_id='1' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_right` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_right` WHERE ( id in ('32','30','29','28','27','26','25','24','23','22','33','21','20','19','18','17','16','14','13','12','11','10','9','8','7','6','5','4','3','2','1') and parent_id=0 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_right` WHERE ( id in ('32','30','29','28','27','26','25','24','23','22','33','21','20','19','18','17','16','14','13','12','11','10','9','8','7','6','5','4','3','2','1') and parent_id>0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005653s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005678s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000443s ]
+
+[ 2019-01-25T14:52:58+08:00 ] 112.36.202.79 /index.php/JY/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000274s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/jy.juhuaian.cn/Application/JY/Controller/IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `qm_adminus` [ RunTime:0.0005s ]
+SQL: SELECT `role_id` FROM `qm_adminus` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_role_right` [ RunTime:0.0004s ]
+SQL: SELECT `right_id` FROM `qm_role_right` WHERE ( role_id='' )  [ RunTime:0.0001s ]
+NOTIC: [2] implode(): Invalid arguments passed /www/wwwroot/jy.juhuaian.cn/Application/JY/Controller/IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `qm_right` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_right` WHERE ( id in ('') and parent_id=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_right` WHERE ( id in ('') and parent_id>0 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/jy.juhuaian.cn/Application/JY/Controller/IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000019s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000044s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002644s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000319s ]
+
+[ 2019-01-25T14:53:01+08:00 ] 112.36.202.79 /index.php/JY/Login/css/layui_1.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+ERR: 非法操作:css
+
+[ 2019-01-25T14:53:01+08:00 ] 112.36.202.79 /index.php/JY/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000264s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002598s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000078s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000317s ]
+
+[ 2019-01-25T14:53:17+08:00 ] 112.36.202.79 /index.php/JY/Login/checklogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `qm_adminus` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_adminus` WHERE ( username='Alan马' AND password='wjma' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002498s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002516s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000078s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000276s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000292s ]
+
+[ 2019-01-25T14:53:20+08:00 ] 112.36.202.79 /index.php/JY/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000274s ]
+SQL: SHOW COLUMNS FROM `qm_adminus` [ RunTime:0.0005s ]
+SQL: SELECT `role_id` FROM `qm_adminus` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_role_right` [ RunTime:0.0003s ]
+SQL: SELECT `right_id` FROM `qm_role_right` WHERE ( role_id='1' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_right` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_right` WHERE ( id in ('32','30','29','28','27','26','25','24','23','22','33','21','20','19','18','17','16','14','13','12','11','10','9','8','7','6','5','4','3','2','1') and parent_id=0 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_right` WHERE ( id in ('32','30','29','28','27','26','25','24','23','22','33','21','20','19','18','17','16','14','13','12','11','10','9','8','7','6','5','4','3','2','1') and parent_id>0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004280s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004303s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000272s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000291s ]
+
+[ 2019-01-25T14:53:20+08:00 ] 112.36.202.79 /index.php/JY/Index/img/icon/baidu.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+
+[ 2019-01-25T14:53:21+08:00 ] 112.36.202.79 /index.php/JY/Index/img/icon/baidu.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+
+[ 2019-01-25T14:53:21+08:00 ] 112.36.202.79 /index.php/JY/Index/img/presentation/1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+
+[ 2019-01-25T14:53:23+08:00 ] 112.36.202.79 /index.php/JY/Mgt/userlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000285s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qm_user` LIMIT 0,7   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033564s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033624s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000405s ]
+
+[ 2019-01-25T14:53:30+08:00 ] 112.36.202.79 /index.php/JY/Mgt/userlist/p/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_user` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_user` LIMIT 77,7   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+NOTIC: [8] Undefined index: sex /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 67 行.
+NOTIC: [8] Undefined index: email /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 80 行.
+NOTIC: [8] Undefined index: qq /www/wwwroot/jy.juhuaian.cn/Application/Runtime/Cache/JY/d29cc9c9e498b14fa0bbbdaf6fd8dade.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003988s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000313s ]
+
+[ 2019-01-25T14:54:37+08:00 ] 112.36.202.79 /index.php/JY/Mgt/update/id/96430722
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qm_user` WHERE ( id=96430722 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014670s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014700s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000330s ]
+
+[ 2019-01-25T18:33:01+08:00 ] 123.232.180.0 /index.php/JY
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/jy.juhuaian.cn/Application/JY/Controller/IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `qm_adminus` [ RunTime:0.0006s ]
+SQL: SELECT `role_id` FROM `qm_adminus` WHERE `id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_role_right` [ RunTime:0.0004s ]
+SQL: SELECT `right_id` FROM `qm_role_right` WHERE ( role_id='' )  [ RunTime:0.0000s ]
+NOTIC: [2] implode(): Invalid arguments passed /www/wwwroot/jy.juhuaian.cn/Application/JY/Controller/IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `qm_right` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_right` WHERE ( id in ('') and parent_id=0 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_right` WHERE ( id in ('') and parent_id>0 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/jy.juhuaian.cn/Application/JY/Controller/IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003766s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000379s ]
+
+[ 2019-01-25T18:33:05+08:00 ] 123.232.180.0 /index.php/JY/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000272s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002584s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000078s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000264s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000281s ]
+
+[ 2019-01-25T18:33:05+08:00 ] 123.232.180.0 /index.php/JY/Login/css/layui_1.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000281s ]
+ERR: 非法操作:css
+
+[ 2019-01-25T18:33:05+08:00 ] 123.232.180.0 /index.php/JY/Login/css/layui_1.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000242s ]
+ERR: 非法操作:css
+

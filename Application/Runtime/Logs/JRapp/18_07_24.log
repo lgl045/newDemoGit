@@ -1,0 +1,1334 @@
+[ 2018-07-24T08:50:42+08:00 ] 60.216.137.56 /index.php/JRapp/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000247s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003636s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003669s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005989s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000382s ]
+
+[ 2018-07-24T08:50:42+08:00 ] 60.216.137.56 /index.php/JRapp/Login/css/layui_1.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+ERR: 非法操作:css
+
+[ 2018-07-24T08:50:42+08:00 ] 60.216.137.56 /index.php/JRapp/Login/css/layui_1.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+ERR: 非法操作:css
+
+[ 2018-07-24T09:02:40+08:00 ] 60.216.137.56 /index.php/JRapp/Login/checklogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000261s ]
+SQL: SHOW COLUMNS FROM `qm_adminus` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_adminus` WHERE ( username='123' AND password='123' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000040s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002353s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002371s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000076s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000280s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000294s ]
+
+[ 2018-07-24T09:02:53+08:00 ] 60.216.137.56 /index.php/JRapp/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000261s ]
+SQL: SHOW COLUMNS FROM `qm_adminus` [ RunTime:0.0004s ]
+SQL: SELECT `role_id` FROM `qm_adminus` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_role_right` [ RunTime:0.0003s ]
+SQL: SELECT `right_id` FROM `qm_role_right` WHERE ( role_id='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_right` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_right` WHERE ( id in ('25','24','23','22','21','20','19','18','17','16','14','13','12','11','10','9','8','7','6','5','4','3','2','1','26') and parent_id=0 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_right` WHERE ( id in ('25','24','23','22','21','20','19','18','17','16','14','13','12','11','10','9','8','7','6','5','4','3','2','1','26') and parent_id>0 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003483s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003503s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000082s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000248s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000262s ]
+
+[ 2018-07-24T09:02:54+08:00 ] 60.216.137.56 /index.php/JRapp/Index/img/presentation/1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+
+[ 2018-07-24T09:02:54+08:00 ] 60.216.137.56 /index.php/JRapp/Index/img/icon/baidu.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+
+[ 2018-07-24T09:02:56+08:00 ] 60.216.137.56 /index.php/JRapp/Mgt/dtzq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000221s ]
+SQL: SHOW COLUMNS FROM `qm_dt` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_dt` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_dt` LIMIT 0,7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002970s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000255s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000270s ]
+
+[ 2018-07-24T09:02:59+08:00 ] 60.216.137.56 /index.php/JRapp/Mgt/sodel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000254s ]
+ERR: 非法操作:sodel
+
+[ 2018-07-24T09:02:59+08:00 ] 60.216.137.56 /index.php/JRapp/Mgt/adddt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000258s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003106s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003122s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000312s ]
+
+[ 2018-07-24T09:08:02+08:00 ] 60.216.137.56 /index.php/JRapp/Mgt/dtzq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+SQL: SHOW COLUMNS FROM `qm_dt` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_dt` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_dt` LIMIT 0,7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002924s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002940s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000246s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000259s ]
+
+[ 2018-07-24T09:08:03+08:00 ] 60.216.137.56 /index.php/JRapp/Mgt/sodel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+ERR: 非法操作:sodel
+
+[ 2018-07-24T09:08:03+08:00 ] 60.216.137.56 /index.php/JRapp/Mgt/adddt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000254s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002793s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002808s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000229s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000242s ]
+
+[ 2018-07-24T09:10:29+08:00 ] 60.216.137.56 /index.php/JRapp/Mgt/ysqk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000230s ]
+ERR: 模板不存在:./Application/JRapp/View/Mgt/ysqk.html
+
+[ 2018-07-24T09:10:32+08:00 ] 60.216.137.56 /index.php/JRapp/Mgt/dtzq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000235s ]
+SQL: SHOW COLUMNS FROM `qm_dt` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_dt` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_dt` LIMIT 0,7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000055s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003054s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003074s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000076s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000258s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000272s ]
+
+[ 2018-07-24T09:10:34+08:00 ] 60.216.137.56 /index.php/JRapp/Mgt/sodel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+ERR: 非法操作:sodel
+
+[ 2018-07-24T09:10:34+08:00 ] 60.216.137.56 /index.php/JRapp/Mgt/adddt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000253s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003319s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003387s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000310s ]
+
+[ 2018-07-24T11:24:20+08:00 ] 101.199.108.119 /index.php/JRapp/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/dai.juhuaian.cn/Application/JRapp/Controller/IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `qm_adminus` [ RunTime:0.0004s ]
+SQL: SELECT `role_id` FROM `qm_adminus` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_role_right` [ RunTime:0.0003s ]
+SQL: SELECT `right_id` FROM `qm_role_right` WHERE ( role_id='' )  [ RunTime:0.0000s ]
+NOTIC: [2] implode(): Invalid arguments passed /www/wwwroot/dai.juhuaian.cn/Application/JRapp/Controller/IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `qm_right` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_right` WHERE ( id in ('') and parent_id=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_right` WHERE ( id in ('') and parent_id>0 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/dai.juhuaian.cn/Application/JRapp/Controller/IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000018s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000033s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002394s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002410s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000255s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000268s ]
+
+[ 2018-07-24T11:24:23+08:00 ] 101.199.108.119 /index.php/JRapp/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000351s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003571s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003592s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000353s ]
+
+[ 2018-07-24T11:24:23+08:00 ] 101.199.108.119 /index.php/JRapp/Login/css/layui_1.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000225s ]
+ERR: 非法操作:css
+
+[ 2018-07-24T11:24:54+08:00 ] 101.199.112.50 /index.php/JRapp/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000245s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/dai.juhuaian.cn/Application/JRapp/Controller/IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `qm_adminus` [ RunTime:0.0004s ]
+SQL: SELECT `role_id` FROM `qm_adminus` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_role_right` [ RunTime:0.0002s ]
+SQL: SELECT `right_id` FROM `qm_role_right` WHERE ( role_id='' )  [ RunTime:0.0000s ]
+NOTIC: [2] implode(): Invalid arguments passed /www/wwwroot/dai.juhuaian.cn/Application/JRapp/Controller/IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `qm_right` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_right` WHERE ( id in ('') and parent_id=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_right` WHERE ( id in ('') and parent_id>0 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/dai.juhuaian.cn/Application/JRapp/Controller/IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000018s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000036s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002369s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002384s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000313s ]
+
+[ 2018-07-24T11:25:11+08:00 ] 101.199.112.50 /index.php/JRapp/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000253s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002474s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002491s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000270s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000284s ]
+
+[ 2018-07-24T11:25:11+08:00 ] 101.199.112.50 /index.php/JRapp/Login/css/layui_1.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000253s ]
+ERR: 非法操作:css
+
+[ 2018-07-24T16:12:03+08:00 ] 60.216.137.56 /index.php/JRapp/Mgt/zxkzone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `qm_zxkzone` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_zxkzone` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000053s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005303s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005325s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000078s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000305s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000320s ]
+
+[ 2018-07-24T16:12:12+08:00 ] 60.216.137.56 /index.php/JRapp/Mgt/rw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000253s ]
+SQL: SHOW COLUMNS FROM `qm_rw` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `qm_rw` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004731s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000286s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000300s ]
+
+[ 2018-07-24T16:13:09+08:00 ] 60.216.137.56 /index.php/JRapp/Mgt/erw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `qm_rw` [ RunTime:0.0005s ]
+SQL: UPDATE `qm_rw` SET `pic`='uploads/2018-07-17/1531824530_1911239783.png',`fbr`='众融普惠',`title`='软文推广',`cont`='<p><span style=\";font-family:宋体;font-size:19px\"><span style=\"font-family:宋体\">众融普惠最新版平台</span></span><span style=\";font-family:宋体;font-size:19px\">APP<span style=\"font-family:宋体\">今天与大家正式见面啦，最新版</span><span style=\"font-family:Calibri\">APP</span><span style=\"font-family:宋体\">服务功能大大完善，平台交易更有保障，新版界面全面改版。经过此次更新，众融普惠平台已经是国内目前涵盖业务范围最全面的综合性线上借贷服务平台！</span></span><span style=\";font-family:宋体;font-size:19px\"><span style=\"font-family:宋体\">以下是众融普惠的推广软文，仅供大家参考，后期会更新更多内容。</span></span></p><p><span style=\";font-family:宋体;font-size:19px\"><span style=\"font-family:宋体\">为什么在众多金融平台中，众融普惠格外受到大家青睐，被这么多人所选择呢？你又为什么应该选择众融普惠呢：</span></span></p><p><span style=\"font-family:宋体;font-size:19px\">1.&nbsp;</span><span style=\";font-family:宋体;font-size:19px\">&nbsp;<span style=\"font-family:宋体\">众融普惠是目前国内</span></span><strong><span style=\"font-family: 宋体;font-size: 19px\"><span style=\"font-family:宋体\">涵盖业务最全面</span></span></strong><span style=\";font-family:宋体;font-size:19px\"><span style=\"font-family:宋体\">的综合性线上借贷服务平台，是</span></span><strong><span style=\"font-family: 宋体;font-size: 19px\"><span style=\"font-family:宋体\">保障制度最完善</span></span></strong><span style=\";font-family:宋体;font-size:19px\"><span style=\"font-family:宋体\">，</span></span><strong><span style=\"font-family: 宋体;font-size: 19px\"><span style=\"font-family:宋体\">设计理念最超前</span></span></strong><span style=\";font-family:宋体;font-size:19px\"><span style=\"font-family:宋体\">的金融平台！无论是有资金需求的客户或是业界同行，都可以从我们的平台满足自己的需求。所以，无论有什么金融问题，上众融普惠，都可以得到解决。</span></span></p><p><span style=\"font-family:宋体;font-size:19px\">2.&nbsp;</span><span style=\";font-family:宋体;font-size:19px\"><span style=\"font-family:宋体\">众融普惠</span>APP<span style=\"font-family:宋体\">的贷款中心开辟线上线下相结合的贷超新时代！线上贷超基本涵盖了目前国内市场所有贷款产品让你拥有充分选择，线下与各大银行机构取得合作，平台内任何时刻都有数十家合作银行的信贷员在线实时回复信息，通过平台直接申请贷款产品、房押及线下小贷等众多业务可实现双方的直接对接，</span></span><strong><span style=\"font-family: 宋体;font-size: 19px\"><span style=\"font-family:宋体\">无中介</span></span></strong><span style=\";font-family:宋体;font-size:19px\"><span style=\"font-family:宋体\">扣除费用，省去大笔佣金，</span></span><strong><span style=\"font-family: 宋体;font-size: 19px\"><span style=\"font-family:宋体\">实现利益最大化同时保障客户信息安全</span></span></strong><span style=\";font-family:宋体;font-size:19px\"><span style=\"font-family:宋体\">。</span></span></p><p><span style=\"font-family:宋体;font-size:19px\">3.&nbsp;</span><span style=\";font-family:宋体;font-size:19px\"><span style=\"font-family:宋体\">你是否经历过客户资料被多次</span>“甩出”，客户隐私被泄露，佣金被他人获取或是将客户“甩出”后佣金收取不顺畅的经历？如果你有这类烦恼，众融普惠是你的不二之选！当你将客户交到众融普惠平台，平台保证你的一手客户不被别人干扰，</span><strong><span style=\"font-family: 宋体;font-size: 19px\"><span style=\"font-family:宋体\">高度保护客户隐私的</span></span></strong><span style=\";font-family:宋体;font-size:19px\"><span style=\"font-family:宋体\">同时，</span></span><strong><span style=\"font-family: 宋体;font-size: 19px\"><span style=\"font-family:宋体\">客户放款立即返佣</span></span></strong><span style=\";font-family:宋体;font-size:19px\"><span style=\"font-family:宋体\">，保证佣金安全、快捷。</span></span></p><p><span style=\"font-family:宋体;font-size:19px\">4.&nbsp;</span><span style=\";font-family:宋体;font-size:19px\"><span style=\"font-family:宋体\">当你苦于寻找资金资源时，请务必登陆众融普惠的资金资源板块！平台将各大资金资源信息整合在资金资源板块，解决了目前行业内众多业务人员受地域、信息等限制联系不到资金资源的一大难题</span>——</span><strong><span style=\"font-family: 宋体;font-size: 19px\"><span style=\"font-family:宋体\">通过平台，可轻易获取全国最全的资金资源信息，并以远低于联系中介的价格直接获得各大资金方的一手资金</span></span></strong><span style=\";font-family:宋体;font-size:19px\">——从而大大提高资金的利用率，实现双方共赢。</span></p><p><span style=\"font-family:宋体;font-size:19px\">5.&nbsp;</span><span style=\";font-family:宋体;font-size:19px\"><span style=\"font-family:宋体\">有合适汽车资源待出售？想要</span></span><strong><span style=\"font-family: 宋体;font-size: 19px\"><span style=\"font-family:宋体\">零首付</span></span></strong><span style=\";font-family:宋体;font-size:19px\"><span style=\"font-family:宋体\">购车？来众融普惠！平台提供大量以全国库存车、折扣车、平行进口车为主的低价车资源，致力于打造国内最大的零首付汽车交易平台。</span></span></p><p><span style=\"font-family:宋体;font-size:19px\">6.&nbsp;</span><span style=\";font-family:宋体;font-size:19px\"><span style=\"font-family:宋体\">低成本回报快高收益？三者合一不再是做梦。只要你有足够的人脉或是善于推广，通过地推赚钱获取专属二维码，推荐好友申请，好友首次申请贷款并返款成功即可获得佣金</span> <span style=\"font-family:宋体\">！更重要的是，通过众融普惠平台进行推广</span></span><strong><span style=\"font-family: 宋体;font-size: 19px\"><span style=\"font-family:宋体\">返佣比例高于业界其他平台</span></span></strong><span style=\";font-family:宋体;font-size:19px\"><span style=\"font-family:宋体\">，轻轻松松赚取收益。</span></span></p><p><span style=\"font-family:宋体;font-size:19px\">7.&nbsp;</span><span style=\";font-family:宋体;font-size:19px\"><span style=\"font-family:宋体\">如果过往的抢单甩单模式让你对佣金的收回有所顾虑，众融普惠平台带你体验抢单甩单新模式！通过线上进行抢单甩单操作，平台采取预付款保障制度，保障佣金安全收回。众融普惠平台的保障制度为你安全长远的合作关系保驾护航。</span></span></p><p><span style=\"font-family:宋体;font-size:19px\">8.&nbsp;</span><span style=\";font-family:宋体;font-size:19px\"><span style=\"font-family:宋体\">面对当前处置行业乱象丛生的现状不知回款问题如何解决？众融普惠平台以</span>“互联网<span style=\"font-family:Calibri\">+</span><span style=\"font-family:宋体\">”模式，将处置行业与互联网相结合，采取线上抢单模式，打破行业局限，突破物理距离，解决全国各地资金回款问题。</span></span></p><p><span style=\"font-family:宋体;font-size:19px\">9.&nbsp;</span><span style=\";font-family:宋体;font-size:19px\"><span style=\"font-family:宋体\">想要足不出户享受信用卡业务？平台与十六家银行达成合作，用户无需出门可直接在平台进行办卡、还款、提额、进度查询等操作。</span></span></p><p><br/></p>',`addtime`='2018-07-24' WHERE ( id=1 ) [ RunTime:0.0482s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000041s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003571s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000278s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000293s ]
+
+[ 2018-07-24T16:13:10+08:00 ] 60.216.137.56 /index.php/JRapp/Mgt/rw.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000221s ]
+SQL: SHOW COLUMNS FROM `qm_rw` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_rw` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003671s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003692s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000392s ]
+
+[ 2018-07-24T16:13:16+08:00 ] 60.216.137.56 /index.php/JRapp/Mgt/zxgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000253s ]
+SQL: SHOW COLUMNS FROM `qm_zxkz` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_zxkz` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_zxkz` LIMIT 0,7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013966s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013982s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000139s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000290s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000306s ]
+
+[ 2018-07-24T16:13:19+08:00 ] 60.216.137.56 /index.php/JRapp/Mgt/sodel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+ERR: 非法操作:sodel
+
+[ 2018-07-24T16:13:19+08:00 ] 60.216.137.56 /index.php/JRapp/Mgt/addzx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000242s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003893s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000337s ]
+
+[ 2018-07-24T16:18:48+08:00 ] 60.216.137.56 /index.php/JRapp/Mgt/jpxx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000227s ]
+SQL: SHOW COLUMNS FROM `qm_product` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_product` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_product` ORDER BY px asc LIMIT 0,6   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005312s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005334s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000396s ]
+
+[ 2018-07-24T16:18:48+08:00 ] 60.216.137.56 /index.php/JRapp/Mgt/sodel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000244s ]
+ERR: 非法操作:sodel
+
+[ 2018-07-24T16:18:48+08:00 ] 60.216.137.56 /index.php/JRapp/Mgt/addcp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000235s ]
+SQL: SHOW COLUMNS FROM `qm_fl` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_fl`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014240s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014260s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000272s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000287s ]
+
+[ 2018-07-24T16:18:56+08:00 ] 60.216.137.56 /index.php/JRapp/Mgt/gggl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000254s ]
+SQL: SHOW COLUMNS FROM `qm_gggl` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_gggl`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+NOTIC: [8] Undefined variable: pageinfo /www/wwwroot/dai.juhuaian.cn/Application/Runtime/Cache/JRapp/914f555a6ac1c9d95207f86398e8e4ab.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003415s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003431s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000312s ]
+
+[ 2018-07-24T16:19:16+08:00 ] 60.216.137.56 /index.php/JRapp/Mgt/gggl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000227s ]
+SQL: SHOW COLUMNS FROM `qm_gggl` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_gggl`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+NOTIC: [8] Undefined variable: pageinfo /www/wwwroot/dai.juhuaian.cn/Application/Runtime/Cache/JRapp/914f555a6ac1c9d95207f86398e8e4ab.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002866s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000253s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000267s ]
+
+[ 2018-07-24T16:19:17+08:00 ] 60.216.137.56 /index.php/JRapp/Mgt/sodel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000227s ]
+ERR: 非法操作:sodel
+
+[ 2018-07-24T16:19:17+08:00 ] 60.216.137.56 /index.php/JRapp/Mgt/addgg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000237s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000043s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002654s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000308s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000322s ]
+
+[ 2018-07-24T16:19:22+08:00 ] 60.216.137.56 /index.php/JRapp/Mgt/lunbo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000299s ]
+SQL: SHOW COLUMNS FROM `qm_lb` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_lb`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Undefined variable: pageinfo /www/wwwroot/dai.juhuaian.cn/Application/Runtime/Cache/JRapp/1ed313fccb56bfdfa47b6ad4ac84a038.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013031s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000265s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000296s ]
+
+[ 2018-07-24T16:19:24+08:00 ] 60.216.137.56 /index.php/JRapp/Mgt/zxgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000220s ]
+SQL: SHOW COLUMNS FROM `qm_zxkz` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_zxkz` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_zxkz` LIMIT 0,7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003708s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003746s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000269s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000283s ]
+
+[ 2018-07-24T16:19:25+08:00 ] 60.216.137.56 /index.php/JRapp/Mgt/sodel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000222s ]
+ERR: 非法操作:sodel
+
+[ 2018-07-24T16:19:25+08:00 ] 60.216.137.56 /index.php/JRapp/Mgt/addzx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000053s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002944s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000231s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000246s ]
+
+[ 2018-07-24T16:19:36+08:00 ] 60.216.137.56 /index.php/JRapp/Mgt/dkfl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000241s ]
+SQL: SHOW COLUMNS FROM `qm_fl` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_fl`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+NOTIC: [8] Undefined variable: pageinfo /www/wwwroot/dai.juhuaian.cn/Application/Runtime/Cache/JRapp/324c2df5d68c5b1531ece66ae9c9e0ec.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003897s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003916s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000376s ]
+
+[ 2018-07-24T16:36:26+08:00 ] 60.216.137.56 /index.php/JRapp/Mgt/jpxx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `qm_product` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_product` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_product` ORDER BY px asc LIMIT 0,6   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004562s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004588s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000254s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000268s ]
+
+[ 2018-07-24T16:36:28+08:00 ] 60.216.137.56 /index.php/JRapp/Mgt/jpxx/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000319s ]
+SQL: SHOW COLUMNS FROM `qm_product` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_product` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_product` ORDER BY px asc LIMIT 18,6   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005104s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000270s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000285s ]
+
+[ 2018-07-24T16:36:30+08:00 ] 60.216.137.56 /index.php/JRapp/Mgt/jpxx/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000219s ]
+SQL: SHOW COLUMNS FROM `qm_product` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_product` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_product` ORDER BY px asc LIMIT 24,6   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003314s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003330s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000269s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000286s ]
+
+[ 2018-07-24T16:36:32+08:00 ] 60.216.137.56 /index.php/JRapp/Mgt/jpxx/p/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000248s ]
+SQL: SHOW COLUMNS FROM `qm_product` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_product` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_product` ORDER BY px asc LIMIT 30,6   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000053s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003255s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003271s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000254s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000269s ]
+
+[ 2018-07-24T16:36:37+08:00 ] 60.216.137.56 /index.php/JRapp/Mgt/ecp/id/82
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000240s ]
+SQL: SHOW COLUMNS FROM `qm_fl` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_fl`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_product` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_product` WHERE ( id=82 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012816s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012857s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000437s ]
+
+[ 2018-07-24T16:37:02+08:00 ] 60.216.137.56 /index.php/JRapp/Mgt/jpxx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000229s ]
+SQL: SHOW COLUMNS FROM `qm_product` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_product` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_product` ORDER BY px asc LIMIT 0,6   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003390s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003409s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000252s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000266s ]
+
+[ 2018-07-24T16:37:04+08:00 ] 60.216.137.56 /index.php/JRapp/Mgt/jpxx/p/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000248s ]
+SQL: SHOW COLUMNS FROM `qm_product` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_product` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_product` ORDER BY px asc LIMIT 36,6   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004464s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004486s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000395s ]
+
+[ 2018-07-24T16:37:07+08:00 ] 60.216.137.56 /index.php/JRapp/Mgt/jpxx/p/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000241s ]
+SQL: SHOW COLUMNS FROM `qm_product` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_product` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_product` ORDER BY px asc LIMIT 30,6   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004231s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000352s ]
+
+[ 2018-07-24T16:37:46+08:00 ] 60.216.137.56 /index.php/JRapp/Mgt/ecp/id/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000216s ]
+SQL: SHOW COLUMNS FROM `qm_fl` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_fl`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_product` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_product` WHERE ( id=80 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003375s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003391s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000256s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000270s ]
+
+[ 2018-07-24T17:07:58+08:00 ] 60.216.137.56 /index.php/JRapp/Mgt/eidtcp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000256s ]
+SQL: SHOW COLUMNS FROM `qm_product` [ RunTime:0.0005s ]
+SQL: UPDATE `qm_product` SET `pic`='http://dai.juhuaian.cn/Public/uploads/2018-07-19/17258485715b505608e85ca.jpg',`sqsl`=' ',`pic2`='http://dai.juhuaian.cn/Public/uploads/2018-07-19/17258485715b505608e86c1.jpg',`ed`='额度：最高20万',`lx`='月1.29%',`name`='宜人贷',`wz`='https://bang.yirendai.com/signup?referrer=b7b5c589-673c-3c3e-a221-49cc99b51a8d&amp;affiliate=/my&amp;shareagent=wechatandroid&amp;ownerType=xdy&amp;from=singlemessage&amp;isappinstalled=0',`sm`='信用卡/工资卡/公积金/寿险保单四选一',`fysm`=' ',`fid`='1',`iszr`='0',`iszx`='1',`isgl`='1',`cont`='<p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; background-color: rgb(247, 150, 70); color: rgb(255, 255, 255);\">宜人贷申请流程详尽图解</span><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\"> ：（以极速模式为例，其他模式参考）</span><br/></p><p><br/></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">点击申请链接：<a href=\"http://cyzs.aici123.com/index.php?g=App&m=Loan&a=loan_detail&loan_id=825ffe11b61a1f9c1d58fc83bbf192c1\" target=\"_self\">http://cyzs.aici123.com/index.php?g=App&amp;m=Loan&amp;a=loan_detail&amp;loan_id=825ffe11b61a1f9c1d58fc83bbf192c1</a>&nbsp;</span></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">输入手机号码立即注册，下载“宜人贷”APP</span></p><p><br/></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">在操作过程中为提高通过率，我们要做以下事情：</span></p><p><br/></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; background-color: rgb(247, 150, 70); color: rgb(255, 255, 255);\">&nbsp;第一步：注册时</span><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">&nbsp;</span></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">1、注册手机宜人贷时的<span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; color: rgb(247, 150, 70);\">手机号码要和淘宝绑定的手机号码一致。</span></span></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">2、注册手机宜人贷的手机号码，<span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; color: rgb(247, 150, 70);\">不要在别人的手机上操作</span>。</span></p><p><img src=\"http://dai.juhuaian.cn/ueditor/php/upload/image/20180724/1532422398595733.png\" title=\"1532422398595733.png\" alt=\"69238487380827948.png\"/></p><p><br/></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">&nbsp;</span></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; color: rgb(255, 255, 255); background-color: rgb(247, 150, 70);\">第二步：额度预估&nbsp;</span></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">测算贷款额度出来后，<span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; color: rgb(247, 150, 70);\">请选36期</span>。虽然期数越高，总还款利息会高点，但是<span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; color: rgb(247, 150, 70);\">期数越高，每月的还款压力就会低一点，压力低一点通过率就会高一点</span>，贷款是可以提前还款（提前还款请参考软件里面的“助手-还款”）。</span></p><p><img src=\"http://dai.juhuaian.cn/ueditor/php/upload/image/20180724/1532422516224689.png\" title=\"1532422516224689.png\" alt=\"75497332722632721.png\"/></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\"><img src=\"http://dai.juhuaian.cn/ueditor/php/upload/image/20180724/1532422528973658.png\" title=\"1532422528973658.png\" alt=\"882452964378872229.png\"/></span></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\"><br/></span></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; color: rgb(255, 255, 255); background-color: rgb(247, 150, 70);\">&nbsp;第三步：出初始额度后，先完善个人资料&nbsp;</span></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">如果能测算到贷款额度，先<span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; color: rgb(247, 150, 70);\">停止操作。完善一下自己的申请条件</span>，然后再操作：</span></p><p><strong><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">一、本人手机号码必须有实名登记和有手机服务密码，手机号码使用超过3个月以上。</span></strong></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">1、<span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; color: rgb(247, 150, 70);\">没有实名登记</span>：可以带上身份证去就近的“营业厅”进行实名登记（如果实名登记时你同时升级了4G卡，则要等7天再申请贷款，建议实名登记时不要升级4G卡）</span></p><p><br/></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">2、<span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; color: rgb(247, 150, 70);\">没有手机服务密码，解决方法如下</span>：</span></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">①、带身份证到营业厅进行修改。</span></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">②、选择登录移动、电信、联通网上营业厅，点击“登录”—&gt;“忘记密码”或“获取密码”，然后按步骤提示操作。</span></p><p><br/></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">3、<span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; color: rgb(247, 150, 70);\">已经实名登记</span>：请用电脑登录移动、电信、联通的网上营业厅输入“手机服务密码”查看是否真正有实名登记（很多时候自己也不清楚）如下：</span></p><p><img src=\"http://dai.juhuaian.cn/ueditor/php/upload/image/20180724/1532422727410193.png\" title=\"1532422727410193.png\" alt=\"412700349418469876.png\"/></p><p><br/></p><p><br/></p><p><br/></p><p><strong><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">二、本人有淘宝帐号（已实名登记的）</span></strong><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">，最近2个月内在淘宝有购买过实物。此条件最主要是通过“淘宝的收货地址”来确定你的工作地或居住地。</span></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">1、<span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; color: rgb(247, 150, 70);\">淘宝帐号必须实名登记</span>（将鼠标移动到左上角，然后点击“账户管理”，再点击“安全设置”，看看是否有“身份认证”）。&nbsp;</span></p><p><br/></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">2、在“已买宝贝”中发现<span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; color: rgb(247, 150, 70);\">“</span><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; color: rgb(247, 150, 70);\">有别人名字的消费记录”，请将该消费记录删除</span>（只要出现别人的消费记录，就不会通过），购买虚拟商品的消费记录（充值话费、Q币、游戏币等）全部删除，<span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; color: rgb(247, 150, 70);\">并清空“订单回收站”</span>。</span></p><p><br/></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">3、点击“账户管理”选择“收货地址”中：</span></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">①、有不是你目前所在城市的地址，请删除，并删除相应消费记录，再清空“订单回收站”。</span></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">②、有别人名字的收货地址，请删除，并删除相应消费记录，再清空“订单回收站”。</span></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">③、留下目前所在城市的公司地址和居住地址及消费记录（唯一1个）</span></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">④、在“账户管理”--&gt;“个人信息”里填写真实姓名。</span></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">⑤、注册手机宜人贷时的手机号码要和淘宝注册的手机号码一致，和收货电话一致。</span></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">⑥、如果最近2个月没有购买实物，先购买实物收货后再申请贷款，这一次的收货地址必须和你最近半年内购买实物填写的收货地址一致（这样就不会被认为工作居住不稳定）。</span></p><p><br/></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">操作完以上步骤后，可以登录软件继续操作贷款步骤！</span></p><p><br/></p><p><br/></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; color: rgb(255, 255, 255); background-color: rgb(247, 150, 70);\">&nbsp;第四步：身份、电商、手机信息验证和银行卡信息填写&nbsp;</span></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">一、身份证信息验证</span></p><p><img src=\"http://dai.juhuaian.cn/ueditor/php/upload/image/20180724/1532423094923216.png\" title=\"1532423094923216.png\" alt=\"578625105934394100.png\"/></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">二、电商信息验证。<span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; color: rgb(247, 150, 70);\">淘宝信息，必须要在电脑上完善！</span>（因为手机淘宝和电脑淘宝信息不一致）。</span></p><p><img src=\"http://dai.juhuaian.cn/ueditor/php/upload/image/20180724/1532423120789476.png\" title=\"1532423120789476.png\" alt=\"417793998742022412.png\"/></p><p><br/></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">三、填写手机信息时，请<span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; color: rgb(247, 150, 70);\">点击“允许获取通讯记录”</span>，这是证明你有正常使用手机。银行卡信息填写。</span></p><p><img src=\"http://dai.juhuaian.cn/ueditor/php/upload/image/20180724/1532423149624778.png\" title=\"1532423149624778.png\" alt=\"777891975834872132.png\"/></p><p><br/></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; color: rgb(255, 255, 255); background-color: rgb(247, 150, 70);\">&nbsp;第五步：等待电话审核&nbsp;</span></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">上述资料审核通过后需要填写收款银行卡号和开户支行，然后等待总部010-xxxxxxx开头的北京电话回访（只会打给你本人）。</span></p><p><img src=\"http://dai.juhuaian.cn/ueditor/php/upload/image/20180724/1532423170689084.png\" title=\"1532423170689084.png\" alt=\"683945718741668410.png\"/></p><p><br/></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; color: rgb(255, 255, 255); background-color: rgb(247, 150, 70);\">&nbsp;电话审核中需要注意的问题</span><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">&nbsp;</span></p><p><br/></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">宜人贷的初审是非常严格的，如果够的了系统，<span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; color: rgb(247, 150, 70);\">进入人工审核，通过率几乎高达80%。</span>当然，最最关键的就是人工电审环节了，<span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; color: rgb(247, 150, 70);\">只要电话接好，回答问题没出错</span>，宜人贷基本上就被你成功推到了。亿融为各位收集整理了宜人贷一般电审时的常见问题及注意事项。</span></p><p><br/></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">1、贷款的额度，分了多少期(审核必问的问题）</span></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">2、资金的用途：<span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; color: rgb(247, 150, 70);\">一定要具体用途，这样才能显示你有认真思考过才申请贷款。</span>一般用途偏向消费类的，例如：用途是装修就要具体能说出，规划装修哪里用多少钱，买套家居用多少钱，<span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; color: rgb(247, 150, 70);\">不要说炒股等高风险投资、赌博、还债等不正当用途，</span>否则都会被拒绝。</span></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">3、身份证号码，后四位（<span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; color: rgb(247, 150, 70);\">必须背出来</span>），住址或公司地址就是淘宝的收货地址。</span></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">4、工资发放形式。无论工资是否打卡，你还是要说工资是发到银行卡的，每月固定几号发工资。每月收入你可以根据这次贷款的月还款的金额，适当提高2千元左右。</span></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">5、单位信息。公司名称（最好提前准备下公司附近的标志建筑名称），单位电话，工作时间多久（至少半年，结合自己的征信报告回答），工作岗位。<span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; color: rgb(247, 150, 70);\">必须跟之前填申请的资料一致。</span></span></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">6、每月能承担的还款金额，可高于这次贷款的月还款的金额，<span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; color: rgb(247, 150, 70);\">表示自己收入稳定、有偿还能力，并且非常爱惜个人征信，一定会按时还款，态度一定要诚恳。</span></span></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">7、信用卡使用情况。信用卡最高额度，要按所提供的信用卡账单额度来回答。是否有逾期，必须回答没有。</span></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">8、生活习惯调查。打麻将、扑克等习惯，都要说没有，<span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; color: rgb(247, 150, 70);\">生活中没有任何不良嗜好。</span></span></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">9、审核人员打来的都是固定电话，有来电显示，只能接听不能回拨，所以一旦没接听到审核电话不要回拨，只需要等待，虽然电话会间断打过来，但是还是<span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; color: rgb(247, 150, 70);\">要注意等电话，能第一时间接到审核电话肯定是最好的。</span></span></p><p><br/></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">&nbsp;<span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; color: rgb(255, 255, 255); background-color: rgb(247, 150, 70);\">宜人贷操作问题解析&nbsp;</span></span></p><p><br/></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; color: rgb(255, 255, 255); background-color: rgb(247, 150, 70);\">&nbsp;一、邮箱的账单不符合借款要求有多个原因&nbsp;</span></p><p><br/></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">1、账单期数不够</span></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">使用没有达到<span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; color: rgb(247, 150, 70);\">至少 4 个月以上</span>，宜人贷要求是要满 6 个月。这种情况只能是继续使用一段时间，达到要求再提交申请。</span></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">有一些是之前是纸质账单，后来改成电子账单，这种可能期数不够，解决办法是<span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; color: rgb(247, 150, 70);\">叫信用卡中心补収账单</span>。</span></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">2、账单被删除了</span></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">登邮箱看下，如果<span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; color: rgb(247, 150, 70);\">账单不全</span>，叫信用卡中心补发从开卡到现在的所有账单。<span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; color: rgb(247, 150, 70);\">分开按月收，不要合并到一封邮件。</span></span></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">3、邮箱内其他邮件过多，系统无法采集到</span></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">有三个解决办法，一是删除其他无关邮件。二是把账单转収到其他的邮箱，用其他的邮箱来登陆。三是叫信用卡中心补收账单，正常一到两个工作日会收到。</span></p><p><br/></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; color: rgb(255, 255, 255); background-color: rgb(247, 150, 70);\">&nbsp;二、邮箱登录时的各种问题&nbsp;</span></p><p><br/></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">1、QQ 邮箱有保护，要求去 QQ 安全中心解除保护。</span></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">这个是 QQ 的安全保护，因为系统是在北京那边登录，有一些有设置安全保护的 QQ 就会拒绝登录。</span></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">有三个解决办法：</span></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">其一，登录 QQ 安全中心解除保护。</span></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">其二，叫信用卡中心补收账单到其他邮箱。</span></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">其三，把 QQ 邮箱里面的账单转收到其他邮箱，用其他邮箱验证，这一点有很多人反映有些银行转收之后就发成附件，不能采集了，所以不能通用。</span></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">&nbsp; &nbsp; &nbsp;</span></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">2、有时候密码没有错，提示账号和密码错误</span></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">有一种可能性是密码太长了，最好不要超过 10 位的密码，如果有超过，改下重新申请</span></p><p><br/></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">3、提示系统异常</span></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">换个时间，换个地点，换个手机试一下</span></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">&nbsp; &nbsp; &nbsp;</span></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; color: rgb(255, 255, 255); background-color: rgb(247, 150, 70);\">&nbsp;三、提示身份证已经绑定&nbsp;</span></p><p><br/></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">有这个提示说明之前有在宜信操作过相关产品，这个如果不懂，具体问题可以打官方客服热线。也有可能是 51 信用卡上注册过，这个只需用 51上的注册账号就可以。通用的。</span></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">&nbsp; &nbsp; &nbsp;</span></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; color: rgb(255, 255, 255); background-color: rgb(247, 150, 70);\">&nbsp;四、账单姓名和手机号认证名不一致&nbsp;</span></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">这有两种情况：</span></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">1、手机是当初用别人的身份证办理的。这种情况要到运营商那边更名。如果不行的话，估计绑定的号码要更换下了。</span></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">2、你邮箱里面不止有你一个人的账单，还有其他人的账单。如果是这种情况，正常要等 3 个月后再申请了。到时记得把其他人的账单删除。</span></p><p><br/></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; color: rgb(255, 255, 255); background-color: rgb(247, 150, 70);\">&nbsp;五、有多张信用卡，其中有部分卡有逾期的破解方法&nbsp;</span></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">信用贷款最忌讳的就是逾期，恶意逾期更甚。那对于部分由于客观原因引起的逾期信用污点，在极速贷这边是可以规避的。如果同时拥有多张卡，只要将邮箱中的有逾期的卡的账单全部删除即可。确保邮箱中的卡是信用记录良好没有逾期的卡。</span></p><p><br/></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; color: rgb(255, 255, 255); background-color: rgb(247, 150, 70);\">&nbsp;六、同时拥有多张卡，怎样获得高额低息的双 AA 资质</span><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">&nbsp;</span></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">宜人贷的利率分四个档次，分别为 0.78/1.29/1.59/1.89,相对应的档为 AA /A /B/C 。</span></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">那对于手上拥有多张卡的卡友来说，是不是把全部卡的账单都让系统采集到为好呢。答案是否定的。信贷不仅看客户的财力，信誉，同时也看每个月的还款能力。如果拥有多张卡，经常刷，每个月的负债相应的也高。所以具体操作就要看具体情况分析。</span></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">如果每张卡都是准时还款，且是还全额。那没问题，直接授权采集就好了。</span></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">如果多张卡且还款情况不一。那么就应该只留还款记录最好且额度稍高些的卡的账单，删除其他的信用卡账单。这样对应的额度会高些，利率也能争取到最低档。</span></p><p><br/></p><p><br/></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; color: rgb(255, 255, 255); background-color: rgb(247, 150, 70);\">&nbsp;被拒之后马上又可以操作申请的方法：&nbsp;</span></p><p><br/></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; color: rgb(247, 150, 70);\">准备好一个新的手机号码</span><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">。注册，在第一次申请的时候，宜人贷是去到了确认借款页面，才开始绑定身份证的。里面有一个BUG，新的手机号码，可以注册，注册之后，换另一张信用卡导入账单即可。出了初审，别马上提现，先退出，然后再登进去操作下一步。</span></p><p><br/></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">然后再绑定淘宝身份证那一步。<span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; color: rgb(247, 150, 70);\">如果第一次申请，绑定了身份证的，就不可以拒了之后再继续操作。</span>反之，第一次在预授信点提交被拒的，换卡去申请，下款的几率很大。</span></p><p><br/></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">记住一点，淘宝地址是他们认为最重要的地址，他们系统只认一个地址，所以淘宝里面尽量只留一个地址。</span></p><p><br/></p><p><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">最后，<span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; color: rgb(247, 150, 70);\">支付宝里面的有其他网贷的授权记录的最好全部取消，然后支付宝授权。</span></span></p><p><br/></p>' WHERE ( id=80 ) [ RunTime:0.0202s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000020s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000042s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008492s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008531s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000411s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000432s ]
+
+[ 2018-07-24T17:07:59+08:00 ] 60.216.137.56 /index.php/JRapp/Mgt/jpxx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `qm_product` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_product` LIMIT 1   [ RunTime:0.0031s ]
+SQL: SELECT * FROM `qm_product` ORDER BY px asc LIMIT 0,6   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015254s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015277s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000367s ]
+
+[ 2018-07-24T17:13:58+08:00 ] 60.216.137.56 /index.php/JRapp/Mgt/zxgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000283s ]
+SQL: SHOW COLUMNS FROM `qm_zxkz` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_zxkz` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_zxkz` LIMIT 0,7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004556s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000414s ]
+
+[ 2018-07-24T17:14:58+08:00 ] 60.216.137.56 /index.php/JRapp/Mgt/dtzq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000246s ]
+SQL: SHOW COLUMNS FROM `qm_dt` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_dt` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_dt` LIMIT 0,7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025442s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025472s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000314s ]
+
+[ 2018-07-24T17:14:59+08:00 ] 60.216.137.56 /index.php/JRapp/Mgt/sodel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000310s ]
+ERR: 非法操作:sodel
+
+[ 2018-07-24T17:14:59+08:00 ] 60.216.137.56 /index.php/JRapp/Mgt/adddt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000254s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010893s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010910s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000283s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000296s ]
+
+[ 2018-07-24T17:23:42+08:00 ] 60.216.137.56 /index.php/JRapp/Mgt/insertdt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000233s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /www/wwwroot/dai.juhuaian.cn/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /www/wwwroot/dai.juhuaian.cn/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /www/wwwroot/dai.juhuaian.cn/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: pic1 /www/wwwroot/dai.juhuaian.cn/Application/JRapp/Controller/MgtController.class.php 第 598 行.
+NOTIC: [8] Undefined index: pic2 /www/wwwroot/dai.juhuaian.cn/Application/JRapp/Controller/MgtController.class.php 第 599 行.
+NOTIC: [8] Undefined index: pic3 /www/wwwroot/dai.juhuaian.cn/Application/JRapp/Controller/MgtController.class.php 第 600 行.
+SQL: SHOW COLUMNS FROM `qm_dt` [ RunTime:0.0004s ]
+SQL: INSERT INTO `qm_dt` (`pic1`,`pic2`,`pic3`,`ed`,`name`,`wz`,`jj`,`fy`,`maxed`,`yhk`,`yll`,`qxfw`,`addtime`) VALUES ('http://dai.juhuaian.cn/Public/uploads/2018-07-24/14662385835b56f01e0ff1a.jpg','http://dai.juhuaian.cn/Public/uploads/2018-07-24/14662385835b56f01e11d33.png','http://dai.juhuaian.cn/Public/uploads/2018-07-24/14662385835b56f01e14b1c.png','最高20万','宜人贷','    ','信用卡，工资流水，公积金，寿险保单，四选一','最高20万快至30分钟到账，成功放款最高返佣3.3%','最高额度20万元','（本金+利息）/期限','0.78%','12-48个月','2018-07-24 05:23:42') [ RunTime:0.0430s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000018s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000034s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002588s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000292s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000307s ]
+
+[ 2018-07-24T17:23:43+08:00 ] 60.216.137.56 /index.php/JRapp/Mgt/dtzq.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000234s ]
+SQL: SHOW COLUMNS FROM `qm_dt` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_dt` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_dt` LIMIT 0,7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003372s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003390s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000358s ]
+
+[ 2018-07-24T17:24:19+08:00 ] 60.216.137.56 /index.php/JRapp/Mgt/adddt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009709s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009725s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000324s ]
+
+[ 2018-07-24T17:24:19+08:00 ] 60.216.137.56 /index.php/JRapp/Mgt/sodel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000300s ]
+ERR: 非法操作:sodel
+
+[ 2018-07-24T17:29:22+08:00 ] 60.216.137.56 /index.php/JRapp/Mgt/insertdt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000248s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /www/wwwroot/dai.juhuaian.cn/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /www/wwwroot/dai.juhuaian.cn/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /www/wwwroot/dai.juhuaian.cn/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: pic1 /www/wwwroot/dai.juhuaian.cn/Application/JRapp/Controller/MgtController.class.php 第 598 行.
+NOTIC: [8] Undefined index: pic2 /www/wwwroot/dai.juhuaian.cn/Application/JRapp/Controller/MgtController.class.php 第 599 行.
+NOTIC: [8] Undefined index: pic3 /www/wwwroot/dai.juhuaian.cn/Application/JRapp/Controller/MgtController.class.php 第 600 行.
+SQL: SHOW COLUMNS FROM `qm_dt` [ RunTime:0.0004s ]
+SQL: INSERT INTO `qm_dt` (`pic1`,`pic2`,`pic3`,`ed`,`name`,`wz`,`jj`,`fy`,`maxed`,`yhk`,`yll`,`qxfw`,`addtime`) VALUES ('http://dai.juhuaian.cn/Public/uploads/2018-07-24/11537316685b56f1723176d.jpg','http://dai.juhuaian.cn/Public/uploads/2018-07-24/11537316685b56f172321f5.jpg','http://dai.juhuaian.cn/Public/uploads/2018-07-24/11537316685b56f172349e8.png','3000-50000元','卡卡贷（维信）','    ','信用卡还款良好','成功放款返佣1.5%-1%','最高额度50000元','（本金+利息）/期限','0.55%','6-24期','2018-07-24 05:29:22') [ RunTime:0.0246s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000017s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000034s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002477s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002494s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000280s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000296s ]
+
+[ 2018-07-24T17:29:23+08:00 ] 60.216.137.56 /index.php/JRapp/Mgt/dtzq.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000273s ]
+SQL: SHOW COLUMNS FROM `qm_dt` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_dt` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qm_dt` LIMIT 0,7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003151s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003170s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000305s ]
+
+[ 2018-07-24T17:29:46+08:00 ] 60.216.137.56 /index.php/JRapp/Mgt/dtzq/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `qm_dt` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_dt` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_dt` LIMIT 7,7   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003388s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000364s ]
+
+[ 2018-07-24T17:29:47+08:00 ] 60.216.137.56 /index.php/JRapp/Mgt/sodel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+ERR: 非法操作:sodel
+
+[ 2018-07-24T17:29:47+08:00 ] 60.216.137.56 /index.php/JRapp/Mgt/adddt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000243s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002677s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002691s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000369s ]
+
+[ 2018-07-24T17:35:03+08:00 ] 60.216.137.56 /index.php/JRapp/Mgt/insertdt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000234s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /www/wwwroot/dai.juhuaian.cn/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /www/wwwroot/dai.juhuaian.cn/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /www/wwwroot/dai.juhuaian.cn/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: pic1 /www/wwwroot/dai.juhuaian.cn/Application/JRapp/Controller/MgtController.class.php 第 598 行.
+NOTIC: [8] Undefined index: pic2 /www/wwwroot/dai.juhuaian.cn/Application/JRapp/Controller/MgtController.class.php 第 599 行.
+NOTIC: [8] Undefined index: pic3 /www/wwwroot/dai.juhuaian.cn/Application/JRapp/Controller/MgtController.class.php 第 600 行.
+SQL: SHOW COLUMNS FROM `qm_dt` [ RunTime:0.0004s ]
+SQL: INSERT INTO `qm_dt` (`pic1`,`pic2`,`pic3`,`ed`,`name`,`wz`,`jj`,`fy`,`maxed`,`yhk`,`yll`,`qxfw`,`addtime`) VALUES ('http://dai.juhuaian.cn/Public/uploads/2018-07-24/20093165455b56f2c6e2ad5.jpg','http://dai.juhuaian.cn/Public/uploads/2018-07-24/20093165455b56f2c6e35a5.jpg','http://dai.juhuaian.cn/Public/uploads/2018-07-24/20093165455b56f2c6e862c.png','3万-50万元','平安新一贷','    ','房贷/寿险保单/公积金/工资流水','首次注册下款到账，返佣最高0.4%','最高额度50万元','（本金+利息）/期限','1.10%','1,2,3年，优良职业4年','2018-07-24 05:35:02') [ RunTime:0.0473s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000018s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000038s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002780s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000263s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000281s ]
+
+[ 2018-07-24T17:35:04+08:00 ] 60.216.137.56 /index.php/JRapp/Mgt/dtzq.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000221s ]
+SQL: SHOW COLUMNS FROM `qm_dt` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_dt` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_dt` LIMIT 0,7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003332s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003355s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000263s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000276s ]
+
+[ 2018-07-24T19:10:15+08:00 ] 101.226.79.190 /index.php/JRapp/Mgt/ecp/id/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000257s ]
+SQL: SHOW COLUMNS FROM `qm_fl` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `qm_fl`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_product` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_product` WHERE ( id=80 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000138s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000362s ]
+

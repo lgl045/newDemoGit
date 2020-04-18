@@ -1,0 +1,45 @@
+[ 2019-01-21T23:53:20+08:00 ] 63.216.63.36 /index.php/Api/index/fwxx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000240s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `qm_user` ORDER BY rand() LIMIT 6   [ RunTime:0.0013s ]
+
+[ 2019-01-21T23:53:20+08:00 ] 63.216.63.36 /index.php/Api/index/lunbo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000319s ]
+SQL: SHOW COLUMNS FROM `qm_lb` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qm_lb` WHERE ( stat=0 )  [ RunTime:0.0001s ]
+
+[ 2019-01-21T23:53:20+08:00 ] 63.216.63.36 /index.php/Api/index/toutiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+SQL: SHOW COLUMNS FROM `qm_toutiao` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name`,`content` FROM `qm_toutiao` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0001s ]
+
+[ 2019-01-21T23:53:20+08:00 ] 63.216.63.36 /index.php/Api/index/fuwuyuan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `qm_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `qm_user` WHERE ( fbzt>0 ) ORDER BY id desc LIMIT 0,6   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qm_grdt` [ RunTime:0.0003s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=89250354 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=69237807 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=57103676 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `qm_grdt` WHERE ( uid=57103674 ) LIMIT 1   [ RunTime:0.0000s ]
+

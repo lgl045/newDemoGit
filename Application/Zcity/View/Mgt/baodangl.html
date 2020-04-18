@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>用户--后台管理</title>
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="__PUBLIC__/layui/css/layui.css" media="all" />
+	<link rel="stylesheet" href="__PUBLIC__/css/font_eolqem241z66flxr.css" media="all" />
+	<link rel="stylesheet" href="__PUBLIC__/css/user.css" media="all" />
+	<style type="text/css">
+		.page .current,.page a,.page a:hover,.page span{display:inline-block;margin-right:2px;padding:0 10px;height:25px;line-height:25px;vertical-align:middle}  
+		.page a,.page span{color:#404548;border:1px solid #D7DBDC;background-color:#F6FFFF}  
+		.page .current,.page a:hover{text-decoration:none;color:#FFF;background-color:#337ab7;vertical-align:middle}  
+		.page .next,.page .prev{font-family:"宋体"}  
+				
+	</style>
+</head>
+<body class="childrenBody">
+	<div class="layui-form news_list">
+	  	<table class="layui-table">
+
+		    <thead>
+				<tr>
+					
+					<th>ID</th>
+					<th>申请人</th>
+					<th>手机号</th>
+                    <th>身份证号</th>
+                  <th>推荐人姓名</th>
+                  <th>推荐人手机号</th>
+                  <th>保险</th>
+					<th>发布时间</th>
+                  
+				</tr> 
+		    </thead>
+		    <tbody class="users_content">
+		    	<volist name="data" id="row">
+					<tr>
+						<td>{$row['id']}</td>
+                      <td>{$row['name']}</td>
+                      <td> {$row['phone']}</td>
+                      <td> {$row['idcard']}</td>
+                      <td> {$row['tjrname']}</td>
+                      <td> {$row['tjrphone']}</td>
+                      <td> {$row['baoxian']}</td>
+                      <td>{$row['addtime']}</td>
+                      
+					</tr>
+				</volist>
+		    </tbody>
+		</table>
+	</div>
+
+	<center><div id="asds" class="result page">{$pageinfo}</div></center> <br />
+	<center><div id="asdss" class="result page"></div></center> <br />
+
+	<script type="text/javascript" src="__PUBLIC__/layui/layui.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="__PUBLIC__/js/zooming.js"></script>
+
+	<script type="text/javascript">
+		$(".del").click(function(){
+			var id = $(this).attr('id');
+			var ob = $(this);
+			if(confirm('确定删除此用户？')){
+				$.post("{:U('Mgt/delzx')}",{id:id},function(data){
+					if(data==1){
+						ob.parents('tr').remove();
+					}
+				})
+			}
+		})
+		$(".search_btn").click(function(){
+			$("#asds").hide();
+
+	     $(".layui-table tr:gt(0)").each(function(){
+         $(this).remove();
+          $("#lei").remove();
+          })
+			var so=$(".search_input").val();
+			$.get("{:U('Mgt/sodel')}",{so:so},function(data){
+
+				var ha=$.parseJSON(data);
+  	            $.each(ha,function(key,value){
+
+  
+					tr="<tr>";
+					tr+="<td>"+value.id+"</td>";
+					tr+="<td>"+value.username+"</td>";
+					tr+="<td>"+value.phone+"</td>";
+					tr+="<td><img src='http://140.143.235.67/"+value.pic+"' width='80' height='80'></td>";
+			
+					tr+="<td>"+value.addtime+"</td>";
+					tr+="<td>"+value.yue+"</td>";
+					tr+='<td><a href="javascript:void(0);" class="del" id="'+value.id+'">删除</a></td>';
+					tr+='</tr>';
+        $(".layui-table").append(tr);
+
+  	
+  		$("#asdss").html(value.page);
+
+  	})
+
+  	     
+  	
+			})
+		})
+	</script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>商品--后台管理</title>
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="__PUBLIC__/layui/css/layui.css" media="all" />
+	<link rel="stylesheet" href="__PUBLIC__/css/font_eolqem241z66flxr.css" media="all" />
+	<link rel="stylesheet" href="__PUBLIC__/css/user.css" media="all" />
+	<style type="text/css">
+	.demo{
+		width:360px;
+		height:360px;
+	}
+	.img{
+		width:100px;
+		height:100px;
+		/*background:red;*/
+		float:left;
+		margin-left:20px;
+		margin-top:20px;
+	}
+	img{
+		width:100%;
+		height:100%;
+	}
+	</style>
+</head>
+<body>
+<center>
+	<h2>商品详情</h2>
+	<div class="demo">
+	  <volist name="data" id="row">
+		<div class="img"><img src="__PUBLIC__/uploads/{$row['pic']} " onerror="this.src='__PUBLIC__/uploads/zw.jpg'"></div>
+
+	  </volist>
+	 <embed width="320" height="240" src="__PUBLIC__/uploads/{$row['pic']}">
+	</div>
+</center>
+	<script type="text/javascript" src="__PUBLIC__/layui/layui.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript">
+		$(".del").click(function(){
+			var id = $(this).attr('id');
+			var ob = $(this);
+			if(confirm('确定删除此商品？')){
+				$.get("{:U('Goods/del')}",{id:id},function(data){
+					if(data==1){
+						ob.parents('tr').remove();
+					}
+				})
+			}
+		})
+	</script>
+</body>
+</html>

@@ -1,0 +1,3137 @@
+[ 2018-09-18T08:25:55+08:00 ] 101.226.102.70 /index.php/JRapp/Mgt/dkzxsp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `qm_axf` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_axf` INNER JOIN qm_jilu on qm_axf.id = qm_jilu.axfid  LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_axf` INNER JOIN qm_jilu on qm_axf.id = qm_jilu.axfid  ORDER BY qm_jilu.axfid desc LIMIT 0,7   [ RunTime:0.0001s ]
+SQL: SELECT `ht` FROM `qm_axf` WHERE ( id=39 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `zx` FROM `qm_axf` WHERE ( id=39 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ht` FROM `qm_axf` WHERE ( id=38 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `zx` FROM `qm_axf` WHERE ( id=38 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ht` FROM `qm_axf` WHERE ( id=36 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `zx` FROM `qm_axf` WHERE ( id=36 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ht` FROM `qm_axf` WHERE ( id=35 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `zx` FROM `qm_axf` WHERE ( id=35 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ht` FROM `qm_axf` WHERE ( id=34 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `zx` FROM `qm_axf` WHERE ( id=34 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ht` FROM `qm_axf` WHERE ( id=33 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `zx` FROM `qm_axf` WHERE ( id=33 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ht` FROM `qm_axf` WHERE ( id=32 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `zx` FROM `qm_axf` WHERE ( id=32 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006299s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006330s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000305s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000344s ]
+
+[ 2018-09-18T08:25:55+08:00 ] 14.17.3.64 /index.php/JRapp/Mgt/dkzxsphttp://dai.juhuaian.cn/index.php/JRapp/Mgt/dkzxsp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000310s ]
+ERR: 非法操作:dkzxsphttp:
+
+[ 2018-09-18T10:11:27+08:00 ] 112.230.152.80 /index.php/JRapp/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `qm_adminus` [ RunTime:0.0006s ]
+SQL: SELECT `role_id` FROM `qm_adminus` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_role_right` [ RunTime:0.0003s ]
+SQL: SELECT `right_id` FROM `qm_role_right` WHERE ( role_id='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qm_right` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_right` WHERE ( id in ('32','30','29','28','27','26','25','24','23','22','33','21','20','19','18','17','16','14','13','12','11','10','9','8','7','6','5','4','3','2','1') and parent_id=0 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_right` WHERE ( id in ('32','30','29','28','27','26','25','24','23','22','33','21','20','19','18','17','16','14','13','12','11','10','9','8','7','6','5','4','3','2','1') and parent_id>0 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006179s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006213s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000385s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000427s ]
+
+[ 2018-09-18T10:11:27+08:00 ] 112.230.152.80 /index.php/JRapp/Index/img/icon/baidu.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+
+[ 2018-09-18T10:11:27+08:00 ] 112.230.152.80 /index.php/JRapp/Index/img/presentation/1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+
+[ 2018-09-18T10:11:32+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/baodangl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `qm_baodan` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_baodan` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qm_baodan` LIMIT 0,7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004305s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004336s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000350s ]
+
+[ 2018-09-18T10:11:34+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/baodangl/p/113.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000279s ]
+SQL: SHOW COLUMNS FROM `qm_baodan` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_baodan` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_baodan` LIMIT 784,7   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004158s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004186s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000368s ]
+
+[ 2018-09-18T10:20:53+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/baodangl/p/112.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000279s ]
+SQL: SHOW COLUMNS FROM `qm_baodan` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_baodan` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_baodan` LIMIT 777,7   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004304s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000371s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000406s ]
+
+[ 2018-09-18T10:20:54+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/baodangl/p/113.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+SQL: SHOW COLUMNS FROM `qm_baodan` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_baodan` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_baodan` LIMIT 784,7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004306s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004337s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000132s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000291s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000330s ]
+
+[ 2018-09-18T10:37:09+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/baodangl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+SQL: SHOW COLUMNS FROM `qm_baodan` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_baodan` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_baodan` LIMIT 0,7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004184s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004214s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000279s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000311s ]
+
+[ 2018-09-18T10:37:11+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/baodangl/p/113.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+SQL: SHOW COLUMNS FROM `qm_baodan` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_baodan` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_baodan` LIMIT 784,7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004936s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000351s ]
+
+[ 2018-09-18T10:59:26+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/jpxx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `qm_product` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_product` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_product` ORDER BY px asc LIMIT 0,6   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005660s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005697s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000282s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000309s ]
+
+[ 2018-09-18T10:59:28+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/jpxx/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `qm_product` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_product` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_product` ORDER BY px asc LIMIT 6,6   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005533s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000278s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000305s ]
+
+[ 2018-09-18T10:59:30+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/jpxx/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+SQL: SHOW COLUMNS FROM `qm_product` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_product` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_product` ORDER BY px asc LIMIT 12,6   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005591s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005620s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000280s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000308s ]
+
+[ 2018-09-18T10:59:32+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/jpxx/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+SQL: SHOW COLUMNS FROM `qm_product` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_product` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_product` ORDER BY px asc LIMIT 18,6   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006587s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006627s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000395s ]
+
+[ 2018-09-18T10:59:34+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/jpxx/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+SQL: SHOW COLUMNS FROM `qm_product` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_product` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_product` ORDER BY px asc LIMIT 24,6   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009640s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000536s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000577s ]
+
+[ 2018-09-18T10:59:35+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/jpxx/p/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+SQL: SHOW COLUMNS FROM `qm_product` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_product` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_product` ORDER BY px asc LIMIT 30,6   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005737s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005768s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000398s ]
+
+[ 2018-09-18T10:59:37+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/jpxx/p/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+SQL: SHOW COLUMNS FROM `qm_product` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_product` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_product` ORDER BY px asc LIMIT 36,6   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006164s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006196s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000286s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000314s ]
+
+[ 2018-09-18T10:59:41+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/jpxx/p/8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+SQL: SHOW COLUMNS FROM `qm_product` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_product` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_product` ORDER BY px asc LIMIT 42,6   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009656s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000566s ]
+
+[ 2018-09-18T10:59:45+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/jpxx/p/9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000299s ]
+SQL: SHOW COLUMNS FROM `qm_product` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_product` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_product` ORDER BY px asc LIMIT 48,6   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006260s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006297s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000303s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000332s ]
+
+[ 2018-09-18T10:59:49+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/jpxx/p/10.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `qm_product` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_product` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_product` ORDER BY px asc LIMIT 54,6   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005732s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005764s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000376s ]
+
+[ 2018-09-18T10:59:54+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/jpxx/p/11.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+SQL: SHOW COLUMNS FROM `qm_product` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_product` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_product` ORDER BY px asc LIMIT 60,6   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005393s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005428s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000470s ]
+
+[ 2018-09-18T10:59:59+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/jpxx/p/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+SQL: SHOW COLUMNS FROM `qm_product` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_product` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_product` ORDER BY px asc LIMIT 66,6   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005718s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005751s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000359s ]
+
+[ 2018-09-18T11:00:03+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/jpxx/p/13.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+SQL: SHOW COLUMNS FROM `qm_product` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_product` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_product` ORDER BY px asc LIMIT 72,6   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005468s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000277s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000305s ]
+
+[ 2018-09-18T11:00:07+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/jpxx/p/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000293s ]
+SQL: SHOW COLUMNS FROM `qm_product` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_product` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_product` ORDER BY px asc LIMIT 78,6   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005576s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005614s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000315s ]
+
+[ 2018-09-18T11:06:57+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/zxgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+SQL: SHOW COLUMNS FROM `qm_zxkz` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_zxkz` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qm_zxkz` LIMIT 0,7   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005433s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005466s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000289s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000315s ]
+
+[ 2018-09-18T11:06:58+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/sodel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+ERR: 非法操作:sodel
+
+[ 2018-09-18T11:06:58+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/addzx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003945s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003984s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000391s ]
+
+[ 2018-09-18T11:10:59+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/insertzx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /www/wwwroot/dai.juhuaian.cn/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `qm_zxkz` [ RunTime:0.0005s ]
+SQL: INSERT INTO `qm_zxkz` (`pic`,`addtime`,`fbr`,`stat`,`wbt`,`cont`) VALUES ('uploads/2018-09-18/1537240259_1964412879.png','2018-09-18 11:10:59','众融普惠','1','只要一张正常使用的信用卡！通通3000起步！最高5万！赶紧上人！','<p style=\"margin-top:5px;margin-right:0;margin-bottom:5px;margin-left:0;text-indent:0\"><span style=\"font-family: 微软雅黑;letter-spacing: 0;font-size: 16px\">众融普惠口子介绍</span><span style=\"font-family: 微软雅黑;letter-spacing: 0;font-size: 16px\">——</span><span style=\"font-family: 微软雅黑;letter-spacing: 0;font-size: 16px\">诺秒贷</span></p><p style=\"margin-top:5px;margin-right:0;margin-bottom:5px;margin-left:0;text-indent:0\"><span style=\"font-family: 微软雅黑;letter-spacing: 0;font-size: 16px\">&nbsp;</span></p><p style=\"margin-top:5px;margin-right:0;margin-bottom:5px;margin-left:0;text-indent:0\"><span style=\"font-family: 微软雅黑;letter-spacing: 0;font-size: 12px\"><span style=\"font-family:微软雅黑\">口子简介：诺秒贷</span>--是诺远普金网络科技有限公司旗下刚上线有段时间的口子了。之前提供的金额最高不超于1500，不过2018年升级之后开始做大额的了，最高可50000，可分12期呢！门槛低，感兴趣的可以试试呢！</span></p><p style=\"margin-top:5px;margin-right:0;margin-bottom:5px;margin-left:0;text-indent:0\"><span style=\"font-family: 微软雅黑;letter-spacing: 0;font-size: 12px\">&nbsp;</span></p><p style=\"margin-top:5px;margin-right:0;margin-bottom:5px;margin-left:0;text-indent:0\"><strong><span style=\"font-family: 微软雅黑;letter-spacing: 0;font-size: 16px\"><span style=\"font-family:微软雅黑\">申请通道：</span></span></strong><a href=\"http://pufa.idai88.com:80/product/nuomiaodai/jump.html?product_id=48&share_id=3547\" target=\"_self\"><span style=\"font-family: 微软雅黑;color: rgb(0, 0, 255);letter-spacing: 0;font-size: 16px;background: rgb(255, 255, 255)\">http://pufa.idai88.com:80/product/nuomiaodai/jump.html?product_id=48&amp;share_id=3547</span></a></p><p style=\"margin-top:5px;margin-right:0;margin-bottom:5px;margin-left:0;text-indent:0\"><span style=\"font-family: 微软雅黑;letter-spacing: 0;font-size: 16px\"><span style=\"font-family:微软雅黑\">首次注册下款到账，返佣最高</span>1.5%</span><span style=\"font-family: 微软雅黑;letter-spacing: 0;font-size: 16px\">！</span></p><p style=\"margin-top:5px;margin-right:0;margin-bottom:5px;margin-left:0;text-indent:0\"><span style=\"font-family: 微软雅黑;letter-spacing: 0;font-size: 16px\">&nbsp;</span></p><p style=\"margin-top:5px;margin-right:0;margin-bottom:5px;margin-left:0;text-indent:0\"><strong><span style=\"font-family: 微软雅黑;letter-spacing: 0;font-size: 16px\"><span style=\"font-family:微软雅黑\">额度：</span></span></strong><span style=\"font-family: 微软雅黑;letter-spacing: 0;font-size: 16px\">5000</span><span style=\"font-family: 微软雅黑;letter-spacing: 0;font-size: 16px\">-50000</span><span style=\"font-family: 微软雅黑;letter-spacing: 0;font-size: 16px\">元</span></p><p style=\"margin-top:5px;margin-right:0;margin-bottom:5px;margin-left:0;text-indent:0\"><strong><span style=\"font-family: 微软雅黑;letter-spacing: 0;font-size: 16px\"><span style=\"font-family:微软雅黑\">利息：</span></span></strong><span style=\"font-family: 微软雅黑;letter-spacing: 0;font-size: 16px\">年利率</span><span style=\"font-family: 微软雅黑;letter-spacing: 0;font-size: 16px\">11.04%</span></p><p style=\"margin-top:5px;margin-right:0;margin-bottom:5px;margin-left:0;text-indent:0\"><strong><span style=\"font-family: 微软雅黑;letter-spacing: 0;font-size: 16px\"><span style=\"font-family:微软雅黑\">周期：</span></span></strong><span style=\"font-family: 微软雅黑;letter-spacing: 0;font-size: 16px\">6/9/12</span></p><p style=\"margin-top:5px;margin-right:0;margin-bottom:5px;margin-left:0;text-indent:0\"><strong><span style=\"font-family: 微软雅黑;letter-spacing: 0;font-size: 16px\"><span style=\"font-family:微软雅黑\">申请条件：</span></span></strong><span style=\"font-family: 微软雅黑;letter-spacing: 0;font-size: 16px\">1、年满</span><span style=\"font-family: 微软雅黑;letter-spacing: 0;font-size: 16px\">22-55周岁</span><span style=\"font-family: 微软雅黑;letter-spacing: 0;font-size: 16px\">2、</span><span style=\"font-family: 微软雅黑;letter-spacing: 0;font-size: 16px\">手机运营商授权</span><span style=\"font-family: 微软雅黑;letter-spacing: 0;font-size: 16px\">3、</span><span style=\"font-family: 微软雅黑;letter-spacing: 0;font-size: 16px\">身份证照片</span><span style=\"font-family: 微软雅黑;letter-spacing: 0;font-size: 16px\">4、</span><span style=\"font-family: 微软雅黑;letter-spacing: 0;font-size: 16px\"><span style=\"font-family:微软雅黑\">芝麻信用</span>620分以上</span><span style=\"font-family: 微软雅黑;letter-spacing: 0;font-size: 16px\">5、</span><span style=\"font-family: 微软雅黑;letter-spacing: 0;font-size: 16px\">绑定银行卡</span></p><p style=\"margin-top:5px;margin-right:0;margin-bottom:5px;margin-left:0;text-indent:0\"><strong><span style=\"font-family: 微软雅黑;letter-spacing: 0;font-size: 16px\"><span style=\"font-family:微软雅黑\">申请步骤</span></span></strong><strong><span style=\"font-family: 微软雅黑;letter-spacing: 0;font-size: 16px\"><span style=\"font-family:微软雅黑\">：</span></span></strong><span style=\"font-family: 微软雅黑;letter-spacing: 0;font-size: 16px\">1、在诺秒贷首页，选择申请额度，然后下一步</span></p><p style=\"margin-top:5px;margin-right:0;margin-bottom:5px;margin-left:0;text-indent:0\"><span style=\"font-family: 微软雅黑;letter-spacing: 0;font-size: 16px\">2、进入资料完善页面，按照要求完善好相关信息3、提交资料 - 等待系统审批即可</span></p><p style=\"margin-top:5px;margin-right:0;margin-bottom:5px;margin-left:0;text-indent:0\"><span style=\"letter-spacing: 0;font-size: 16px\">&nbsp;<img src=\"http://dai.juhuaian.cn/ueditor/php/upload/image/20180918/1537240042251414.png\" title=\"1537240042251414.png\" alt=\"image.png\"/><img src=\"http://dai.juhuaian.cn/ueditor/php/upload/image/20180918/1537240054489690.png\" title=\"1537240054489690.png\" alt=\"image.png\"/></span></p><p style=\"margin-top:5px;margin-right:0;margin-bottom:5px;margin-left:0;text-indent:0\"><span style=\"font-family: 微软雅黑;letter-spacing: 0;font-size: 12px\">TIPS：</span></p><p style=\"margin-top:5px;margin-right:0;margin-bottom:5px;margin-left:0;text-indent:0\"><span style=\"font-family: 微软雅黑;letter-spacing: 0;font-size: 12px\">1.&nbsp;</span><span style=\"font-family: 微软雅黑;letter-spacing: 0;font-size: 12px\"><span style=\"font-family:微软雅黑\">被拒绝的顾客也可再次申请，联系方式：系统</span>+人工审核。</span></p><p style=\"margin-top:5px;margin-right:0;margin-bottom:5px;margin-left:0;text-indent:0\"><span style=\"font-family: 微软雅黑;letter-spacing: 0;font-size: 12px\">2.&nbsp;</span><span style=\"font-family: 微软雅黑;letter-spacing: 0;font-size: 12px\"><span style=\"font-family:微软雅黑\">若进行申请时提醒需要前期费用请谨慎申请，以防上当受骗。</span></span></p><p style=\"margin-top:5px;margin-right:0;margin-bottom:5px;margin-left:0;text-indent:0\"><span style=\"font-family:微软雅黑;font-size:12px\">3.&nbsp;</span><span style=\";font-family:微软雅黑;font-size:12px\"><span style=\"font-family:微软雅黑\">申请一般半小时之内出结果，审核通过之后还需要本人手动确认一下借款，此处不要遗忘，此申请</span>7日内有效，超时要重新申请</span></p><p style=\"margin-top:5px;margin-right:0;margin-bottom:5px;margin-left:0;text-indent:0\"><span style=\"font-family:微软雅黑;font-size:12px\">4.&nbsp;</span><span style=\";font-family:微软雅黑;font-size:12px\"><span style=\"font-family:微软雅黑\">在申请的时候会提示身份证信息无法认证的情况，可以过段时间再申请试试</span></span></p><p><br/></p>') [ RunTime:0.0344s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003186s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003219s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000369s ]
+
+[ 2018-09-18T11:11:01+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/zxgl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+SQL: SHOW COLUMNS FROM `qm_zxkz` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_zxkz` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qm_zxkz` LIMIT 0,7   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004586s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000324s ]
+
+[ 2018-09-18T11:14:26+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/baodangl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `qm_baodan` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_baodan` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qm_baodan` LIMIT 0,7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004492s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004522s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000382s ]
+
+[ 2018-09-18T11:14:27+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/baodangl/p/114.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000281s ]
+SQL: SHOW COLUMNS FROM `qm_baodan` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_baodan` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_baodan` LIMIT 791,7   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004564s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004620s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000343s ]
+
+[ 2018-09-18T11:14:28+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/baodangl/p/113.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `qm_baodan` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_baodan` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_baodan` LIMIT 784,7   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005199s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005235s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000325s ]
+
+[ 2018-09-18T11:14:38+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/baodangl/p/114.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+SQL: SHOW COLUMNS FROM `qm_baodan` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_baodan` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_baodan` LIMIT 791,7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004289s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004323s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000364s ]
+
+[ 2018-09-18T11:24:20+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/baodangl/p/113.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `qm_baodan` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_baodan` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_baodan` LIMIT 784,7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004157s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004192s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000390s ]
+
+[ 2018-09-18T11:32:38+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/baodangl/p/114.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000288s ]
+SQL: SHOW COLUMNS FROM `qm_baodan` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_baodan` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_baodan` LIMIT 791,7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004448s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004481s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000402s ]
+
+[ 2018-09-18T11:32:42+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/sxgls
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+SQL: SHOW COLUMNS FROM `qm_sx` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_sx` LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `qm_sx` ORDER BY id desc LIMIT 0,7   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0006s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=266888 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=266888 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=58013627 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=58013627 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=12403569 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=12403569 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004213s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004244s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000275s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000302s ]
+
+[ 2018-09-18T11:32:52+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/csx.html?sj=%E6%9D%8E%E8%89%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `qm_sx` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_sx` WHERE ( (addtime like '%李艳%') ) LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `qm_sx` WHERE ( (data like '%李艳%') ) LIMIT 0,10000   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0006s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=78645920 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=78645920 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=82713095 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=82713095 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=78645920 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=78645920 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=39028175 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=39028175 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=778222 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=778222 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000412s ]
+
+[ 2018-09-18T11:33:31+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/csx.html?sj=%E6%9D%8E%E8%89%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `qm_sx` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_sx` WHERE ( (addtime like '%李艳%') ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_sx` WHERE ( (data like '%李艳%') ) LIMIT 0,10000   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0004s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=78645920 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=78645920 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=82713095 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=82713095 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=78645920 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=78645920 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=39028175 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=39028175 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=778222 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=778222 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000339s ]
+
+[ 2018-09-18T11:33:41+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/baodangl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `qm_baodan` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_baodan` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_baodan` LIMIT 0,7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004697s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004730s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000375s ]
+
+[ 2018-09-18T11:33:43+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/baodangl/p/114.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+SQL: SHOW COLUMNS FROM `qm_baodan` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_baodan` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_baodan` LIMIT 791,7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004517s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004547s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000350s ]
+
+[ 2018-09-18T11:33:44+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/baodangl/p/113.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+SQL: SHOW COLUMNS FROM `qm_baodan` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_baodan` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_baodan` LIMIT 784,7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004441s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004471s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000338s ]
+
+[ 2018-09-18T11:33:58+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/sxgls
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+SQL: SHOW COLUMNS FROM `qm_sx` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_sx` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_sx` ORDER BY id desc LIMIT 0,7   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0004s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=266888 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=266888 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=58013627 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=58013627 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=12403569 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=12403569 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004715s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004751s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000294s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000321s ]
+
+[ 2018-09-18T11:34:05+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/csx.html?sj=%E6%9D%8E%E8%89%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+SQL: SHOW COLUMNS FROM `qm_sx` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_sx` WHERE ( (addtime like '%李艳%') ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_sx` WHERE ( (data like '%李艳%') ) LIMIT 0,10000   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0005s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=78645920 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=78645920 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=82713095 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=82713095 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=78645920 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=78645920 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=39028175 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=39028175 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=778222 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=778222 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000467s ]
+
+[ 2018-09-18T11:34:44+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/fhsx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000276s ]
+SQL: SHOW COLUMNS FROM `qm_sx` [ RunTime:0.0004s ]
+SQL: INSERT INTO `qm_sx` (`uid`,`data`,`addtime`) VALUES ('39028175','您推荐的客户李艳(13052996776)未接听电话，请联系后重新提交','2018-09-18 11:34:44') [ RunTime:0.0167s ]
+
+[ 2018-09-18T11:34:47+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/csx.html?sj=%E6%9D%8E%E8%89%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `qm_sx` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_sx` WHERE ( (addtime like '%李艳%') ) LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `qm_sx` WHERE ( (data like '%李艳%') ) LIMIT 0,10000   [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0005s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=78645920 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=78645920 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=82713095 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=82713095 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=78645920 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=78645920 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=39028175 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=39028175 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=778222 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=778222 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=39028175 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=39028175 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2018-09-18T11:35:05+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/fhsx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000293s ]
+SQL: SHOW COLUMNS FROM `qm_sx` [ RunTime:0.0006s ]
+SQL: INSERT INTO `qm_sx` (`uid`,`data`,`addtime`) VALUES ('778222','您的下属用户 13052996776，其推荐的客户李艳(13052996776)未接听电话，请联系后重新提交','2018-09-18 11:35:05') [ RunTime:0.0150s ]
+
+[ 2018-09-18T11:35:32+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/csx.html?sj=%E5%88%98%E9%87%91%E7%A7%80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `qm_sx` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_sx` WHERE ( (addtime like '%刘金秀%') ) LIMIT 1   [ RunTime:0.0023s ]
+SQL: SELECT * FROM `qm_sx` WHERE ( (data like '%刘金秀%') ) LIMIT 0,10000   [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0006s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=45907268 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=45907268 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=50284731 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=50284731 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=45907268 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=45907268 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=50284731 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=50284731 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000468s ]
+
+[ 2018-09-18T11:35:49+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/csx.html?sj=%E8%B5%B5%E5%BB%BA%E6%B3%A2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000299s ]
+SQL: SHOW COLUMNS FROM `qm_sx` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_sx` WHERE ( (addtime like '%赵建波%') ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT * FROM `qm_sx` WHERE ( (data like '%赵建波%') ) LIMIT 0,10000   [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0008s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=12403569 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=12403569 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=58013627 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=58013627 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000600s ]
+
+[ 2018-09-18T11:36:11+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/fhsx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `qm_sx` [ RunTime:0.0006s ]
+SQL: INSERT INTO `qm_sx` (`uid`,`data`,`addtime`) VALUES ('12403569','您推荐的客户赵建波(13465672222)保单贷款审批额度为0','2018-09-18 11:36:11') [ RunTime:0.0332s ]
+
+[ 2018-09-18T11:36:23+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/fhsx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `qm_sx` [ RunTime:0.0005s ]
+SQL: INSERT INTO `qm_sx` (`uid`,`data`,`addtime`) VALUES ('58013627','您的下属用户(155****3273)，其推荐的客户赵建波(134****2222)保单贷款审批额度为0','2018-09-18 11:36:23') [ RunTime:0.0157s ]
+
+[ 2018-09-18T11:36:25+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/csx.html?sj=%E8%B5%B5%E5%BB%BA%E6%B3%A2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000280s ]
+SQL: SHOW COLUMNS FROM `qm_sx` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_sx` WHERE ( (addtime like '%赵建波%') ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `qm_sx` WHERE ( (data like '%赵建波%') ) LIMIT 0,10000   [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0006s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=12403569 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=12403569 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=58013627 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=58013627 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=12403569 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=12403569 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=58013627 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=58013627 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000453s ]
+
+[ 2018-09-18T11:36:41+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/csx.html?sj=%E9%A9%AC%E5%88%A9%E6%A0%BC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000287s ]
+SQL: SHOW COLUMNS FROM `qm_sx` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_sx` WHERE ( (addtime like '%马利格%') ) LIMIT 1   [ RunTime:0.0038s ]
+SQL: SELECT * FROM `qm_sx` WHERE ( (data like '%马利格%') ) LIMIT 0,10000   [ RunTime:0.0094s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0010s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000542s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000588s ]
+
+[ 2018-09-18T11:37:29+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/fhsx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+SQL: SHOW COLUMNS FROM `qm_sx` [ RunTime:0.0005s ]
+SQL: INSERT INTO `qm_sx` (`uid`,`data`,`addtime`) VALUES ('83016974','您推荐的客户马利格(15346472001)经核实，不需要办理保单贷款','2018-09-18 11:37:29') [ RunTime:0.0145s ]
+
+[ 2018-09-18T11:37:33+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/csx.html?sj=%E9%A9%AC%E5%88%A9%E6%A0%BC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000276s ]
+SQL: SHOW COLUMNS FROM `qm_sx` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_sx` WHERE ( (addtime like '%马利格%') ) LIMIT 1   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `qm_sx` WHERE ( (data like '%马利格%') ) LIMIT 0,10000   [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0005s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000427s ]
+
+[ 2018-09-18T11:37:50+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/fhsx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+SQL: SHOW COLUMNS FROM `qm_sx` [ RunTime:0.0006s ]
+SQL: INSERT INTO `qm_sx` (`uid`,`data`,`addtime`) VALUES ('25867401','您的下属用户(152****2001)，其推荐的客户马利格(153****2001)经核实，不需要办理保单贷款','2018-09-18 11:37:50') [ RunTime:0.0216s ]
+
+[ 2018-09-18T11:37:53+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/csx.html?sj=%E9%A9%AC%E5%88%A9%E6%A0%BC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `qm_sx` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_sx` WHERE ( (addtime like '%马利格%') ) LIMIT 1   [ RunTime:0.0025s ]
+SQL: SELECT * FROM `qm_sx` WHERE ( (data like '%马利格%') ) LIMIT 0,10000   [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0006s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000417s ]
+
+[ 2018-09-18T11:39:43+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/baodangl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `qm_baodan` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_baodan` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_baodan` LIMIT 0,7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004577s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004609s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000303s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000338s ]
+
+[ 2018-09-18T11:39:44+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/baodangl/p/114.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000297s ]
+SQL: SHOW COLUMNS FROM `qm_baodan` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_baodan` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_baodan` LIMIT 791,7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004244s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004273s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000314s ]
+
+[ 2018-09-18T11:58:42+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/baodangl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+SQL: SHOW COLUMNS FROM `qm_baodan` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_baodan` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_baodan` LIMIT 0,7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004584s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004617s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000311s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000336s ]
+
+[ 2018-09-18T11:58:43+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/baodangl/p/114.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+SQL: SHOW COLUMNS FROM `qm_baodan` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_baodan` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_baodan` LIMIT 791,7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004136s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004173s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000386s ]
+
+[ 2018-09-18T13:03:36+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/baodangl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `qm_baodan` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_baodan` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_baodan` LIMIT 0,7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004316s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004349s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000437s ]
+
+[ 2018-09-18T13:03:38+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/baodangl/p/114.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000285s ]
+SQL: SHOW COLUMNS FROM `qm_baodan` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_baodan` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_baodan` LIMIT 791,7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004394s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004430s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000295s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000325s ]
+
+[ 2018-09-18T13:03:40+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/baodangl/p/113.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `qm_baodan` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_baodan` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_baodan` LIMIT 784,7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004837s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000351s ]
+
+[ 2018-09-18T14:02:55+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/baodangl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `qm_baodan` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_baodan` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `qm_baodan` LIMIT 0,7   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004557s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004595s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000343s ]
+
+[ 2018-09-18T14:03:05+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/baodangl/p/114.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000314s ]
+SQL: SHOW COLUMNS FROM `qm_baodan` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_baodan` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_baodan` LIMIT 791,7   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004030s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000279s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000306s ]
+
+[ 2018-09-18T14:08:49+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/baodangl/p/113.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000319s ]
+SQL: SHOW COLUMNS FROM `qm_baodan` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_baodan` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_baodan` LIMIT 784,7   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007389s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007442s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000139s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000487s ]
+
+[ 2018-09-18T14:08:54+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/baodangl/p/114.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `qm_baodan` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_baodan` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_baodan` LIMIT 791,7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006026s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000283s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000308s ]
+
+[ 2018-09-18T14:38:29+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/baodangl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+SQL: SHOW COLUMNS FROM `qm_baodan` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_baodan` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_baodan` LIMIT 0,7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004114s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000314s ]
+
+[ 2018-09-18T14:38:30+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/baodangl/p/114.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `qm_baodan` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_baodan` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_baodan` LIMIT 791,7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004037s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004068s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000333s ]
+
+[ 2018-09-18T14:38:33+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/gjjsq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+SQL: SHOW COLUMNS FROM `qm_gjjdka` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_gjjdka` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_gjjdka` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007401s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007447s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000425s ]
+
+[ 2018-09-18T14:38:39+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/dkzxsp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000283s ]
+SQL: SHOW COLUMNS FROM `qm_axf` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_axf` INNER JOIN qm_jilu on qm_axf.id = qm_jilu.axfid  LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_axf` INNER JOIN qm_jilu on qm_axf.id = qm_jilu.axfid  ORDER BY qm_jilu.axfid desc LIMIT 0,7   [ RunTime:0.0001s ]
+SQL: SELECT `ht` FROM `qm_axf` WHERE ( id=39 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `zx` FROM `qm_axf` WHERE ( id=39 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ht` FROM `qm_axf` WHERE ( id=38 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `zx` FROM `qm_axf` WHERE ( id=38 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ht` FROM `qm_axf` WHERE ( id=36 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `zx` FROM `qm_axf` WHERE ( id=36 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ht` FROM `qm_axf` WHERE ( id=35 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `zx` FROM `qm_axf` WHERE ( id=35 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ht` FROM `qm_axf` WHERE ( id=34 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `zx` FROM `qm_axf` WHERE ( id=34 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ht` FROM `qm_axf` WHERE ( id=33 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `zx` FROM `qm_axf` WHERE ( id=33 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `ht` FROM `qm_axf` WHERE ( id=32 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `zx` FROM `qm_axf` WHERE ( id=32 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005565s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005597s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000317s ]
+
+[ 2018-09-18T14:38:42+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/sodel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+ERR: 非法操作:sodel
+
+[ 2018-09-18T14:38:42+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/dkzxdk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+SQL: SHOW COLUMNS FROM `qm_dkgj` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_dkgj` INNER JOIN qm_jilu on qm_dkgj.id = qm_jilu.dkid  LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_dkgj` INNER JOIN qm_jilu on qm_dkgj.id = qm_jilu.dkid  ORDER BY qm_jilu.dkid desc LIMIT 0,7   [ RunTime:0.0001s ]
+SQL: SELECT `zx` FROM `qm_dkgj` WHERE ( id=23 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `zx` FROM `qm_dkgj` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `zx` FROM `qm_dkgj` WHERE ( id=21 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `zx` FROM `qm_dkgj` WHERE ( id=20 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `zx` FROM `qm_dkgj` WHERE ( id=19 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `zx` FROM `qm_dkgj` WHERE ( id=18 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `zx` FROM `qm_dkgj` WHERE ( id=17 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008833s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008880s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000180s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000441s ]
+
+[ 2018-09-18T14:38:44+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/sodel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+ERR: 非法操作:sodel
+
+[ 2018-09-18T14:38:44+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/dkzxbd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `qm_bd` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_bd` INNER JOIN qm_jilu on qm_bd.id = qm_jilu.bdid  LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_bd` INNER JOIN qm_jilu on qm_bd.id = qm_jilu.bdid  ORDER BY qm_jilu.bdid desc LIMIT 0,7   [ RunTime:0.0001s ]
+SQL: SELECT `zx` FROM `qm_bd` WHERE ( id=21 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: fid /www/wwwroot/dai.juhuaian.cn/Application/JRapp/Controller/MgtController.class.php 第 1177 行.
+SQL: SELECT `zx` FROM `qm_bd` WHERE ( id=20 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: fid /www/wwwroot/dai.juhuaian.cn/Application/JRapp/Controller/MgtController.class.php 第 1177 行.
+SQL: SELECT `zx` FROM `qm_bd` WHERE ( id=19 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: fid /www/wwwroot/dai.juhuaian.cn/Application/JRapp/Controller/MgtController.class.php 第 1177 行.
+SQL: SELECT `zx` FROM `qm_bd` WHERE ( id=18 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: fid /www/wwwroot/dai.juhuaian.cn/Application/JRapp/Controller/MgtController.class.php 第 1177 行.
+SQL: SELECT `zx` FROM `qm_bd` WHERE ( id=17 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: fid /www/wwwroot/dai.juhuaian.cn/Application/JRapp/Controller/MgtController.class.php 第 1177 行.
+SQL: SELECT `zx` FROM `qm_bd` WHERE ( id=16 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: fid /www/wwwroot/dai.juhuaian.cn/Application/JRapp/Controller/MgtController.class.php 第 1177 行.
+SQL: SELECT `zx` FROM `qm_bd` WHERE ( id=15 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: fid /www/wwwroot/dai.juhuaian.cn/Application/JRapp/Controller/MgtController.class.php 第 1177 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005422s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005451s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000316s ]
+
+[ 2018-09-18T15:28:26+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/baodangl/p/112.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000293s ]
+SQL: SHOW COLUMNS FROM `qm_baodan` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_baodan` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qm_baodan` LIMIT 777,7   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004552s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004582s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000339s ]
+
+[ 2018-09-18T15:28:28+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/baodangl/p/114.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000276s ]
+SQL: SHOW COLUMNS FROM `qm_baodan` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_baodan` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_baodan` LIMIT 791,7   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004140s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004171s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000094s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000305s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000330s ]
+
+[ 2018-09-18T15:31:36+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/baodangl/p/113.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `qm_baodan` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_baodan` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_baodan` LIMIT 784,7   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004196s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004227s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000279s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000304s ]
+
+[ 2018-09-18T15:31:38+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/baodangl/p/114.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000299s ]
+SQL: SHOW COLUMNS FROM `qm_baodan` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_baodan` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_baodan` LIMIT 791,7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004232s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004263s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000390s ]
+
+[ 2018-09-18T15:34:28+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/baodangl/p/113.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+SQL: SHOW COLUMNS FROM `qm_baodan` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_baodan` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_baodan` LIMIT 784,7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004051s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000277s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000303s ]
+
+[ 2018-09-18T15:34:29+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/baodangl/p/114.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000314s ]
+SQL: SHOW COLUMNS FROM `qm_baodan` [ RunTime:0.0052s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_baodan` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_baodan` LIMIT 791,7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005511s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005544s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000282s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000307s ]
+
+[ 2018-09-18T15:40:41+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/sxgls
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000287s ]
+SQL: SHOW COLUMNS FROM `qm_sx` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_sx` LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `qm_sx` ORDER BY id desc LIMIT 0,7   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0005s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=50284731 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=50284731 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=36145978 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=36145978 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=50284731 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=50284731 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=38546902 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=38546902 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=58203179 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=58203179 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005220s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000342s ]
+
+[ 2018-09-18T15:40:44+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/sxgls/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+SQL: SHOW COLUMNS FROM `qm_sx` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_sx` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_sx` ORDER BY id desc LIMIT 14,7   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0004s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=58013627 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=58013627 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=12403569 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=12403569 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=676177 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=676177 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=84529617 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=84529617 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=50284731 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=50284731 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004770s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004801s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000352s ]
+
+[ 2018-09-18T15:45:33+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/sxgls/p/11.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000318s ]
+SQL: SHOW COLUMNS FROM `qm_sx` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_sx` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_sx` ORDER BY id desc LIMIT 70,7   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0005s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=82713095 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=82713095 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=43962850 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=43962850 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=781217 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=781217 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=82713095 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=82713095 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=43962850 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=43962850 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=266888 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=266888 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=781217 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=781217 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004290s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004319s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000415s ]
+
+[ 2018-09-18T15:46:11+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/sxgls/p/10.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+SQL: SHOW COLUMNS FROM `qm_sx` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_sx` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_sx` ORDER BY id desc LIMIT 63,7   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0005s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=47869523 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=47869523 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=676177 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=676177 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=84529617 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=84529617 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=74613908 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=74613908 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=93716804 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=93716804 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=781217 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=781217 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=781217 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=781217 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007042s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007084s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000439s ]
+
+[ 2018-09-18T15:47:16+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/sxgls/p/9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+SQL: SHOW COLUMNS FROM `qm_sx` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_sx` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_sx` ORDER BY id desc LIMIT 56,7   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0004s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=676177 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=676177 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=47869523 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=47869523 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=74613908 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=74613908 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=93716804 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=93716804 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=74613908 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=74613908 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=93716804 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=93716804 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=676177 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=676177 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004795s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004826s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000305s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000331s ]
+
+[ 2018-09-18T15:47:33+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/sxgls/p/8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `qm_sx` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_sx` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_sx` ORDER BY id desc LIMIT 49,7   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0004s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=93716804 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=93716804 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=74613908 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=74613908 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=93716804 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=93716804 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=19623540 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=19623540 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=70315948 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=70315948 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=676177 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=676177 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=47869523 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=47869523 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005110s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005141s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000348s ]
+
+[ 2018-09-18T15:47:56+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/sxgls/p/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `qm_sx` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_sx` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_sx` ORDER BY id desc LIMIT 42,7   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0004s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=74613908 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=74613908 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=93716804 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=93716804 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=74613908 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=74613908 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=93716804 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=93716804 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=74613908 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=74613908 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=93716804 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=93716804 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=74613908 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=74613908 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004631s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004660s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000275s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000302s ]
+
+[ 2018-09-18T15:49:38+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/sxgls/p/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+SQL: SHOW COLUMNS FROM `qm_sx` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_sx` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_sx` ORDER BY id desc LIMIT 35,7   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0008s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=50284731 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=50284731 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=45907268 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=45907268 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=19623540 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=19623540 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=70315948 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=70315948 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=74613908 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=74613908 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=93716804 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=93716804 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=679776 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=679776 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006526s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2018-09-18T15:49:50+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/sxgls/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000285s ]
+SQL: SHOW COLUMNS FROM `qm_sx` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_sx` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_sx` ORDER BY id desc LIMIT 28,7   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0004s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=50284731 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=50284731 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=45907268 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=45907268 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=35124876 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=35124876 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=778222 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=778222 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=39028175 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=39028175 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=50284731 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=50284731 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=45907268 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=45907268 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004468s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004496s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000382s ]
+
+[ 2018-09-18T15:50:11+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/sxgls/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+SQL: SHOW COLUMNS FROM `qm_sx` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_sx` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_sx` ORDER BY id desc LIMIT 21,7   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0005s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=45907268 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=45907268 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=50284731 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=50284731 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=45907268 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=45907268 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=50391284 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=50391284 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=19623540 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=19623540 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=676177 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=676177 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=84529617 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=84529617 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005985s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006021s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000290s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000326s ]
+
+[ 2018-09-18T15:50:18+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/sxgls/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+SQL: SHOW COLUMNS FROM `qm_sx` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_sx` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_sx` ORDER BY id desc LIMIT 14,7   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0005s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=58013627 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=58013627 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=12403569 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=12403569 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=676177 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=676177 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=84529617 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=84529617 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=50284731 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=50284731 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004468s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004499s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000291s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000322s ]
+
+[ 2018-09-18T15:50:24+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/sxgls/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `qm_sx` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_sx` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_sx` ORDER BY id desc LIMIT 7,7   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0004s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=58013627 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=58013627 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=12403569 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=12403569 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=778222 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=778222 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=39028175 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=39028175 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=266888 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=266888 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004315s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004349s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000279s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000306s ]
+
+[ 2018-09-18T15:50:32+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/sxgls/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+SQL: SHOW COLUMNS FROM `qm_sx` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_sx` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_sx` ORDER BY id desc LIMIT 0,7   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0006s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=50284731 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=50284731 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=36145978 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=36145978 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=50284731 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=50284731 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=38546902 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=38546902 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=58203179 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=58203179 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005814s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005872s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000308s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000340s ]
+
+[ 2018-09-18T15:54:31+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/zxgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `qm_zxkz` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_zxkz` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qm_zxkz` LIMIT 0,7   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006512s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006558s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000482s ]
+
+[ 2018-09-18T15:54:37+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/ezx/id/16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000284s ]
+SQL: SHOW COLUMNS FROM `qm_zxkz` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `qm_zxkz` WHERE ( id='16' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006424s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006472s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000569s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000613s ]
+
+[ 2018-09-18T15:55:00+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/zxgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `qm_zxkz` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_zxkz` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_zxkz` LIMIT 0,7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004783s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004813s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000434s ]
+
+[ 2018-09-18T15:55:02+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/addzx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012059s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000529s ]
+
+[ 2018-09-18T15:55:02+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/sodel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+ERR: 非法操作:sodel
+
+[ 2018-09-18T15:58:21+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/insertzx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /www/wwwroot/dai.juhuaian.cn/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `qm_zxkz` [ RunTime:0.0006s ]
+SQL: INSERT INTO `qm_zxkz` (`pic`,`addtime`,`fbr`,`stat`,`wbt`,`cont`) VALUES ('uploads/2018-09-18/1537257501_490697157.jpg','2018-09-18 15:58:21','众融普惠','1','确认过眼神！是最给力的口子！秒下款！高通过！让你随时随地有钱花！','<p style=\"white-space: normal;\"><span style=\"font-family: 微软雅黑;\">众融普惠口子介绍——<strong>白雨享</strong></span></p><p style=\"white-space: normal;\"><span style=\"font-family: 微软雅黑; font-size: 14px;\">&nbsp;</span></p><p style=\"white-space: normal;\"><span style=\"font-family: 微软雅黑; font-size: 12px;\">口子简介：是门槛低，全程手机操作的手机贷口子。下款快，适合急用钱的用户。支持各种机型，轻轻松松，贷款成功。</span></p><p style=\"white-space: normal;\"><span style=\"font-family: 微软雅黑; font-size: 14px;\">&nbsp;</span></p><p style=\"white-space: normal;\"><strong><span style=\"font-family: 微软雅黑;\">申请通道：</span></strong><span style=\"font-family: 微软雅黑;\"> http://www.cftlhkr.top/jyp.page#/reg?channelid=587</span></p><p style=\"white-space: normal;\"><span style=\"font-family: 微软雅黑;\">&nbsp;</span></p><p style=\"white-space: normal;\"><strong><span style=\"font-family: 微软雅黑;\">额度：</span></strong><span style=\"font-family: 微软雅黑;\">1000-20000元</span></p><p style=\"white-space: normal;\"><strong><span style=\"font-family: 微软雅黑;\">利息：</span></strong><span style=\"font-family: 微软雅黑;\">日息0.08%</span></p><p style=\"white-space: normal;\"><strong><span style=\"font-family: 微软雅黑;\">条件：</span></strong><span style=\"font-family: 微软雅黑;\">18周岁以上，实名电话半年以上芝麻分550以上</span></p><p style=\"white-space: normal;\"><strong><span style=\"font-family: 微软雅黑;\">周期：</span></strong><span style=\"font-family: 微软雅黑;\">1-12月</span></p><p style=\"white-space: normal;\"><strong><span style=\"font-family: 微软雅黑;\">认证：</span></strong><span style=\"font-family: 微软雅黑;\">身份认证、个人信息、银行卡、芝麻信用</span><span style=\"font-family: 微软雅黑; font-size: 14px;\"></span></p><p style=\"white-space: normal;\"><span style=\"font-family: 微软雅黑; font-size: 14px;\">&nbsp;<img src=\"http://dai.juhuaian.cn/ueditor/php/upload/image/20180718/1531898538757056.png\" title=\"1531898538757056.png\" alt=\"微信截图_20180718152112.png\"/></span></p><p style=\"white-space: normal;\"><span style=\"font-family: 微软雅黑; font-size: 12px;\">TIPS：</span></p><p style=\"white-space: normal;\"><span style=\"font-family: 微软雅黑; font-size: 12px;\">1.&nbsp;在线审核，最快十分钟到账。</span></p><p style=\"white-space: normal;\"><span style=\"font-family: 微软雅黑; font-size: 12px;\">2.&nbsp;被拒绝的顾客也可再次申请，联系方式：系统+人工审核。</span></p><p style=\"white-space: normal;\"><span style=\"font-family: 微软雅黑; font-size: 12px;\">3.&nbsp;若进行申请时提醒需要前期费用请谨慎申请，以防上当受骗。</span></p><p><span style=\"font-family: 微软雅黑; font-size: 12px;\"><br/></span></p><p><br/></p>') [ RunTime:0.0570s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004891s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004936s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000338s ]
+
+[ 2018-09-18T15:58:22+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/zxgl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+SQL: SHOW COLUMNS FROM `qm_zxkz` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_zxkz` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `qm_zxkz` LIMIT 0,7   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004720s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000316s ]
+
+[ 2018-09-18T16:13:44+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/baodangl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000286s ]
+SQL: SHOW COLUMNS FROM `qm_baodan` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_baodan` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_baodan` LIMIT 0,7   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004413s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004459s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000332s ]
+
+[ 2018-09-18T16:13:46+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/baodangl/p/114.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `qm_baodan` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_baodan` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_baodan` LIMIT 791,7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004263s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004294s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000350s ]
+
+[ 2018-09-18T16:13:51+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/baodangl/p/113.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000441s ]
+SQL: SHOW COLUMNS FROM `qm_baodan` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_baodan` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_baodan` LIMIT 784,7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004135s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004166s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000276s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000317s ]
+
+[ 2018-09-18T16:14:08+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/baodangl/p/114.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+SQL: SHOW COLUMNS FROM `qm_baodan` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_baodan` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_baodan` LIMIT 791,7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004779s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004812s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000161s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000300s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000333s ]
+
+[ 2018-09-18T16:32:47+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/baodangl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+SQL: SHOW COLUMNS FROM `qm_baodan` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_baodan` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_baodan` LIMIT 0,7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004031s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000275s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000316s ]
+
+[ 2018-09-18T16:32:48+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/baodangl/p/114.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000276s ]
+SQL: SHOW COLUMNS FROM `qm_baodan` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_baodan` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_baodan` LIMIT 791,7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005740s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005791s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000443s ]
+
+[ 2018-09-18T16:47:06+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/sxgls
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+SQL: SHOW COLUMNS FROM `qm_sx` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_sx` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_sx` ORDER BY id desc LIMIT 0,7   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0004s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=50284731 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=50284731 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=36145978 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=36145978 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=50284731 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=50284731 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=38546902 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=38546902 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=58203179 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=58203179 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004628s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000356s ]
+
+[ 2018-09-18T16:47:09+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/sxgls/p/11.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+SQL: SHOW COLUMNS FROM `qm_sx` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_sx` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_sx` ORDER BY id desc LIMIT 70,7   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0004s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=82713095 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=82713095 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=43962850 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=43962850 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=781217 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=781217 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=82713095 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=82713095 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=43962850 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=43962850 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=266888 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=266888 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=781217 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=781217 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004334s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004369s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000285s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000313s ]
+
+[ 2018-09-18T16:47:14+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/sxgls
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `qm_sx` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_sx` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_sx` ORDER BY id desc LIMIT 0,7   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0004s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=50284731 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=50284731 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=36145978 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=36145978 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=50284731 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=50284731 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=38546902 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=38546902 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=58203179 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=58203179 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=25867401 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=83016974 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004325s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004354s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000286s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000312s ]
+
+[ 2018-09-18T16:47:30+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/csx.html?sj=%E9%BB%84%E6%B3%A2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `qm_sx` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_sx` WHERE ( (addtime like '%黄波%') ) LIMIT 1   [ RunTime:0.0037s ]
+SQL: SELECT * FROM `qm_sx` WHERE ( (data like '%黄波%') ) LIMIT 0,10000   [ RunTime:0.0092s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0008s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=58203179 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=58203179 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=38546902 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=38546902 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000650s ]
+
+[ 2018-09-18T16:47:43+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/fhsx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000267s ]
+SQL: SHOW COLUMNS FROM `qm_sx` [ RunTime:0.0005s ]
+SQL: INSERT INTO `qm_sx` (`uid`,`data`,`addtime`) VALUES ('58203179','您推荐的客户黄波(15240205359)保单贷款审批额度为0','2018-09-18 16:47:43') [ RunTime:0.0297s ]
+
+[ 2018-09-18T16:47:45+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/csx.html?sj=%E9%BB%84%E6%B3%A2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000300s ]
+SQL: SHOW COLUMNS FROM `qm_sx` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_sx` WHERE ( (addtime like '%黄波%') ) LIMIT 1   [ RunTime:0.0039s ]
+SQL: SELECT * FROM `qm_sx` WHERE ( (data like '%黄波%') ) LIMIT 0,10000   [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0005s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=58203179 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=58203179 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=38546902 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=38546902 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=58203179 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=58203179 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2018-09-18T16:47:57+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/fhsx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `qm_sx` [ RunTime:0.0006s ]
+SQL: INSERT INTO `qm_sx` (`uid`,`data`,`addtime`) VALUES ('38546902','您的下属用户(139****4699)，其推荐的客户黄波(152****5359)保单贷款审批额度为0','2018-09-18 16:47:57') [ RunTime:0.0137s ]
+
+[ 2018-09-18T16:48:05+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/csx.html?sj=%E6%9D%8E%E9%93%B6%E8%B6%85
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `qm_sx` [ RunTime:0.0071s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_sx` WHERE ( (addtime like '%李银超%') ) LIMIT 1   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `qm_sx` WHERE ( (data like '%李银超%') ) LIMIT 0,10000   [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0007s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=36145978 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=36145978 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=50284731 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=50284731 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000460s ]
+
+[ 2018-09-18T16:48:17+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/fhsx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000283s ]
+SQL: SHOW COLUMNS FROM `qm_sx` [ RunTime:0.0005s ]
+SQL: INSERT INTO `qm_sx` (`uid`,`data`,`addtime`) VALUES ('36145978','您推荐的客户李银超(15973580135)保单贷款审批额度为0','2018-09-18 16:48:17') [ RunTime:0.0168s ]
+
+[ 2018-09-18T16:48:19+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/csx.html?sj=%E6%9D%8E%E9%93%B6%E8%B6%85
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `qm_sx` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_sx` WHERE ( (addtime like '%李银超%') ) LIMIT 1   [ RunTime:0.0026s ]
+SQL: SELECT * FROM `qm_sx` WHERE ( (data like '%李银超%') ) LIMIT 0,10000   [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0007s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=36145978 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=36145978 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=50284731 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=50284731 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=36145978 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=36145978 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000576s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000615s ]
+
+[ 2018-09-18T16:48:34+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/fhsx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+SQL: SHOW COLUMNS FROM `qm_sx` [ RunTime:0.0004s ]
+SQL: INSERT INTO `qm_sx` (`uid`,`data`,`addtime`) VALUES ('50284731','您的下属用户(159****0135)，其推荐的客户李银超(159****0135)保单贷款审批额度为0','2018-09-18 16:48:34') [ RunTime:0.0138s ]
+
+[ 2018-09-18T16:49:04+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/csx.html?sj=%E6%9D%8E%E9%93%B6%E8%B6%85
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000297s ]
+SQL: SHOW COLUMNS FROM `qm_sx` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_sx` WHERE ( (addtime like '%李银超%') ) LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `qm_sx` WHERE ( (data like '%李银超%') ) LIMIT 0,10000   [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0005s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=36145978 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=36145978 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=50284731 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=50284731 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=36145978 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=36145978 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=50284731 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=50284731 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000331s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000359s ]
+
+[ 2018-09-18T16:49:16+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/gjjsq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `qm_gjjdka` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_gjjdka` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_gjjdka` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006793s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006836s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000432s ]
+
+[ 2018-09-18T17:11:52+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/baodangl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `qm_baodan` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_baodan` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_baodan` LIMIT 0,7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004440s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004470s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000278s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000304s ]
+
+[ 2018-09-18T17:11:53+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/baodangl/p/114.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000298s ]
+SQL: SHOW COLUMNS FROM `qm_baodan` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_baodan` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_baodan` LIMIT 791,7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005018s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005048s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000343s ]
+
+[ 2018-09-18T17:38:08+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/sxgls
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `qm_sx` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_sx` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qm_sx` ORDER BY id desc LIMIT 0,7   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0005s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=58013627 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=58013627 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=50284731 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=50284731 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=36145978 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=36145978 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=38546902 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=38546902 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=58203179 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=58203179 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=50284731 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=50284731 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=36145978 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=36145978 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004737s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004773s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000305s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000336s ]
+
+[ 2018-09-18T17:41:27+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/gjjsq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `qm_gjjdka` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_gjjdka` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_gjjdka` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005215s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000326s ]
+
+[ 2018-09-18T17:41:43+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/gjjsq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `qm_gjjdka` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_gjjdka` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_gjjdka` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005165s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005198s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000283s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000310s ]
+
+[ 2018-09-18T17:47:03+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/baodangl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+SQL: SHOW COLUMNS FROM `qm_baodan` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_baodan` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qm_baodan` LIMIT 0,7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004235s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004272s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000291s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000324s ]
+
+[ 2018-09-18T17:47:04+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/baodangl/p/114.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000274s ]
+SQL: SHOW COLUMNS FROM `qm_baodan` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_baodan` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_baodan` LIMIT 791,7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004209s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004244s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000293s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000319s ]
+
+[ 2018-09-18T17:47:07+08:00 ] 112.230.152.80 /index.php/JRapp/Mgt/sxgls
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `qm_sx` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `qm_sx` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `qm_sx` ORDER BY id desc LIMIT 0,7   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `qm_users` [ RunTime:0.0004s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=58013627 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=58013627 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=50284731 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=50284731 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=36145978 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=36145978 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=38546902 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=38546902 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=58203179 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=58203179 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=50284731 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=50284731 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `phone` FROM `qm_users` WHERE ( id=36145978 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nick` FROM `qm_users` WHERE ( id=36145978 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004350s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004379s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000269s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000294s ]
+

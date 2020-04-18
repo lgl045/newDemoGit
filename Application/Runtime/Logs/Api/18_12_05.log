@@ -1,0 +1,10 @@
+[ 2018-12-05T11:45:35+08:00 ] 112.230.157.41 /index.php/Api/Index/toutiao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `qm_toutiao` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name`,`content` FROM `qm_toutiao` ORDER BY id desc LIMIT 0,2   [ RunTime:0.0002s ]
+
